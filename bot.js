@@ -5,8 +5,16 @@ import dotenv from 'dotenv';
 import { characterEmojis } from './utils/emojiMap.js';  // Import the emoji mapping
 dotenv.config();
 
-export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200'; // Default URL
+// Default URL
+export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200'; 
 
+// Popular Region URLs (add more regions and URLs as needed)
+const popularRegions = {
+  'DFW': 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200',
+  'MDVA': 'https://braacket.com/league/NYC/ranking/12345ABCD12345?rows=200',
+  'SC': 'https://braacket.com/league/scultimate/ranking?rows=200',
+  // Add more regions here
+};
 
 const client = new Client({
   intents: [
@@ -56,13 +64,21 @@ client.on('messageCreate', async (message) => {
       await message.channel.send(`Searching for losses of ${playerName}...`);
       await fetchAndDisplayLosses(playerName, message);
     }
-    else if (message.content.startsWith('$ChangeBraacket')) {
-      const newUrl = args.join(' '); // Get the new braacket URL from the command arguments
-      if (newUrl) {
-        BRAACKET_URL = newUrl; // Update the BRAACKET_URL to the new one
+    else if (message.content.startsWith('$Braacket')) {
+      const regionOrUrl = args.join(' ').trim(); // Get the region or URL
+
+      if (popularRegions[regionOrUrl]) {
+        // If region exists in the popularRegions object, update the URL
+        BRAACKET_URL = popularRegions[regionOrUrl];
         message.react(`🫡`);
+        message.channel.send(`Bracket URL updated to: ${BRAACKET_URL}`);
+      } else if (regionOrUrl) {
+        // If it's a direct URL, update it
+        BRAACKET_URL = regionOrUrl;
+        message.react(`🫡`);
+        message.channel.send(`Bracket URL updated to: ${BRAACKET_URL}`);
       } else {
-        message.channel.send('Please provide a valid URL.');
+        message.channel.send('Please provide a valid region or URL.');
       }
     }
     else if (message.content.startsWith('$Help')) {
@@ -70,7 +86,8 @@ client.on('messageCreate', async (message) => {
         **Available Commands:**
         **$ViewCurrent [1-200]** - View the current player rankings. Default is top 15 players.
         **$ViewLoss [PlayerName or PlayerRank]** - View the losses for a specific player by name.
-        **$ChangeBraacket [Link To Top 200 Rankings Page]** - Change the braacket URL to a new one.
+        **$Braacket [Popular Region or Link]** - Change the braacket URL to a region or custom URL.
+        - MDVA, DFW, SC, more later
       `);
     } 
     else {
