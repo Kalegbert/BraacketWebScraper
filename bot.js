@@ -5,6 +5,9 @@ import dotenv from 'dotenv';
 import { characterEmojis } from './utils/emojiMap.js';  // Import the emoji mapping
 dotenv.config();
 
+export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200'; // Default URL
+
+
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
@@ -28,7 +31,7 @@ client.on('messageCreate', async (message) => {
       if (args.length > 0 && !isNaN(args[0])) {
         listSize = Math.min(Math.max(parseInt(args[0]), 1), 200); // Limit the list size to 1-200
       }
-      await message.channel.send(`Fetching top ${listSize} players, please wait...`);
+      await message.channel.send(`Fetching top ${listSize} players, please wait...\nBigger lists could take a bit`);
       await fetchAndPromptPlayers(listSize, message);
     } 
     else if (message.content.startsWith('$ViewLoss')) {
@@ -41,7 +44,7 @@ client.on('messageCreate', async (message) => {
 
       if (!isNaN(playerName)) {
         const players = await getPlayersList();
-        const rank = parseInt(playerName, 10) - 1;
+        const rank = parseInt(playerName, 10) - 1; // Convert to zero-based index
         if (rank >= 0 && rank < players.length) {
           playerName = players[rank].name;
         } else {
@@ -53,11 +56,21 @@ client.on('messageCreate', async (message) => {
       await message.channel.send(`Searching for losses of ${playerName}...`);
       await fetchAndDisplayLosses(playerName, message);
     }
+    else if (message.content.startsWith('$ChangeBraacket')) {
+      const newUrl = args.join(' '); // Get the new braacket URL from the command arguments
+      if (newUrl) {
+        BRAACKET_URL = newUrl; // Update the BRAACKET_URL to the new one
+        message.react(`🫡`);
+      } else {
+        message.channel.send('Please provide a valid URL.');
+      }
+    }
     else if (message.content.startsWith('$Help')) {
       message.channel.send(`
         **Available Commands:**
         **$ViewCurrent [1-200]** - View the current player rankings. Default is top 15 players.
         **$ViewLoss [PlayerName or PlayerRank]** - View the losses for a specific player by name.
+        **$ChangeBraacket [Link To Top 200 Rankings Page]** - Change the bracket URL to a new one.
       `);
     } 
     else {
@@ -76,29 +89,31 @@ async function fetchAndPromptPlayers(listSize, message) {
       return message.channel.send('No players found. Please try again later.');
     }
 
-    // Display only the top 'listSize' players with their names and characters
     const displayedPlayers = players.slice(0, listSize);
 
-    // Fetch all character names in parallel
     const playerList = await Promise.all(
       displayedPlayers.map(async (p, idx) => {
         const characterNames = await getCharacterNamesForPlayer(p.name);
+        
         const emotes = characterNames
           .map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
           .join('');
+
         return `${idx + 1}. ${p.name} ${emotes}`;
       })
     );
 
-    // Send the message in chunks to avoid hitting message length limits
     const maxMessageLength = 2000;
     let currentMessage = '';
-    
+    let messageCount = 0;
+
     for (let i = 0; i < playerList.length; i++) {
       const line = playerList[i] + '\n';
+
       if ((currentMessage + line).length > maxMessageLength) {
         await message.channel.send(currentMessage);
-        currentMessage = line;  // Start the new message with the current player
+        currentMessage = line;
+        messageCount++;
       } else {
         currentMessage += line;
       }
@@ -122,7 +137,6 @@ async function fetchAndDisplayLosses(playerName, message) {
       return message.channel.send(`No losses found for ${playerName}.`);
     }
 
-    // Aggregate losses and sort by count (descending)
     const lossCounts = losses.reduce((acc, opponent) => {
       acc[opponent] = (acc[opponent] || 0) + 1;
       return acc;
@@ -133,6 +147,7 @@ async function fetchAndDisplayLosses(playerName, message) {
       .map(([opponent, count]) => `${opponent} x${count}`);
 
     const lossMessage = sortedLosses.join('\n');
+
     await message.channel.send(`Losses for ${playerName}:\n${lossMessage}`);
   } catch (error) {
     console.error(error);

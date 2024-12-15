@@ -1,9 +1,6 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-
-
-const BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200';
-
+import { BRAACKET_URL } from '../bot.js';
 
 
 export const getPlayersList = async () => {
