@@ -1,7 +1,8 @@
 import { Client, GatewayIntentBits } from 'discord.js';
-import { getPlayersList, scrapePlayerUrl } from './utils/scrapeUtils.js';
+import { getPlayersList, scrapePlayerUrl, getCharacterNamesForPlayer } from './utils/scrapeUtils.js';
 import { scrapePlayerLosses } from './utils/lossUtils.js';
 import dotenv from 'dotenv';
+import { characterEmojis } from './utils/emojiMap.js';  // Import the emoji mapping
 dotenv.config();
 
 
@@ -62,54 +63,65 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-// Function to fetch players and prompt user for selection
 async function fetchAndPromptPlayers(listSize, message) {
-    try {
+  try {
       const players = await getPlayersList();
       if (players.length === 0) {
-        return message.reply('No players found. Please try again later.');
+          return message.reply('No players found. Please try again later.');
       }
-  
+
       // Display only the top 'listSize' players with their names and characters
       const displayedPlayers = players.slice(0, listSize);
-      const playerList = displayedPlayers
-        .map((p, idx) => `${idx + 1}. ${p.name}`)  // Display player name and emoji characters
-        .join('\n');
-  
-      const sentMessage = await message.reply(
-        `Top ${listSize} players:\n${playerList}\n\nReply with the number corresponding to the player to view their losses.`
+      
+      const playerList = await Promise.all(
+          displayedPlayers.map(async (p, idx) => {
+              // Get character names for the player
+              const characterNames = await getCharacterNamesForPlayer(p.name);
+              
+              // Map character names to their corresponding Discord emoji IDs
+              const emotes = characterNames
+                  .map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
+                  .join('');
+
+              return `${idx + 1}. ${p.name} ${emotes}`;  // Display player name with emojis
+          })
       );
-  
+
+      const sentMessage = await message.reply(
+          `Top ${listSize} players:\n${playerList.join('\n')}\n\nReply with the number corresponding to the player to view their losses.`
+      );
+
       const filter = (response) =>
-        !isNaN(response.content) &&
-        parseInt(response.content, 10) >= 1 &&
-        parseInt(response.content, 10) <= listSize &&
-        response.author.id === message.author.id;
-  
+          !isNaN(response.content) &&
+          parseInt(response.content, 10) >= 1 &&
+          parseInt(response.content, 10) <= listSize &&
+          response.author.id === message.author.id;
+
       const collector = message.channel.createMessageCollector({
-        filter,
-        time: 30000, // 30 seconds to respond
-        max: 1,
+          filter,
+          time: 30000, // 30 seconds to respond
+          max: 1,
       });
-  
+
       collector.on('collect', async (response) => {
-        const selectedIndex = parseInt(response.content, 10) - 1;
-        const selectedPlayer = displayedPlayers[selectedIndex];
-        console.log(`Fetching losses for ${selectedPlayer.name}, please wait...`);
-        await fetchAndDisplayLosses(selectedPlayer.name, message);
+          const selectedIndex = parseInt(response.content, 10) - 1;
+          const selectedPlayer = displayedPlayers[selectedIndex];
+          console.log(`Fetching losses for ${selectedPlayer.name}, please wait...`);
+          await fetchAndDisplayLosses(selectedPlayer.name, message);
       });
-  
+
       collector.on('end', (collected) => {
-        if (collected.size === 0) {
-          message.reply('No selection was made. Please try again.');
-        }
+          if (collected.size === 0) {
+              message.reply('No selection was made. Please try again.');
+          }
       });
-    } catch (error) {
+  } catch (error) {
       console.error(error);
       message.reply(`An error occurred: ${error.message}`);
-    }
   }
-  
+}
+
+
 
 // Function to fetch and display losses
 async function fetchAndDisplayLosses(playerName, message) {
@@ -139,6 +151,14 @@ async function fetchAndDisplayLosses(playerName, message) {
     message.reply(`An error occurred while fetching losses: ${error.message}`);
   }
 }
+
+
+
+
+
+
+
+
 
 
 // Log in to Discord
