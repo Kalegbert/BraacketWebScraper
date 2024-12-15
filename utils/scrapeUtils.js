@@ -6,6 +6,7 @@ import { characterEmojis } from './emojiMap.js';  // Import the emoji mapping
 const BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200';
 
 
+
 export const getPlayersList = async () => {
     try {
         const response = await axios.get(BRAACKET_URL);
@@ -14,30 +15,12 @@ export const getPlayersList = async () => {
         const players = [];
 
         // Loop through the player rows
-        $("section").eq(4).find(".table-hover tbody tr td.ellipsis a").each((_, element) => {
-            const playerName = $(element).text().trim();
+        $("section").eq(4).find(".table-hover tbody tr").each((_, row) => {
+            const playerName = $(row).find("td.ellipsis a").text().trim();
 
-            // Get the associated character icons
-            const characterIcons = [];
-            $(element).closest('tr') // Find the row for the current player
-                .find("td.ellipsis span.game_characters img.data-original-title")
-                .each((_, imgElement) => {
-                    const characterName = $(imgElement).attr("data-original-title").trim();  // Extract character name
-
-                    // Debugging: log the characterName and check the emoji map
-                    console.log(`Found character: ${characterName}`);
-
-                    if (characterEmojis[characterName]) {
-                        characterIcons.push(characterEmojis[characterName]);  // Get emoji ID from mapping
-                    } else {
-                        console.log(`No emoji found for character: ${characterName}`);
-                    }
-                });
-
-            // Add the player and their associated characters to the players list
+            // Add the player to the players list
             players.push({
                 name: playerName,
-                characters: characterIcons.join(' '),  // Join all character icons into one string
             });
         });
 
@@ -51,6 +34,7 @@ export const getPlayersList = async () => {
         throw new Error('Failed to retrieve player list. Please try again later.');
     }
 };
+
 
 
 

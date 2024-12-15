@@ -73,7 +73,7 @@ async function fetchAndPromptPlayers(listSize, message) {
       // Display only the top 'listSize' players with their names and characters
       const displayedPlayers = players.slice(0, listSize);
       const playerList = displayedPlayers
-        .map((p, idx) => `${idx + 1}. ${p.name} ${p.characters}`)  // Display player name and emoji characters
+        .map((p, idx) => `${idx + 1}. ${p.name}`)  // Display player name and emoji characters
         .join('\n');
   
       const sentMessage = await message.reply(
