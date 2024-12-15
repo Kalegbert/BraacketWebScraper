@@ -5,7 +5,6 @@ import dotenv from 'dotenv';
 import { characterEmojis } from './utils/emojiMap.js';  // Import the emoji mapping
 dotenv.config();
 
-
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
@@ -25,12 +24,11 @@ client.on('messageCreate', async (message) => {
 
   try {
     if (message.content.startsWith('$ViewCurrent')) {
-      // Default to showing top 15 players
       let listSize = 15;
       if (args.length > 0 && !isNaN(args[0])) {
         listSize = Math.min(Math.max(parseInt(args[0]), 1), 200); // Limit the list size to 1-200
       }
-      await message.channel.send(`Fetching top ${listSize} players, please wait...\nBigger lists could take a bit`);
+      await message.channel.send(`Fetching top ${listSize} players, please wait...`);
       await fetchAndPromptPlayers(listSize, message);
     } 
     else if (message.content.startsWith('$ViewLoss')) {
@@ -41,10 +39,9 @@ client.on('messageCreate', async (message) => {
         return;
       }
 
-      // Check if the argument is a number (rank)
       if (!isNaN(playerName)) {
         const players = await getPlayersList();
-        const rank = parseInt(playerName, 10) - 1; // Convert to zero-based index
+        const rank = parseInt(playerName, 10) - 1;
         if (rank >= 0 && rank < players.length) {
           playerName = players[rank].name;
         } else {
@@ -64,7 +61,7 @@ client.on('messageCreate', async (message) => {
       `);
     } 
     else {
-      message.channel.send('Invalid command. Type `$Commands` for a list of available commands.');
+      message.channel.send('Invalid command. Type `$Help` for a list of available commands.');
     }
   } catch (error) {
     console.error(error);
@@ -82,43 +79,31 @@ async function fetchAndPromptPlayers(listSize, message) {
     // Display only the top 'listSize' players with their names and characters
     const displayedPlayers = players.slice(0, listSize);
 
+    // Fetch all character names in parallel
     const playerList = await Promise.all(
       displayedPlayers.map(async (p, idx) => {
-        // Get character names for the player
         const characterNames = await getCharacterNamesForPlayer(p.name);
-        
-        // Map character names to their corresponding Discord emoji IDs
         const emotes = characterNames
           .map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
           .join('');
-
-        return `${idx + 1}. ${p.name} ${emotes}`;  // Display player name with emojis
+        return `${idx + 1}. ${p.name} ${emotes}`;
       })
     );
 
-    // Split the list into multiple messages if it exceeds the max character limit
+    // Send the message in chunks to avoid hitting message length limits
     const maxMessageLength = 2000;
     let currentMessage = '';
-    let messageCount = 0;
-
+    
     for (let i = 0; i < playerList.length; i++) {
       const line = playerList[i] + '\n';
-
-      // Check if adding this line will exceed the message length
       if ((currentMessage + line).length > maxMessageLength) {
-        // Send the current message
         await message.channel.send(currentMessage);
-        
-        // Reset the current message and increment the count
         currentMessage = line;  // Start the new message with the current player
-        messageCount++;
       } else {
-        // Add the line to the current message
         currentMessage += line;
       }
     }
 
-    // Send any remaining message content
     if (currentMessage.length > 0) {
       await message.channel.send(currentMessage);
     }
@@ -128,7 +113,6 @@ async function fetchAndPromptPlayers(listSize, message) {
   }
 }
 
-// Function to fetch and display losses
 async function fetchAndDisplayLosses(playerName, message) {
   try {
     const playerUrl = await scrapePlayerUrl(playerName);
@@ -145,11 +129,10 @@ async function fetchAndDisplayLosses(playerName, message) {
     }, {});
 
     const sortedLosses = Object.entries(lossCounts)
-      .sort(([, countA], [, countB]) => countB - countA) // Sort by count, descending
-      .map(([opponent, count]) => `${opponent} x${count}`); // Format as "Opponent xCount"
+      .sort(([, countA], [, countB]) => countB - countA)
+      .map(([opponent, count]) => `${opponent} x${count}`);
 
     const lossMessage = sortedLosses.join('\n');
-
     await message.channel.send(`Losses for ${playerName}:\n${lossMessage}`);
   } catch (error) {
     console.error(error);
@@ -157,5 +140,4 @@ async function fetchAndDisplayLosses(playerName, message) {
   }
 }
 
-// Log in to Discord
 client.login(process.env.BOT_TOKEN);
