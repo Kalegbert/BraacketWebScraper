@@ -70,7 +70,7 @@ client.on('messageCreate', async (message) => {
         **Available Commands:**
         **$ViewCurrent [1-200]** - View the current player rankings. Default is top 15 players.
         **$ViewLoss [PlayerName or PlayerRank]** - View the losses for a specific player by name.
-        **$ChangeBraacket [Link To Top 200 Rankings Page]** - Change the bracket URL to a new one.
+        **$ChangeBraacket [Link To Top 200 Rankings Page]** - Change the braacket URL to a new one.
       `);
     } 
     else {
