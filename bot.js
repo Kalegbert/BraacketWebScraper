@@ -40,8 +40,11 @@ client.on('messageCreate', async (message) => {
       if (args.length > 0 && !isNaN(args[0])) {
         listSize = Math.min(Math.max(parseInt(args[0]), 1), 200); // Limit the list size to 1-200
       }
-      await message.channel.send(`Fetching top ${listSize} players, please wait...\nBigger lists could take a bit`);
-      await fetchAndPromptPlayers(listSize, message);
+      const waitingMessage = await message.channel.send(`Fetching top ${listSize} players, please wait...\nBigger lists could take a bit`);
+      const region = args.length > 1 ? args[1] : 'DFW'; // Default to 'DFW' if no region is specified
+      await fetchAndPromptPlayers(listSize, message, region);
+      // Delete the waiting message after sending the player list
+      await waitingMessage.delete();
     } 
     else if (command === '$viewloss') {
       let playerName = args.join(' ').toLowerCase();
@@ -85,12 +88,12 @@ client.on('messageCreate', async (message) => {
     else if (command === '$help') {
       message.channel.send(`
         **Available Commands:**
-        **$ViewCurrent [1-200]** - View the current player rankings. Default is top 15 players.
+        **$ViewCurrent [1-200] [Region]** - View the current player rankings. Default is top 15 players.
         **$ViewLoss [PlayerName or PlayerRank]** - View the losses for a specific player by name.
         **$Braacket [Popular Region or Link]** - Change the braacket URL to a region or custom URL. Current available regions [MDVA], [DFW], [SC]
       `);
     } 
-    else {
+    else if (message.content.startsWith('$')) {
       message.channel.send('Invalid command. Type `$Help` for a list of available commands.');
     }
   } catch (error) {
@@ -99,7 +102,7 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-async function fetchAndPromptPlayers(listSize, message) {
+async function fetchAndPromptPlayers(listSize, message, region) {
   try {
     const players = await getPlayersList();
     if (players.length === 0) {
@@ -121,7 +124,7 @@ async function fetchAndPromptPlayers(listSize, message) {
     );
 
     const maxMessageLength = 2000;
-    let currentMessage = '';
+    let currentMessage = `**Braacket's current Top ${listSize} Players in ${region}**\n\n`;
     let messageCount = 0;
 
     for (let i = 0; i < playerList.length; i++) {
