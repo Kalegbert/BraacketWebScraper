@@ -62,8 +62,8 @@ client.on('messageCreate', async (message) => {
         }
       }
 
-      await message.channel.send(`Searching for losses...`);
-      await fetchAndDisplayLosses(playerName, message);
+      const searchingMessage = await message.channel.send(`Searching for losses...`);
+      await fetchAndDisplayLosses(playerName, message, searchingMessage); // Pass the searchingMessage to delete it later
     }
     else if (command === '$braacket') {
       const regionOrUrl = args.join(' ').trim(); // Get the region or URL
@@ -145,7 +145,7 @@ async function fetchAndPromptPlayers(listSize, message) {
   }
 }
 
-async function fetchAndDisplayLosses(playerName, message) {
+async function fetchAndDisplayLosses(playerName, message, searchingMessage) {
   try {
     const playerUrl = await scrapePlayerUrl(playerName);
     const losses = await scrapePlayerLosses(playerUrl);
@@ -171,7 +171,10 @@ async function fetchAndDisplayLosses(playerName, message) {
 
     const lossMessage = (await Promise.all(sortedLosses)).join('\n');
 
-    await message.channel.send(`Losses for \*\*${playerName}\*\*:\n${lossMessage}`);
+    await message.channel.send(`# Losses for \*\*${playerName}\*\*:\n\n${lossMessage}`);
+
+    // Delete the initial "Searching for losses..." message
+    await searchingMessage.delete();
   } catch (error) {
     console.error(error);
     message.channel.send(`An error occurred while fetching losses: ${error.message}`);
