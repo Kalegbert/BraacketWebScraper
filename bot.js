@@ -1,20 +1,38 @@
 import { Client, GatewayIntentBits } from 'discord.js';
-import { getPlayersList, scrapePlayerUrl, getCharacterNamesForPlayer } from './utils/scrapeUtils.js';
-import { scrapePlayerLosses } from './utils/lossUtils.js';
 import dotenv from 'dotenv';
-import { characterEmojis } from './utils/emojiMap.js';  // Import the emoji mapping
+import fs from 'fs';
+import path from 'path';
+import { characterEmojis } from './utils/emojiMap.js';
+import { scrapePlayerLosses } from './utils/lossUtils.js';
+import { getCharacterNamesForPlayer, getPlayersList, scrapePlayerUrl } from './utils/scrapeUtils.js';
 dotenv.config();
 
 // Default URL
 export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200'; 
 
-// Popular Region URLs (add more regions and URLs as needed)
+// Popular Region URLs
 const popularRegions = {
   'DFW': 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200',
   'MDVA': 'https://braacket.com/league/NYC/ranking/12345ABCD12345?rows=200',
   'SC': 'https://braacket.com/league/scultimate/ranking?rows=200',
-  // Add more regions here
 };
+
+// Cache setup
+const CACHE_FILE = path.resolve('./cache.json');
+const CACHE_EXPIRY = 60 * 60 * 1000; // 1 hour in milliseconds
+
+const loadCache = () => {
+  if (fs.existsSync(CACHE_FILE)) {
+    return JSON.parse(fs.readFileSync(CACHE_FILE, 'utf-8'));
+  }
+  return {};
+};
+
+const saveCache = (cache) => {
+  fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2));
+};
+
+let cache = loadCache();
 
 const client = new Client({
   intents: [
@@ -40,10 +58,9 @@ client.on('messageCreate', async (message) => {
       if (args.length > 0 && !isNaN(args[0])) {
         listSize = Math.min(Math.max(parseInt(args[0]), 1), 200); // Limit the list size to 1-200
       }
-      const waitingMessage = await message.channel.send(`Fetching top ${listSize} players, please wait...\nBigger lists could take a bit`);
+      const waitingMessage = await message.channel.send(`Fetching top ${listSize} players, please wait...`);
       const region = args.length > 1 ? args[1] : 'DFW'; // Default to 'DFW' if no region is specified
       await fetchAndPromptPlayers(listSize, message, region);
-      // Delete the waiting message after sending the player list
       await waitingMessage.delete();
     } 
     else if (command === '$viewloss') {
@@ -66,18 +83,16 @@ client.on('messageCreate', async (message) => {
       }
 
       const searchingMessage = await message.channel.send(`Searching for losses...`);
-      await fetchAndDisplayLosses(playerName, message, searchingMessage); // Pass the searchingMessage to delete it later
+      await fetchAndDisplayLosses(playerName, message, searchingMessage);
     }
     else if (command === '$braacket') {
-      const regionOrUrl = args.join(' ').trim(); // Get the region or URL
+      const regionOrUrl = args.join(' ').trim();
 
       if (popularRegions[regionOrUrl.toUpperCase()]) {
-        // If region exists in the popularRegions object, update the URL
         BRAACKET_URL = popularRegions[regionOrUrl.toUpperCase()];
         message.react(`🫡`);
         message.channel.send(`Braacket URL updated to: ${BRAACKET_URL}`);
       } else if (regionOrUrl) {
-        // If it's a direct URL, update it
         BRAACKET_URL = regionOrUrl;
         message.react(`🫡`);
         message.channel.send(`Braacket URL updated to: ${BRAACKET_URL}`);
@@ -85,12 +100,18 @@ client.on('messageCreate', async (message) => {
         message.channel.send('Please provide a valid region or URL.');
       }
     }
+    else if (command === '$clearcache') {
+      cache = {};
+      saveCache(cache);
+      message.channel.send('Cache cleared successfully!');
+    }
     else if (command === '$help') {
       message.channel.send(`
         **Available Commands:**
         **$ViewCurrent [1-200] [Region]** - View the current player rankings. Default is top 15 players.
         **$ViewLoss [PlayerName or PlayerRank]** - View the losses for a specific player by name.
         **$Braacket [Popular Region or Link]** - Change the braacket URL to a region or custom URL. Current available regions [MDVA], [DFW], [SC]
+        **$ClearCache** - Clear cached data.
       `);
     } 
     else if (message.content.startsWith('$')) {
@@ -104,6 +125,13 @@ client.on('messageCreate', async (message) => {
 
 async function fetchAndPromptPlayers(listSize, message, region) {
   try {
+    const cacheKey = `players_${region}_${listSize}`;
+    const now = Date.now();
+
+    if (cache[cacheKey] && now - cache[cacheKey].timestamp < CACHE_EXPIRY) {
+      return message.channel.send(cache[cacheKey].data);
+    }
+
     const players = await getPlayersList();
     if (players.length === 0) {
       return message.channel.send('No players found. Please try again later.');
@@ -114,11 +142,9 @@ async function fetchAndPromptPlayers(listSize, message, region) {
     const playerList = await Promise.all(
       displayedPlayers.map(async (p, idx) => {
         const characterNames = await getCharacterNamesForPlayer(p.name);
-        
         const emotes = characterNames
           .map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
           .join('');
-
         return `${idx + 1}. ${p.name} ${emotes}`;
       })
     );
@@ -142,6 +168,9 @@ async function fetchAndPromptPlayers(listSize, message, region) {
     if (currentMessage.length > 0) {
       await message.channel.send(currentMessage);
     }
+
+    cache[cacheKey] = { timestamp: now, data: currentMessage };
+    saveCache(cache);
   } catch (error) {
     console.error(error);
     message.channel.send(`An error occurred: ${error.message}`);
@@ -150,11 +179,20 @@ async function fetchAndPromptPlayers(listSize, message, region) {
 
 async function fetchAndDisplayLosses(playerName, message, searchingMessage) {
   try {
+    const cacheKey = `losses_${playerName}`;
+    const now = Date.now();
+
+    if (cache[cacheKey] && now - cache[cacheKey].timestamp < CACHE_EXPIRY) {
+      await message.channel.send(cache[cacheKey].data);
+      await searchingMessage.delete();
+      return;
+    }
+
     const playerUrl = await scrapePlayerUrl(playerName);
     const losses = await scrapePlayerLosses(playerUrl);
 
     if (losses.length === 0) {
-      return message.channel.send(`Holy goat... No losses found for ${playerName}.`);
+      return message.channel.send(`No losses found for ${playerName}.`);
     }
 
     const lossCounts = losses.reduce((acc, opponent) => {
@@ -174,9 +212,11 @@ async function fetchAndDisplayLosses(playerName, message, searchingMessage) {
 
     const lossMessage = (await Promise.all(sortedLosses)).join('\n');
 
-    await message.channel.send(`# Losses for \*\*${playerName}\*\*:\n\n${lossMessage}`);
+    await message.channel.send(`# Losses for **${playerName}**:\n\n${lossMessage}`);
 
-    // Delete the initial "Searching for losses..." message
+    cache[cacheKey] = { timestamp: now, data: lossMessage };
+    saveCache(cache);
+
     await searchingMessage.delete();
   } catch (error) {
     console.error(error);
