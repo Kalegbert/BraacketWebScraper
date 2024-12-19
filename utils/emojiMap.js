@@ -9,7 +9,7 @@ export const characterEmojis = {
   "Wario": "<:wario:1317800060838219776>",
   "Villager": "<:villager:1317800012033298442>",
   "Toon Link": "<:toon_link:1317799992206823464>",
-  "Terry": "<:Terry:1317799966881611776>", "": "",
+  "Terry": "<:Terry:1317799966881611776>",
   "Steve": "<:steve:1317799945297985546>",
   "Sora": "<:sora:1317799924754288690>",
   "Sonic": "<:sonic:1317799903258345544>",

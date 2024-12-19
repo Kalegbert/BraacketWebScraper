@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { characterEmojis } from './utils/emojiMap.js';
 import { scrapePlayerLosses } from './utils/lossUtils.js';
-import { getCharacterNamesForPlayer, getPlayersList, scrapePlayerUrl } from './utils/scrapeUtils.js';
+import { getCharacterNamesForPlayer, getCharacterNamesForPlayerLosses, getPlayersList, scrapePlayerUrl } from './utils/scrapeUtils.js';
 dotenv.config();
 
 // Default URL
@@ -203,7 +203,7 @@ async function fetchAndDisplayLosses(playerName, message, searchingMessage) {
     const sortedLosses = Object.entries(lossCounts)
       .sort(([, countA], [, countB]) => countB - countA)
       .map(async ([opponent, count]) => {
-        const characterNames = await getCharacterNamesForPlayer(opponent);
+        const characterNames = await getCharacterNamesForPlayerLosses(playerName, opponent);
         const emotes = characterNames
           .map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
           .join('');

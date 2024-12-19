@@ -103,3 +103,41 @@ export const getCharacterNamesForPlayer = async (playerName) => {
       throw new Error(`Failed to retrieve character names for player ${playerName}. Please try again later.`);
   }
 };
+
+export const getCharacterNamesForPlayerLosses = async (playerName, opponentName) => {
+  try {
+      // Fetch the HTML of the page containing player and character data
+      const playerUrl = await scrapePlayerUrl(playerName);
+      const response = await axios.get(playerUrl);
+      const $ = cheerio.load(response.data);
+
+      const characterNames = [];
+
+      // Loop through the player rows and find the player
+      $("table.my-table-show_max tbody tr").each((_, el) => {
+          const currentPlayerName = $(el).find("td.ellipsis a").text().trim();
+
+          // If the current row matches the player's name, extract the character names
+          if (currentPlayerName === opponentName) {
+              // Find all character images associated with this player
+              $(el)
+                  .find("td.ellipsis span.game_characters img")
+                  .each((_, imgElement) => {
+                      // Extract character name from the image's data-original-title, alt, or title attribute
+                      const characterName = $(imgElement).attr("data-original-title")?.trim() ||
+                                            $(imgElement).attr("alt")?.trim() ||
+                                            $(imgElement).attr("title")?.trim();
+
+                      if (characterName) {
+                          characterNames.push(characterName);
+                      }
+                  });
+          }
+      });
+
+      return characterNames;
+  } catch (error) {
+      console.error(`Error fetching character names for player ${playerName}:`, error.message);
+      throw new Error(`Failed to retrieve character names for player ${playerName}. Please try again later.`);
+  }
+};

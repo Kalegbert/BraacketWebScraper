@@ -1,5 +1,5 @@
+import * as cheerio from "cheerio"; // Use named import here
 import fetch from "node-fetch";
-import * as cheerio from "cheerio";  // Use named import here
 
 export async function scrapePlayerLosses(playerUrl) {
   try {
