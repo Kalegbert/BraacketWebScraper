@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { characterEmojis } from './utils/emojiMap.js';
 import { scrapePlayerLosses } from './utils/lossUtils.js';
-import { getCharacterNamesForPlayer, getCharacterNamesForPlayerLosses, getPlayersList, scrapePlayerUrl } from './utils/scrapeUtils.js';
+import { getCharacterNamesForPlayer, getCharacterNamesForPlayerLosses, getPlayer, getPlayersList, scrapePlayerUrl } from './utils/scrapeUtils.js';
 dotenv.config();
 
 // Default URL
@@ -223,5 +223,21 @@ async function fetchAndDisplayLosses(playerName, message, searchingMessage) {
     message.channel.send(`An error occurred while fetching losses: ${error.message}`);
   }
 }
+
+async function testGetPlayer() {
+  try {
+      // Test with a specific rank (replace with a valid rank, e.g., 0 for the first player)
+      const rank = 1;
+      const playerName = await getPlayer(rank);
+      console.log(`Player at rank ${rank}: ${playerName}`);
+  } catch (error) {
+      console.error('Test failed:', error.message);
+  }
+}
+
+// Call the test function
+testGetPlayer();
+
+
 
 client.login(process.env.BOT_TOKEN);
