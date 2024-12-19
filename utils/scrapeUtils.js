@@ -31,43 +31,6 @@ export const getPlayersList = async () => {
     }
 };
 
-export async function getPlayer(rankNum) {
-    try {
-        const response = await axios.get(BRAACKET_URL);
-        const $ = cheerio.load(response.data);
-
-        let player = null;
-
-        // Loop through the player rows
-        $("section").eq(4).find(".table-hover tbody tr").each((_, row) => {
-            $(row).find("td.ellipsis a").each((index, element) => {
-                const playerName = $(element).text().trim();
-                
-                if (index + 1 === rankNum) {
-                    player = playerName;
-                    return false; // This breaks the inner loop after finding the player
-                }
-            });
-
-            if (player) {
-                return false; // Break out of the outer
-            }
-        });
-
-        // Check if player was found
-        if (player === null) {
-            throw new Error('No player found or the page structure might have changed.');
-        }
-
-        return player;
-
-    } catch (error) {
-        console.error('Error fetching player list:', error.message);
-        throw new Error('Failed to retrieve player list. Please try again later.');
-    }
-}
-
-
 
 
 

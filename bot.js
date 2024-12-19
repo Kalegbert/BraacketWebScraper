@@ -2,9 +2,10 @@ import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
 import fs from 'fs';
 import path from 'path';
+import { getPlayer } from './utils/cacheStuff.js';
 import { characterEmojis } from './utils/emojiMap.js';
 import { scrapePlayerLosses } from './utils/lossUtils.js';
-import { getCharacterNamesForPlayer, getCharacterNamesForPlayerLosses, getPlayer, getPlayersList, scrapePlayerUrl } from './utils/scrapeUtils.js';
+import { getCharacterNamesForPlayer, getCharacterNamesForPlayerLosses, getPlayersList, scrapePlayerUrl } from './utils/scrapeUtils.js';
 dotenv.config();
 
 // Default URL
