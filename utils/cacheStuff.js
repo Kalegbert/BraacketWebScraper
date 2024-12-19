@@ -24,7 +24,7 @@ function saveCache(cache) {
 // Initialize the cache from the file
 let playerCache = loadCache();
 
-async function cache200() {
+export async function cache200() {
     for (let i = 1; i < 7; i++) {
         const playerName = await getPlayer(i); // Await the player name
         const character = await getCharacter(playerName); // Await the character data
