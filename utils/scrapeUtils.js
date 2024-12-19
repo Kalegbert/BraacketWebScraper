@@ -111,7 +111,7 @@ export const getCharacterNamesForPlayerLosses = async (playerName, opponentName)
       const response = await axios.get(playerUrl);
       const $ = cheerio.load(response.data);
 
-      const characterNames = [];
+      const characterNamesSet = new Set(); // players can show up multiple times here, this array only allows unique strings
 
       // Loop through the player rows and find the player
       $("table.my-table-show_max tbody tr").each((_, el) => {
@@ -122,20 +122,20 @@ export const getCharacterNamesForPlayerLosses = async (playerName, opponentName)
               // Find all character images associated with this player
               $(el)
                   .find("td.ellipsis span.game_characters img")
-                  .each((_, imgElement) => {
+                  .each((_, imgElement) => { 
                       // Extract character name from the image's data-original-title, alt, or title attribute
                       const characterName = $(imgElement).attr("data-original-title")?.trim() ||
                                             $(imgElement).attr("alt")?.trim() ||
                                             $(imgElement).attr("title")?.trim();
 
                       if (characterName) {
-                          characterNames.push(characterName);
+                          characterNamesSet.add(characterName);
                       }
                   });
           }
       });
 
-      return characterNames;
+      return [...characterNamesSet];
   } catch (error) {
       console.error(`Error fetching character names for player ${playerName}:`, error.message);
       throw new Error(`Failed to retrieve character names for player ${playerName}. Please try again later.`);
