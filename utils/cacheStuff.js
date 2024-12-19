@@ -1,24 +1,45 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
+import fs from 'fs';
 import { BRAACKET_URL } from '../bot.js';
 import { characterEmojis } from './emojiMap.js';
 
-// Initialize the cache as a Map (or a simple object if needed)
-let playerCache = new Map();
+// File path to the cache file
+const CACHE_FILE_PATH = './cache.json';
+
+// Function to load the cache from the JSON file
+function loadCache() {
+    if (fs.existsSync(CACHE_FILE_PATH)) {
+        const data = fs.readFileSync(CACHE_FILE_PATH, 'utf-8');
+        return JSON.parse(data);
+    }
+    return {}; // Return an empty object if no cache file exists
+}
+
+// Function to save the cache to the JSON file
+function saveCache(cache) {
+    fs.writeFileSync(CACHE_FILE_PATH, JSON.stringify(cache, null, 2), 'utf-8');
+}
+
+// Initialize the cache from the file
+let playerCache = loadCache();
 
 async function cache200() {
-    for (let i = 1; i < 200; i++) {
+    for (let i = 1; i < 7; i++) {
         const playerName = await getPlayer(i); // Await the player name
         const character = await getCharacter(playerName); // Await the character data
 
         storePlayerInCache(i, playerName, character); // Store the player in the cache
         console.log(`${i} ${playerName} ${character}`);
     }
+
+    // Save the cache after processing all players
+    saveCache(playerCache);
 }
 
 export function storePlayerInCache(playerId, playerData, character) {
     const cacheKey = `player_${playerId}`;  // Key for caching
-    playerCache.set(cacheKey, { playerData, character }); // Store both player data and character
+    playerCache[cacheKey] = { playerData, character }; // Store both player data and character in cache
     console.log(`Stored ${playerId} in cache`);
 }
 
@@ -66,6 +87,13 @@ function getCharacter(playerName) {
 
 export async function getPlayer(rankNum) {
     try {
+        // Check if the player is in cache
+        const cacheKey = `player_${rankNum}`;
+        if (playerCache[cacheKey]) {
+            console.log(`Cache hit for player ${rankNum}`);
+            return playerCache[cacheKey].playerData;
+        }
+
         const response = await axios.get(BRAACKET_URL);
         const $ = cheerio.load(response.data);
 
@@ -100,4 +128,5 @@ export async function getPlayer(rankNum) {
     }
 }
 
-cache200(); // Start the caching process
+// Start the caching process
+cache200();
