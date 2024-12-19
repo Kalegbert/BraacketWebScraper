@@ -31,9 +31,9 @@ const client = new Client({
 });
 
 client.once('ready', async () => {
+  await cache200();
   console.log(`${client.user.tag} is online!`);
-  await cache200(); // Populate the cache at startup
-});
+  });
 
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
@@ -43,6 +43,7 @@ client.on('messageCreate', async (message) => {
 
   try {
     if (command === '$viewcurrent') {
+      cache = loadCache();
       let listSize = 15;
       if (args.length > 0 && !isNaN(args[0])) {
         listSize = Math.min(Math.max(parseInt(args[0]), 1), 200); // Limit the list size to 1-200
@@ -68,6 +69,7 @@ client.on('messageCreate', async (message) => {
       cache = {};
       message.channel.send('Cache cleared successfully!');
     } else if (command === '$viewloss') {
+      cache = loadCache();
       let playerName = args.join(' ').toLowerCase();
 
       if (!playerName) {
