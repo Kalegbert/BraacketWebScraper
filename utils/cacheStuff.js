@@ -8,7 +8,7 @@ import { characterEmojis } from './emojiMap.js';
 const CACHE_FILE_PATH = './cache.json';
 
 // Function to load the cache from the JSON file
-function loadCache() {
+export function loadCache() {
     if (fs.existsSync(CACHE_FILE_PATH)) {
         const data = fs.readFileSync(CACHE_FILE_PATH, 'utf-8');
         return JSON.parse(data);
@@ -17,7 +17,7 @@ function loadCache() {
 }
 
 // Function to save the cache to the JSON file
-function saveCache(cache) {
+export function saveCache(cache) {
     fs.writeFileSync(CACHE_FILE_PATH, JSON.stringify(cache, null, 2), 'utf-8');
 }
 
@@ -25,13 +25,14 @@ function saveCache(cache) {
 let playerCache = loadCache();
 
 export async function cache200() {
-    for (let i = 1; i < 7; i++) {
+    for (let i = 1; i <= 200; i++) {
         const playerName = await getPlayer(i); // Await the player name
         const character = await getCharacter(playerName); // Await the character data
 
         storePlayerInCache(i, playerName, character); // Store the player in the cache
         console.log(`${i} ${playerName} ${character}`);
     }
+    console.log('Finished caching 200');
 
     // Save the cache after processing all players
     saveCache(playerCache);
@@ -127,6 +128,3 @@ export async function getPlayer(rankNum) {
         throw new Error('Failed to retrieve player list. Please try again later.');
     }
 }
-
-// Start the caching process
-cache200();
