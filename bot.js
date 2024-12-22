@@ -74,24 +74,26 @@ client.on('messageCreate', async (message) => {
       if (!playerName) {
         message.channel.send('Please provide a player name or rank (e.g., $ViewLoss 1 or $ViewLoss PlayerName)');
         return;
-      }
-
-      if (!isNaN(playerName)) {
-        playerName = await getPlayer(playerName);
+      } else if (!isNaN(playerName)) {
+        const name = await getPlayer(playerName);
 
         const searchingMessage = await message.channel.send('Searching for losses...');
+        await fetchAndDisplayLosses(name, message, searchingMessage);
+      } else if (isNaN(playerName)){
+        const searchingMessage = await message.channel.send('Searching for losses...');
         await fetchAndDisplayLosses(playerName, message, searchingMessage);
-      } else if (command === '$help') {
-        message.channel.send(`
+      }
+    } else if (command === '$help') {
+      message.channel.send(`
         **Available Commands:**
         **$ViewCurrent [1-250]** - View the current player rankings. Default is top 15 players.
         **$Braacket [Popular Region or Link]** - Change the Braacket URL to a region or custom URL. Current available regions [MDVA], [DFW], [SC]
         **$ClearCache** - Clear cached data.
       `);
-      } else if (message.content.startsWith('$')) {
-        message.channel.send('Invalid command. Type `$Help` for a list of available commands.');
-      }
+    } else if (message.content.startsWith('$')) {
+      message.channel.send('Invalid command. Type `$Help` for a list of available commands.');
     }
+
   } catch (error) {
     console.error(error);
     message.channel.send(`An error occurred: ${error.message}`);

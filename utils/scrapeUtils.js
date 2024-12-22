@@ -2,8 +2,8 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { BRAACKET_URL } from '../bot.js';
 import { getNextPageUrl, getPageAmt, getPlayerRank } from './cacheStuff.js';
-const CACHE_FILE_PATH = './cache.json';
 
+const CACHE_FILE_PATH = './cache.json';
 
 export const getPlayersList = async () => {
     try {
@@ -39,16 +39,16 @@ export const getPlayersList = async () => {
 
 
 
-export const scrapePlayerUrl = async (playerName) => {
+export async function scrapePlayerUrl(playerName) {
 
     let currentLink = BRAACKET_URL;
     const totalPages = await getPageAmt(BRAACKET_URL);
-    const playerRank = await getPlayerRank(playerName, CACHE_FILE_PATH);
+    const playerRank = await getPlayerRank(playerName);
 
     const neededPage = Math.ceil(playerRank / 200);
     if (neededPage > 1) {
-        for(let i = 1; i < neededPage; i++){
-        currentLink = await getNextPageUrl(currentLink);
+        for (let i = 1; i < neededPage; i++) {
+            currentLink = await getNextPageUrl(currentLink);
         }
     }
 
@@ -66,7 +66,7 @@ export const scrapePlayerUrl = async (playerName) => {
         });
 
 
-        
+
 
         if (!playerUrl) {
             throw new Error(`Player "${playerName}" not found.`);

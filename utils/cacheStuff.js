@@ -199,7 +199,7 @@ async function getCharacterForCacheAll(playerName, rankNum) {
 
 export async function getPlayer(rankNum) {
     try {
-let playerRank = rankNum;
+        let playerRank = rankNum;
         let currentLink = BRAACKET_URL;
         const totalPages = await getPageAmt(BRAACKET_URL);
 
@@ -396,14 +396,14 @@ export async function getNextPageUrl(url) {
 }
 
 
-export async function getPlayerRank(playerName, cacheFilePath) {
+export async function getPlayerRank(playerName) {
     try {
         // Read and parse the cache file
-        const cacheData = JSON.parse(fs.readFileSync(cacheFilePath, 'utf8'));
+        const cacheData = JSON.parse(fs.readFileSync(CACHE_FILE_PATH, 'utf8'));
 
         // Iterate through the cache and find the player
         for (const [key, value] of Object.entries(cacheData)) {
-            if (value.playerData === playerName) {
+            if (value.playerData.toLowerCase() === playerName) {
                 // Extract the player number from the key
                 const playerNumber = key.split('_')[1];
                 return playerNumber;
@@ -417,3 +417,4 @@ export async function getPlayerRank(playerName, cacheFilePath) {
         return null;
     }
 }
+
