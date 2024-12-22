@@ -1,14 +1,13 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
-import { cache200, getPlayer, loadCache, saveCache } from './utils/cacheStuff.js';
+import { cache200, getPlayer, loadCache, saveCache, testNext } from './utils/cacheStuff.js';
 import { characterEmojis } from './utils/emojiMap.js';
 import { scrapePlayerLosses } from './utils/lossUtils.js';
 import { getCharacterNamesForPlayerLosses, scrapePlayerUrl } from './utils/scrapeUtils.js';
 dotenv.config();
 
 export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200';
-
-
+testNext();
 // Popular Region URLs
 const popularRegions = {
   'DFW': 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200',

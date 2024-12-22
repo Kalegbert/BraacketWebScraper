@@ -137,3 +137,37 @@ export async function getPlayer(rankNum) {
         throw new Error('Failed to retrieve player list. Please try again later.');
     }
 }
+
+export async function getNextPageUrl(url) {
+    try {
+        const response = await axios.get(url);
+        const $ = cheerio.load(response.data);
+
+        // Select the second "next page" link using the specific selector
+
+
+        const nextPageLink = $("section").eq(5).find("div.input-group-btn").eq(1).find("a.btn.btn-default").first().attr('href');
+
+
+
+
+
+        // If the next page link exists, return the full URL
+        if (nextPageLink) {
+            return `https://braacket.com${nextPageLink}`; // Complete the URL if it's relative
+        }
+
+        // If no next page link is found, return null
+        console.log('No next page link found');
+        return null;
+    } catch (error) {
+        console.error('Error fetching next page URL:', error);
+        return null;
+    }
+}
+
+export async function testNext(){
+    const link = await getNextPageUrl('https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200');
+    console.log(link);
+
+}

@@ -1,1 +1,423 @@
-{}
+{
+  "player_1": {
+    "playerData": "Atomic",
+    "character": [
+      "<:rob:1317799587443900416>",
+      "<:joker:1317797677454327859>"
+    ]
+  },
+  "player_2": {
+    "playerData": "yonni",
+    "character": [
+      "<:steve:1317799945297985546>",
+      "<:luigi:1317797998213726288>"
+    ]
+  },
+  "player_3": {
+    "playerData": "Vibe (PT)",
+    "character": [
+      "<:pokemon_trainer:1317799515238957109>"
+    ]
+  },
+  "player_4": {
+    "playerData": "DJDon",
+    "character": [
+      "<:steve:1317799945297985546>",
+      "<:miigunner:1317799123549818950>",
+      "<:miifighter:1317799095682994206>"
+    ]
+  },
+  "player_5": {
+    "playerData": "Cheeks",
+    "character": [
+      "<:cloud:1317797012300890202>",
+      "<:pyra:1317797481534193765>",
+      "<:palutena:1317799306488447047>",
+      "<:chrom:1317796988384837642>",
+      "<:ike:1317797539898064937>",
+      "<:lucina:1317797932845502485>",
+      "<:marth:1317798040748298310>",
+      "<:wolf:1317800080543060009>"
+    ]
+  },
+  "player_6": {
+    "playerData": "Skitz",
+    "character": [
+      "<:wario:1317800060838219776>"
+    ]
+  },
+  "player_7": {
+    "playerData": "Kyle",
+    "character": [
+      "<:snake:1317799858924687381>",
+      "<:chrom:1317796988384837642>"
+    ]
+  },
+  "player_8": {
+    "playerData": "Skeleton",
+    "character": [
+      "<:kazuya:1317797698929168495>",
+      "<:Terry:1317799966881611776>"
+    ]
+  },
+  "player_9": {
+    "playerData": "Skinny the Pooh",
+    "character": [
+      "<:mario:1317798022016401440>"
+    ]
+  },
+  "player_10": {
+    "playerData": "E_01",
+    "character": [
+      "<:byleth:1317796530673025034>"
+    ]
+  },
+  "player_11": {
+    "playerData": "Lima",
+    "character": [
+      "<:bayonetta:1317795811878371328>"
+    ]
+  },
+  "player_12": {
+    "playerData": "PeachFuzz",
+    "character": [
+      "<:rob:1317799587443900416>"
+    ]
+  },
+  "player_13": {
+    "playerData": "Memphis",
+    "character": [
+      "<:peach:1317799378982928454>"
+    ]
+  },
+  "player_14": {
+    "playerData": "Timpai",
+    "character": [
+      "<:pyra:1317797481534193765>",
+      "<:ike:1317797539898064937>"
+    ]
+  },
+  "player_15": {
+    "playerData": "Clue",
+    "character": [
+      "<:snake:1317799858924687381>"
+    ]
+  },
+  "player_16": {
+    "playerData": "Ventis",
+    "character": [
+      "<:joker:1317797677454327859>"
+    ]
+  },
+  "player_17": {
+    "playerData": "Grayson",
+    "character": [
+      "<:rob:1317799587443900416>",
+      "<:donkey_kong:1317797182593699860>"
+    ]
+  },
+  "player_18": {
+    "playerData": "Kapus",
+    "character": [
+      "<:mega_man:1317798062135185479>",
+      "<:peach:1317799378982928454>",
+      "<:mario:1317798022016401440>"
+    ]
+  },
+  "player_19": {
+    "playerData": "Brr",
+    "character": [
+      "<:kazuya:1317797698929168495>",
+      "<:sora:1317799924754288690>"
+    ]
+  },
+  "player_20": {
+    "playerData": "Nova",
+    "character": [
+      "<:hero:1317797206195048499>",
+      "<:inkling:1317797557270872114>"
+    ]
+  },
+  "player_21": {
+    "playerData": "DoritoBandito",
+    "character": [
+      "<:mario:1317798022016401440>"
+    ]
+  },
+  "player_22": {
+    "playerData": "Bert The Dragon",
+    "character": [
+      "<:captain_falcon:1317796964632629250>"
+    ]
+  },
+  "player_23": {
+    "playerData": "Orex",
+    "character": [
+      "<:peach:1317799378982928454>",
+      "<:daisy:1317797061986484285>"
+    ]
+  },
+  "player_24": {
+    "playerData": "AZ",
+    "character": [
+      "<:wolf:1317800080543060009>",
+      "<:roy:1317799702414098462>"
+    ]
+  },
+  "player_25": {
+    "playerData": "Lynxical",
+    "character": [
+      "<:pyra:1317797481534193765>"
+    ]
+  },
+  "player_26": {
+    "playerData": "Foami",
+    "character": [
+      "<:joker:1317797677454327859>"
+    ]
+  },
+  "player_27": {
+    "playerData": "ICeless",
+    "character": [
+      "<:ice_climbers:1317797518054260816>",
+      "<:pikachu:1317799459224031274>"
+    ]
+  },
+  "player_28": {
+    "playerData": "Beastly",
+    "character": [
+      "<:diddy_kong:1317797163643703357>"
+    ]
+  },
+  "player_29": {
+    "playerData": "Grapezard X",
+    "character": [
+      "<:pokemon_trainer:1317799515238957109>",
+      "<:banjo_and_kazooie:1317795750176100382>",
+      "<:sonic:1317799903258345544>",
+      "<:meta_knight:1317798084067201114>"
+    ]
+  },
+  "player_30": {
+    "playerData": "KennyG",
+    "character": [
+      "<:greninja:1317797437615640627>"
+    ]
+  },
+  "player_31": {
+    "playerData": "NWA Danbi",
+    "character": [
+      "<:yoshi:1317800114710122557>"
+    ]
+  },
+  "player_32": {
+    "playerData": "Kuro",
+    "character": [
+      "<:mr_game_and_watch:1317799184417558599>"
+    ]
+  },
+  "player_33": {
+    "playerData": "hippo",
+    "character": [
+      "<:kazuya:1317797698929168495>",
+      "<:steve:1317799945297985546>"
+    ]
+  },
+  "player_34": {
+    "playerData": "Heartbreaker556",
+    "character": [
+      "<:meta_knight:1317798084067201114>"
+    ]
+  },
+  "player_35": {
+    "playerData": "Varun5",
+    "character": [
+      "<:steve:1317799945297985546>"
+    ]
+  },
+  "player_36": {
+    "playerData": "JAMA",
+    "character": [
+      "<:link:1317797818320293948>",
+      "<:toon_link:1317799992206823464>"
+    ]
+  },
+  "player_37": {
+    "playerData": "Lowestrain",
+    "character": [
+      "<:mario:1317798022016401440>"
+    ]
+  },
+  "player_38": {
+    "playerData": "SCents",
+    "character": [
+      "<:villager:1317800012033298442>"
+    ]
+  },
+  "player_39": {
+    "playerData": "Bermuda",
+    "character": [
+      "<:yoshi:1317800114710122557>"
+    ]
+  },
+  "player_40": {
+    "playerData": "RuskiNurd",
+    "character": [
+      "<:ness:1317799203589587015>"
+    ]
+  },
+  "player_41": {
+    "playerData": "MB",
+    "character": [
+      "<:little_mac:1317797836552798248>",
+      "<:roy:1317799702414098462>"
+    ]
+  },
+  "player_42": {
+    "playerData": "Guy",
+    "character": [
+      "<:kazuya:1317797698929168495>"
+    ]
+  },
+  "player_43": {
+    "playerData": "Eclipse",
+    "character": [
+      "<:mewtwo:1317798109916561449>"
+    ]
+  },
+  "player_44": {
+    "playerData": "El Arrendajo",
+    "character": [
+      "<:ridley:1317799565105303604>"
+    ]
+  },
+  "player_45": {
+    "playerData": "Chrissy96",
+    "character": [
+      "<:zelda:1317800161786855485>"
+    ]
+  },
+  "player_46": {
+    "playerData": "Laboon",
+    "character": [
+      "<:fox:1317797329348333589>"
+    ]
+  },
+  "player_47": {
+    "playerData": "Some Shmuck",
+    "character": [
+      "<:duck_hunt:1317797280035770389>",
+      "<:kirby:1317797798598672435>"
+    ]
+  },
+  "player_48": {
+    "playerData": "Kazma",
+    "character": [
+      "<:rob:1317799587443900416>"
+    ]
+  },
+  "player_49": {
+    "playerData": "Xillion",
+    "character": [
+      "<:robin:1317799642607390780>"
+    ]
+  },
+  "player_50": {
+    "playerData": "dr. shrimp puerto rico",
+    "character": [
+      "<:kazuya:1317797698929168495>",
+      "<:minmin:1317798209002668114>",
+      "<:steve:1317799945297985546>"
+    ]
+  },
+  "player_51": {
+    "playerData": "VH | Dangeraffe",
+    "character": []
+  },
+  "player_52": {
+    "playerData": "Fox",
+    "character": [
+      "<:king_dedede:1317797742273232938>",
+      "<:miisword:1317799156949192736>"
+    ]
+  },
+  "player_53": {
+    "playerData": "TaloHalo",
+    "character": [
+      "<:miisword:1317799156949192736>",
+      "<:pyra:1317797481534193765>"
+    ]
+  },
+  "player_54": {
+    "playerData": "ash",
+    "character": [
+      "<:dark_samus:1317797134690553856>",
+      "<:samus:1317799746206699581>"
+    ]
+  },
+  "player_55": {
+    "playerData": "Makloud",
+    "character": [
+      "<:fox:1317797329348333589>"
+    ]
+  },
+  "player_56": {
+    "playerData": "Nutmeg",
+    "character": [
+      "<:sheik:1317799787030118420>"
+    ]
+  },
+  "player_57": {
+    "playerData": "Davy",
+    "character": [
+      "<:Terry:1317799966881611776>",
+      "<:rosalina_and_luma:1317799670143123477>",
+      "<:pokemon_trainer:1317799515238957109>"
+    ]
+  },
+  "player_58": {
+    "playerData": "Bent",
+    "character": [
+      "<:sonic:1317799903258345544>"
+    ]
+  },
+  "player_59": {
+    "playerData": "Lazarus",
+    "character": [
+      "<:kazuya:1317797698929168495>",
+      "<:Terry:1317799966881611776>"
+    ]
+  },
+  "player_60": {
+    "playerData": "Denti",
+    "character": [
+      "<:pokemon_trainer:1317799515238957109>",
+      "<:olimar:1317799223319728211>"
+    ]
+  },
+  "player_61": {
+    "playerData": "Thuy (Peter)",
+    "character": [
+      "<:bowser:1317795835576193137>",
+      "<:roy:1317799702414098462>"
+    ]
+  },
+  "player_62": {
+    "playerData": "Chef",
+    "character": [
+      "<:falco:1317797304287367248>"
+    ]
+  },
+  "player_63": {
+    "playerData": "Hector1962",
+    "character": [
+      "<:pac_man:1317799245042155645>"
+    ]
+  },
+  "player_64": {
+    "playerData": "KoopaKiddo",
+    "character": [
+      "<:young_link:1317800136398864394>"
+    ]
+  }
+}
