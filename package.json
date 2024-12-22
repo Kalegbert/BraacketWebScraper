@@ -16,6 +16,7 @@
     "cheerio": "^1.0.0",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.7",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
+    "readable-stream": "^4.6.0"
   }
 }

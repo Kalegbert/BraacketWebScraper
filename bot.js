@@ -1,13 +1,13 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
-import { cache200, getPlayer, loadCache, saveCache, testNext } from './utils/cacheStuff.js';
+import { cacheAll, getPlayer, loadCache, saveCache } from './utils/cacheStuff.js';
 import { characterEmojis } from './utils/emojiMap.js';
 import { scrapePlayerLosses } from './utils/lossUtils.js';
 import { getCharacterNamesForPlayerLosses, scrapePlayerUrl } from './utils/scrapeUtils.js';
 dotenv.config();
 
 export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200';
-testNext();
+
 // Popular Region URLs
 const popularRegions = {
   'DFW': 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200',
@@ -30,9 +30,9 @@ const client = new Client({
 });
 
 client.once('ready', async () => {
-  await cache200();
+  await cacheAll();
   console.log(`${client.user.tag} is online!`);
-  });
+});
 
 client.on('messageCreate', async (message) => {
   if (message.author.bot) return;
@@ -45,7 +45,7 @@ client.on('messageCreate', async (message) => {
       cache = loadCache();
       let listSize = 15;
       if (args.length > 0 && !isNaN(args[0])) {
-        listSize = Math.min(Math.max(parseInt(args[0]), 1), 200); // Limit the list size to 1-200
+        listSize = Math.min(Math.max(parseInt(args[0]), 1), 250); // Limit the list size to 1-200
       }
       const waitingMessage = await message.channel.send(`Fetching top ${listSize} players, please wait...`);
       await fetchAndPromptPlayers(listSize, message);
@@ -77,25 +77,20 @@ client.on('messageCreate', async (message) => {
       }
 
       if (!isNaN(playerName)) {
-        if (playerName >= 0 && playerName < 201) {
-          playerName = await getPlayer(playerName);
-        } else {
-          message.channel.send('Invalid rank number.');
-          return;
-        }
-      }
+        playerName = await getPlayer(playerName);
 
-      const searchingMessage = await message.channel.send('Searching for losses...');
-      await fetchAndDisplayLosses(playerName, message, searchingMessage);
-    } else if (command === '$help') {
-      message.channel.send(`
+        const searchingMessage = await message.channel.send('Searching for losses...');
+        await fetchAndDisplayLosses(playerName, message, searchingMessage);
+      } else if (command === '$help') {
+        message.channel.send(`
         **Available Commands:**
-        **$ViewCurrent [1-200]** - View the current player rankings. Default is top 15 players.
+        **$ViewCurrent [1-250]** - View the current player rankings. Default is top 15 players.
         **$Braacket [Popular Region or Link]** - Change the Braacket URL to a region or custom URL. Current available regions [MDVA], [DFW], [SC]
         **$ClearCache** - Clear cached data.
       `);
-    } else if (message.content.startsWith('$')) {
-      message.channel.send('Invalid command. Type `$Help` for a list of available commands.');
+      } else if (message.content.startsWith('$')) {
+        message.channel.send('Invalid command. Type `$Help` for a list of available commands.');
+      }
     }
   } catch (error) {
     console.error(error);
@@ -149,7 +144,7 @@ async function fetchAndDisplayLosses(playerName, message, searchingMessage) {
 
 
     if (cache[cacheKey] && now - cache[cacheKey].timestamp < CACHE_EXPIRY) {
-      
+
       await message.channel.send(`# Losses for **${playerName}**:\n` + cache[cacheKey].data);
       await searchingMessage.delete();
       return;

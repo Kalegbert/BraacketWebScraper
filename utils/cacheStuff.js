@@ -37,18 +37,26 @@ export function saveCache(cache) {
 // Initialize the cache from the file
 let playerCache = loadCache();
 
-export async function cache200() {
-    for (let i = 1; i <= 200; i++) {
-        const playerName = await getPlayer(i); // Await the player name
-        const character = await getCharacter(playerName); // Await the character data
+
+export async function cacheAll() {
+    const totalPlayers = await getTotalPlayers(BRAACKET_URL)
+
+    for (let i = totalPlayers - 1; i <= totalPlayers; i++) {
+        const playerName = await getPlayerForCacheAll(i); // Await the player name
+        const character = await getCharacterForCacheAll(playerName, i); // Await the character data
 
         storePlayerInCache(i, playerName, character); // Store the player in the cache
         console.log(`${i} ${playerName} ${character}`);
         saveCache(playerCache);
     }
-    console.log('Finished caching 200');
+    console.log(`Finished caching ${totalPlayers}`);
 
 }
+
+
+
+
+
 
 export function storePlayerInCache(playerId, playerData, character) {
     const cacheKey = `player_${playerId}`; // Key for caching
@@ -56,15 +64,105 @@ export function storePlayerInCache(playerId, playerData, character) {
     console.log(`Stored ${playerId} in cache`);
 }
 
-async function getCharacter(playerName) {
+export async function getCharacter(playerName, rankNum) {
     try {
-        const response = await axiosInstance.get(BRAACKET_URL); // Use the axios instance with timeout
-        const $ = cheerio.load(response.data);
+
+
+        // Check if the player is in cache
+        const cacheKey = `player_${rankNum}`;
+        if (playerCache[cacheKey]) {
+            return playerCache[cacheKey].character;
+        }
+
+        let currentLink = BRAACKET_URL;
+
+        const neededPage = Math.ceil(rankNum / 200);
+        for (let i = 1; i < neededPage; i++) {
+            currentLink = await getNextPageUrl(currentLink); // Update the link to the next page
+        }
+
 
         const characterNames = [];
         const characterEmotes = [];
 
+
+        const response = await axiosInstance.get(currentLink); // Use the axios instance with timeout
+        const $ = cheerio.load(response.data);
+
+
+
         // Loop through the player rows and find the player
+
+        $("section").eq(4).find(".table-hover tbody tr").each((_, row) => {
+            const currentPlayerName = $(row).find("td.ellipsis a").text().trim();
+
+            // If the current row matches the player's name, extract the character names
+            if (currentPlayerName === playerName) {
+                playerFound = true;
+                // Find all character images associated with this player
+                $(row)
+                    .find("td.ellipsis span.game_characters img")
+                    .each((_, imgElement) => {
+                        const characterName =
+                            $(imgElement).attr("data-original-title")?.trim() ||
+                            $(imgElement).attr("alt")?.trim() ||
+                            $(imgElement).attr("title")?.trim();
+
+                        if (characterName) {
+                            const emote = characterEmojis[characterName];
+                            if (emote) {
+                                characterEmotes.push(emote); // Store the emote in the array
+                            }
+                        }
+                    });
+
+            }
+        });
+
+        return characterNames.length ? characterNames : characterEmotes; // Return either character names or emotes
+    } catch (error) {
+        console.error(`Error fetching character names for player ${playerName}:`, error.message);
+        throw new Error(`Failed to retrieve character names for player ${playerName}. Please try again later.`);
+    }
+}
+
+
+
+async function getCharacterForCacheAll(playerName, rankNum) {
+    try {
+        const cachePlayer = playerName;
+
+
+        // can uncomment to make testing faster
+        // const cacheKey = `player_${rankNum}`;
+        // if (playerCache[cacheKey] && playerCache[cacheKey].playerData === cachePlayer) {
+        //     return playerCache[cacheKey].character;
+        // }
+
+        let currentLink = BRAACKET_URL;
+
+        const neededPage = Math.ceil(rankNum / 200);
+        for (let i = 1; i < neededPage; i++) {
+            currentLink = await getNextPageUrl(currentLink); // Update the link to the next page
+        }
+
+
+        const totalPlayers = await getTotalPlayers(BRAACKET_URL);
+        const totalPages = await getPageAmt(BRAACKET_URL);
+
+
+        const characterNames = [];
+        const characterEmotes = [];
+
+
+
+        const response = await axiosInstance.get(currentLink); // Use the axios instance with timeout
+        const $ = cheerio.load(response.data);
+
+
+
+        // Loop through the player rows and find the player
+
         $("section").eq(4).find(".table-hover tbody tr").each((_, row) => {
             const currentPlayerName = $(row).find("td.ellipsis a").text().trim();
 
@@ -89,23 +187,46 @@ async function getCharacter(playerName) {
             }
         });
 
-        return characterNames.length ? characterNames : characterEmotes; // Return either character names or emotes
+
+        return characterEmotes;
     } catch (error) {
         console.error(`Error fetching character names for player ${playerName}:`, error.message);
         throw new Error(`Failed to retrieve character names for player ${playerName}. Please try again later.`);
     }
 }
 
+
+
 export async function getPlayer(rankNum) {
     try {
+let playerRank = rankNum;
+        let currentLink = BRAACKET_URL;
+        const totalPages = await getPageAmt(BRAACKET_URL);
+
+        const neededPage = Math.ceil(playerRank / 200);
+        if (neededPage <= totalPages) {
+
+            currentLink = await getNextPageUrl(currentLink);
+        }
+
+        if (isNaN(playerRank)) {
+
+        }
+
+
         // Check if the player is in cache
-        const cacheKey = `player_${rankNum}`;
+        const cacheKey = `player_${playerRank}`;
         if (playerCache[cacheKey]) {
             console.log(`Cache hit for player ${rankNum}`);
             return playerCache[cacheKey].playerData;
         }
 
-        const response = await axiosInstance.get(BRAACKET_URL); // Use the axios instance with timeout
+        if (isNaN(rankNum)) {
+            playerRank = getPlayerRank(rankNum, CACHE_FILE_PATH);
+        }
+
+
+        const response = await axiosInstance.get(currentLink); // Use the axios instance with timeout
         const $ = cheerio.load(response.data);
 
         let player = null;
@@ -115,9 +236,16 @@ export async function getPlayer(rankNum) {
             $(row).find("td.ellipsis a").each((_, element) => {
                 const playerName = $(element).text().trim();
 
-                if (index + 1 === rankNum) {
+                const globalRank = (neededPage - 1) * 200 + (index + 1);
+
+                if (globalRank === playerRank) {
                     player = playerName;
-                    return false; // This breaks the inner loop after finding the player
+                    return false; // Break the loop after finding the player
+                }
+
+                if (globalRank === playerRank) {
+                    player = playerName;
+                    return false; // Break the loop after finding the player
                 }
             });
 
@@ -132,25 +260,126 @@ export async function getPlayer(rankNum) {
         }
 
         return player;
+
+
     } catch (error) {
         console.error('Error fetching player list:', error.message);
         throw new Error('Failed to retrieve player list. Please try again later.');
     }
 }
 
+
+export async function getPlayerForCacheAll(rankNum) {
+    try {
+        let currentLink = BRAACKET_URL;
+
+        // Calculate which page is needed to find rankNum
+        const neededPage = Math.ceil(rankNum / 200); // Get the page number that the player would be on
+
+        if (neededPage > 1) {
+            for (let i = 1; i < neededPage; i++) {
+                currentLink = await getNextPageUrl(currentLink); // Navigate to the next page
+            }
+        }
+
+
+        const response = await axiosInstance.get(currentLink); // Get the current page
+        const $ = cheerio.load(response.data);
+
+        let player = null;
+
+        // Loop through the player rows on the current page
+        $("section").eq(4).find(".table-hover tbody tr").each((index, row) => {
+            const playerName = $(row).find("td.ellipsis a").text().trim();
+
+            // Calculate the global rank: the rank across all pages, not just this page
+            const globalRank = (neededPage - 1) * 200 + (index + 1);
+
+            if (globalRank === rankNum) {
+                player = playerName;
+                return false; // Break the loop after finding the player
+            }
+        });
+
+        // If no player was found
+        if (player === null) {
+            throw new Error('No player found or the page structure might have changed.');
+        }
+
+        return player;
+
+    } catch (error) {
+        console.error('Error fetching player list:', error.message);
+        throw new Error('Failed to retrieve player list. Please try again later.');
+    }
+}
+
+
+
+export async function getPageAmt(url) {
+    const response = await axios.get(url);
+    const $ = cheerio.load(response.data);
+
+    const pageAmount = $("section")
+        .eq(5)
+        .find("div.input-group.form-group")
+        .find("div.input-group-addon")
+        .first()
+        .text() // Get the raw text
+        .trim() // Remove surrounding whitespace
+        .split('/')[1] // Split by '/' and get the second part
+        .trim(); // Remove any extra whitespace
+
+    return pageAmount;
+}
+
+
+export async function getTotalPlayers(url) {
+    try {
+        const response = await axios.get(url);
+        const $ = cheerio.load(response.data);
+
+        // Extract raw text from the specified element
+        const rawText = $("section")
+            .eq(5)
+            .find("div.input-group.form-group")
+            .eq(2)
+            .find("div.input-group-addon.my-input-group-addon")
+            .first()
+            .text()
+            .trim();
+
+
+        // Extract the last number using a regular expression
+        const match = rawText.match(/\d+/g); // Find all sequences of digits
+        const totalPlayers = match ? match[match.length - 1] : null; // Extract the last match
+
+        if (!totalPlayers) {
+            console.error("Failed to extract total players. Text may not contain the expected format.");
+        }
+
+        return totalPlayers;
+    } catch (error) {
+        console.error("Error in getTotalPlayers:", error);
+        return null;
+    }
+}
+
+
+
 export async function getNextPageUrl(url) {
     try {
         const response = await axios.get(url);
         const $ = cheerio.load(response.data);
 
-        // Select the second "next page" link using the specific selector
-
-
-        const nextPageLink = $("section").eq(5).find("div.input-group-btn").eq(1).find("a.btn.btn-default").first().attr('href');
-
-
-
-
+        // Select the "next page" link using the corrected selector
+        const nextPageLink = $("section")
+            .eq(5)
+            .find("div.input-group-btn")
+            .eq(1)
+            .find("a.btn.btn-default")
+            .first()
+            .attr('href');
 
         // If the next page link exists, return the full URL
         if (nextPageLink) {
@@ -166,8 +395,25 @@ export async function getNextPageUrl(url) {
     }
 }
 
-export async function testNext(){
-    const link = await getNextPageUrl('https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200');
-    console.log(link);
 
+export async function getPlayerRank(playerName, cacheFilePath) {
+    try {
+        // Read and parse the cache file
+        const cacheData = JSON.parse(fs.readFileSync(cacheFilePath, 'utf8'));
+
+        // Iterate through the cache and find the player
+        for (const [key, value] of Object.entries(cacheData)) {
+            if (value.playerData === playerName) {
+                // Extract the player number from the key
+                const playerNumber = key.split('_')[1];
+                return playerNumber;
+            }
+        }
+
+        // If no match is found
+        return null;
+    } catch (error) {
+        console.error('Error reading or parsing cache:', error.message);
+        return null;
+    }
 }
