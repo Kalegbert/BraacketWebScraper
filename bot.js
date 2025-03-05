@@ -7,6 +7,7 @@ import { getCharacterNamesForPlayerLosses, scrapePlayerUrl } from './utils/scrap
 dotenv.config();
 
 export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/F89DCB56-148F-481C-BE77-75D54D242763?rows=200';
+export let url = BRAACKET_URL;
 
 // Popular Region URLs
 const popularRegions = {

@@ -2,12 +2,11 @@ import axios from 'axios';
 import axiosRetry from 'axios-retry';
 import * as cheerio from 'cheerio';
 import fs from 'fs';
-import { BRAACKET_URL } from '../bot.js';
+import { BRAACKET_URL, url } from '../bot.js';
 import { characterEmojis } from './emojiMap.js';
 
 // File path to the cache file
 const CACHE_FILE_PATH = './cache.json';
-let url = 'https://braacket.com/league/DFWSMASH2/ranking/F89DCB56-148F-481C-BE77-75D54D242763?rows=200';
 
 
 // Retry logic for Axios
@@ -42,7 +41,7 @@ let playerCache = loadCache();
 
 export async function cacheAll() {
     const totalPlayers = await getTotalPlayers(BRAACKET_URL)
-    console.log((totalPlayers * 3) / 60 + " minutes to cache all players");
+    console.log((totalPlayers * 0.3) / 60 + " minutes to cache all players");
 
 
     const response = await axios.get(url);
@@ -50,7 +49,7 @@ export async function cacheAll() {
     let bool = true;
     const url2 = await getNextPageUrl(url);
 
-    for (let i = 200; i <= totalPlayers; i++) {
+    for (let i = 1; i <= totalPlayers; i++) {
         const rankNum = i;
 
         let neededPage = Math.ceil(rankNum / 200);
@@ -114,7 +113,8 @@ export async function cacheAll() {
         storePlayerInCache(i, player, character); // Store the player in the cache
         console.log(`${i} ${player} ${character}`);
         saveCache(playerCache);
-        await delay(3000); // Delay for 3 seconds to avoid rate limiting
+        console.log(' ');
+        await delay(160); // Delay for 3 seconds to avoid rate limiting
 
         neededPage = Math.ceil(rankNum / 199);
         if (neededPage > 1 && bool) {
@@ -142,7 +142,7 @@ function delay(ms) {
 export function storePlayerInCache(playerId, playerData, character) {
     const cacheKey = `player_${playerId}`; // Key for caching
     playerCache[cacheKey] = { playerData, character }; // Store both player data and character in cache
-    console.log(`Stored ${playerId} in cache`);
+    // console.log(`Stored ${playerId} in cache`);
 }
 
 export async function getCharacter(playerName, rankNum) {
