@@ -7,8 +7,6 @@ import { characterEmojis } from './emojiMap.js';
 
 // File path to the cache file
 const CACHE_FILE_PATH = './cache.json';
-let url = 'https://braacket.com/league/DFWSMASH2/ranking/F89DCB56-148F-481C-BE77-75D54D242763?rows=200';
-
 
 // Retry logic for Axios
 axiosRetry(axios, {
@@ -42,22 +40,14 @@ let playerCache = loadCache();
 
 export async function cacheAll() {
     const totalPlayers = await getTotalPlayers(BRAACKET_URL)
-    console.log((totalPlayers * 3.6) / 60 + " minutes to cache all players");
-
-
+    console.log((totalPlayers*10)/60 + " minutes to cache all players");
     const response = await axios.get(url);
     const $ = cheerio.load(response.data);
 
     for (let i = 1; i <= totalPlayers; i++) {
-        const rankNum = i;
-
-        const neededPage = Math.ceil(rankNum / 200);
-
-
+      
         let player = null;
 
-
-        // 
         // Loop through the player rows on the current page
         $("section").eq(4).find(".table-hover tbody tr").each((index, row) => {
             const playerName = $(row).find("td.ellipsis a").text().trim();
@@ -75,9 +65,14 @@ export async function cacheAll() {
         if (player === null) {
             throw new Error('No player found or the page structure might have changed.');
         }
-
         let playerName = player;
+
         const character = [];
+
+
+
+        const response = await axiosInstance.get(currentLink); // Use the axios instance with timeout
+        const $ = cheerio.load(response.data);
 
 
 
@@ -100,7 +95,7 @@ export async function cacheAll() {
                         if (characterName) {
                             const emote = characterEmojis[characterName];
                             if (emote) {
-                                character.push(emote); // Store the emote in the array
+                                characterEmotes.push(emote); // Store the emote in the array
                             }
                         }
                     });
@@ -115,6 +110,7 @@ export async function cacheAll() {
         await delay(3000); // Delay for 3 seconds to avoid rate limiting
 
 
+        const neededPage = Math.ceil(rankNum / 200);
         let bool = false;
         if (neededPage > 1 && !bool) {
             const response = await axios.get(getNextPageUrl(BRAACKET_URL));
@@ -129,6 +125,7 @@ export async function cacheAll() {
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
+
 
 
 
