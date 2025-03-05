@@ -6,11 +6,11 @@ import { scrapePlayerLosses } from './utils/lossUtils.js';
 import { getCharacterNamesForPlayerLosses, scrapePlayerUrl } from './utils/scrapeUtils.js';
 dotenv.config();
 
-export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200';
+export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/F89DCB56-148F-481C-BE77-75D54D242763?rows=200';
 
 // Popular Region URLs
 const popularRegions = {
-  'DFW': 'https://braacket.com/league/DFWSMASH2/ranking/B96401A8-7387-4BC1-B80B-7064F93AF2D5?rows=200',
+  'DFW': 'https://braacket.com/league/DFWSMASH2/ranking/F89DCB56-148F-481C-BE77-75D54D242763?rows=200',
   'MDVA': 'https://braacket.com/league/NYC/ranking/12345ABCD12345?rows=200',
   'SC': 'https://braacket.com/league/scultimate/ranking?rows=200',
 };

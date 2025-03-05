@@ -40,20 +40,24 @@ let playerCache = loadCache();
 
 export async function cacheAll() {
     const totalPlayers = await getTotalPlayers(BRAACKET_URL)
+    console.log((totalPlayers*10)/60 + " minutes to cache all players");
 
-    for (let i = totalPlayers - 1; i <= totalPlayers; i++) {
+    for (let i = 1; i <= totalPlayers; i++) {
         const playerName = await getPlayerForCacheAll(i); // Await the player name
         const character = await getCharacterForCacheAll(playerName, i); // Await the character data
 
         storePlayerInCache(i, playerName, character); // Store the player in the cache
         console.log(`${i} ${playerName} ${character}`);
         saveCache(playerCache);
+        await delay(3000); // Delay for 3 seconds to avoid rate limiting
     }
     console.log(`Finished caching ${totalPlayers}`);
 
 }
 
-
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 
 
