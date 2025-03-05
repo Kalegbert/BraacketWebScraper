@@ -42,16 +42,18 @@ let playerCache = loadCache();
 
 export async function cacheAll() {
     const totalPlayers = await getTotalPlayers(BRAACKET_URL)
-    console.log((totalPlayers * 3.6) / 60 + " minutes to cache all players");
+    console.log((totalPlayers * 3) / 60 + " minutes to cache all players");
 
 
     const response = await axios.get(url);
-    const $ = cheerio.load(response.data);
+    let $ = cheerio.load(response.data);
+    let bool = true;
+    const url2 = await getNextPageUrl(url);
 
-    for (let i = 1; i <= totalPlayers; i++) {
+    for (let i = 200; i <= totalPlayers; i++) {
         const rankNum = i;
 
-        const neededPage = Math.ceil(rankNum / 200);
+        let neededPage = Math.ceil(rankNum / 200);
 
 
         let player = null;
@@ -114,17 +116,22 @@ export async function cacheAll() {
         saveCache(playerCache);
         await delay(3000); // Delay for 3 seconds to avoid rate limiting
 
+        neededPage = Math.ceil(rankNum / 199);
+        if (neededPage > 1 && bool) {
 
-        let bool = false;
-        if (neededPage > 1 && !bool) {
-            const response = await axios.get(getNextPageUrl(BRAACKET_URL));
-            const $ = cheerio.load(response.data);
-            bool = true;
+            const response = await axios.get(url2);
+            $ = cheerio.load(response.data);
+            bool = false;
         }
     }
     console.log(`Finished caching ${totalPlayers}`);
 
 }
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////
 
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
