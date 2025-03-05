@@ -1,6 +1,6 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
-import { cacheAll, getPlayer, loadCache, saveCache } from './utils/cacheStuff.js';
+import { cacheAll, cacheLosses, getPlayer, loadCache, saveCache } from './utils/cacheStuff.js';
 import { characterEmojis } from './utils/emojiMap.js';
 import { scrapePlayerLosses } from './utils/lossUtils.js';
 import { getCharacterNamesForPlayerLosses, scrapePlayerUrl } from './utils/scrapeUtils.js';
@@ -32,6 +32,7 @@ const client = new Client({
 
 client.once('ready', async () => {
   await cacheAll();
+  await cacheLosses();
   console.log(`${client.user.tag} is online!`);
 });
 

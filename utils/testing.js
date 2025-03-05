@@ -12,34 +12,36 @@ const PAGE1 = './htmlPages/page1.html';
 const PAGE2 = './htmlPages/page2.html';
 
 async function fetchAndSaveHTML() {
+
+    let page2link = null;
+    const response = await axios.get(url);
+    const $ = cheerio.load(response.data);
+
+    // Select the "next page" link using the corrected selector
+    const nextPageLink = $("section")
+        .eq(5)
+        .find("div.input-group-btn")
+        .eq(1)
+        .find("a.btn.btn-default")
+        .first()
+        .attr('href');
+
+    // If the next page link exists, return the full URL
+    if (nextPageLink) {
+        page2link = `https://braacket.com${nextPageLink}`; // Complete the URL if it's relative
+    }
+
+
+
+
     try {
-        // Fetch first page
-        const { data } = await axios.get(url);
-        fs.writeFileSync(PAGE1, data, 'utf-8');
+        const { data1 } = await axios.get(url);
+        fs.writeFileSync(PAGE1, data1, 'utf-8');
         console.log('HTML page 1 saved successfully!');
 
-        // Load the first page into cheerio
-        const $ = cheerio.load(data);
-
-        // Select the "next page" link
-        const nextPageLink = $("section")
-            .eq(5)
-            .find("div.input-group-btn")
-            .eq(1)
-            .find("a.btn.btn-default")
-            .first()
-            .attr('href');
-
-        let page2link = nextPageLink ? `https://braacket.com${nextPageLink}` : null;
-
-        // Fetch second page if link exists
-        if (page2link) {
-            const { data: data2 } = await axios.get(page2link);
-            fs.writeFileSync(PAGE2, data2, 'utf-8');
-            console.log('HTML page 2 saved successfully!');
-        } else {
-            console.log('No next page found.');
-        }
+        const { data2 } = await axios.get(page2link);
+        fs.writeFileSync(PAGE1, data2, 'utf-8');
+        console.log('HTML page 1 saved successfully!');
     } catch (error) {
         console.error('Error fetching the page:', error);
     }
@@ -88,7 +90,7 @@ export async function cacheAll() {
     let bool = true;
     const url2 = await getNextPageUrl(url);
 
-    for (let i = 290; i <= totalPlayers; i++) {
+    for (let i = 1; i <= totalPlayers; i++) {
 
 
 
@@ -100,7 +102,7 @@ export async function cacheAll() {
         let player = null;
 
 
-
+        // 
         // Loop through the player rows on the current page
         $("section").eq(4).find(".table-hover tbody tr").each((index, row) => {
             const playerName = $(row).find("td.ellipsis a").text().trim();
@@ -183,52 +185,24 @@ export async function cacheAll() {
 
 export function storeLossesInCache(playerId, losses) {
     const cacheKey = `player_${playerId}`; // Key for caching
-
-    // Ensure playerCache exists (if it's a global object)
-    if (!playerCache[cacheKey]) {
-        playerCache[cacheKey] = {}; // Initialize if it doesn't exist
-    }
-
-    // Replace the losses array while preserving other data
-    playerCache[cacheKey].losses = losses;
-
-
-    // console.log(`Updated cache for ${playerId}`);
+    playerCache[cacheKey] = { losses }; // Store both player data and character in cache
+    // console.log(`Stored ${playerId} in cache`);
 }
 
 export async function cacheLosses() {
     const totalPlayers = await getTotalPlayers(BRAACKET_URL)
-    await fetchAndSaveHTML();
+    fetchAndSaveHTML();
 
     for (let i = 1; i <= totalPlayers; i++) {
-        let rankNum = i;
-        let html;
-        let $;
 
-        let neededPage = Math.ceil(rankNum / 199);
-        if (neededPage === 1) {
-            html = fs.readFileSync(PAGE1, 'utf-8');
+        neededPage = Math.ceil(rankNum / 199);
+        if (neededPage > 1) {
+            const html = fs.readFileSync(PAGE1, 'utf-8');
+            const $ = cheerio.load(html);
         } else {
-            html = fs.readFileSync(PAGE2, 'utf-8');
+            const html = fs.readFileSync(PAGE2, 'utf-8');
+            const $ = cheerio.load(html);
         }
-        $ = cheerio.load(html);
-
-
-        //get the players name
-        let player = null;
-
-        $("section").eq(4).find(".table-hover tbody tr").each((index, row) => {
-            const playerName = $(row).find("td.ellipsis a").text().trim();
-
-            // Calculate the global rank: the rank across all pages, not just this page
-            const globalRank = (neededPage - 1) * 200 + (index + 1);
-
-            if (globalRank === rankNum) {
-                player = playerName;
-                return false; // Break the loop after finding the player
-            }
-        });
-
 
 
         // Getting player's current link for losses
@@ -237,23 +211,21 @@ export async function cacheLosses() {
         let playerUrl = null;
         $("section").eq(4).find(".table-hover tbody tr td.ellipsis a").each((_, element) => {
             const name = $(element).text().trim().toLowerCase();
-            if (name === player.toLowerCase()) {
+            if (name === playerName.toLowerCase()) {
                 playerUrl = $(element).attr('href');
                 return false; // Stop iteration
             }
         });
 
         if (!playerUrl) {
-            throw new Error(`Player "${player}" not found.`);
+            throw new Error(`Player "${playerName}" not found.`);
         }
 
         let playerLink = `https://braacket.com${playerUrl}`;
 
 
-
-        // Get players losses
         const response = await axios.get(playerLink);
-        $ = cheerio.load(response.data);
+        let $ = cheerio.load(response.data);
 
 
         const losses = [];
@@ -266,70 +238,8 @@ export async function cacheLosses() {
         });
 
 
-
-        // characters and amounts for losses
-
-        const lossCounts = losses.reduce((acc, opponent) => {
-            acc[opponent] = (acc[opponent] || 0) + 1;
-            return acc;
-        }, {});
-
-
-        let output = [];
-        const characterNamesSet = new Set(); // players can show up multiple times here, this array only allows unique strings
-        const sortedLosses = Object.entries(lossCounts)
-            .sort(([, countA], [, countB]) => countB - countA)
-            .map(async ([opponent, count]) => {
-                /////////////
-
-
-                // Loop through the player rows and find the player
-                losses.forEach((opponentName, i) => {
-                    $("table.my-table-show_max tbody tr").each((_, el) => {
-                        const currentPlayerName = $(el).find("td.ellipsis a").text().trim();
-
-                        // If the current row matches the player's name in the losses array
-                        if (currentPlayerName === opponentName) {
-                            // Find all character images associated with this player
-                            $(el)
-                                .find("td.ellipsis span.game_characters img")
-                                .each((_, imgElement) => {
-                                    // Extract character name from the image's data-original-title, alt, or title attribute
-                                    const characterName = $(imgElement).attr("data-original-title")?.trim() ||
-                                        $(imgElement).attr("alt")?.trim() ||
-                                        $(imgElement).attr("title")?.trim();
-
-                                    if (characterName) {
-                                        characterNamesSet.add(characterName);
-                                    }
-                                });
-                        }
-                    });
-                });
-
-
-
-                const emotes = characterNamesSet
-                Array.from(characterNamesSet).map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
-
-                    .join('');
-                output.push(`${opponent} ${emotes} x${count}`);
-            });
-
-
-
-
-
-
-
-
-
-
-
-        storeLossesInCache(i, output); // Store the players losses in the cache
+        storeLossesInCache(i, losses); // Store the players losses in the cache
         saveCache(playerCache);
-        console.log(`Cached losses for player ${i}`);
-        await delay(30); // Delay for 3 seconds to avoid rate
     }
 
 }
