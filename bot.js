@@ -75,21 +75,39 @@ client.on('messageCreate', async (message) => {
       message.channel.send('Cache cleared successfully!');
     } else if (command === '$viewloss') {
       cache = loadCache();
-      let playerName = args.join(' ').toLowerCase();
-
+      let playerName = args.join(' ').toLowerCase();  // Convert to lowercase to handle case-insensitivity.
+    
       if (!playerName) {
         message.channel.send('Please provide a player name or rank (e.g., $ViewLoss 1 or $ViewLoss PlayerName)');
         return;
-      } else if (!isNaN(playerName)) {
-        const name = await getPlayer(playerName);
-
-        const searchingMessage = await message.channel.send('Searching for losses...');
-        await fetchAndDisplayLosses(name, message, searchingMessage);
-      } else if (isNaN(playerName)){
-        const searchingMessage = await message.channel.send('Searching for losses...');
-        await fetchAndDisplayLosses(playerName, message, searchingMessage);
       }
-    } else if (command === '$help') {
+    
+      // Search for the player in the cache.
+      let playerData = null;
+      for (let playerKey in cache) {
+        // Check if the player's name matches (case insensitive)
+        if (cache[playerKey].playerData.toLowerCase() === playerName) {
+          playerData = cache[playerKey];
+          break;
+        }
+      }
+    
+      if (!playerData) {
+        message.channel.send(`Player ${playerName} not found in cache.`);
+        return;
+      }
+    
+      // Now, we can display the losses directly from the cache.
+      const losses = playerData.losses;
+      if (losses && losses.length > 0) {
+        const lossesMessage = `# Losses for **${playerData.playerData}**:\n${losses.join('\n')}`;
+        message.channel.send(lossesMessage);
+      } else {
+        message.channel.send(`No losses found for **${playerData.playerData}**.`);
+      }
+    }
+    
+     else if (command === '$help') {
       message.channel.send(`
         **Available Commands:**
         **$ViewCurrent [1-250]** - View the current player rankings. Default is top 15 players.

@@ -91,9 +91,9 @@ export async function cacheAll() {
     let currentPath = null;
 
     const totalPlayers = await getTotalPlayers(BRAACKET_URL)
-    console.log((totalPlayers * 0.3) / 60 + " minutes to cache all players");
+    console.log((totalPlayers * 0.1) / 60 + " minutes to cache all players");
 
-    for (let i = 290; i <= totalPlayers; i++) {
+    for (let i = 1; i <= totalPlayers; i++) {
         
         if((i / 200) <= 1){
             currentPath = PAGE1;
@@ -122,7 +122,7 @@ export async function cacheAll() {
 
         storePlayerInCache(i, player, character); // Store the player in the cache
         saveCache(playerCache);
-        console.log(' ');
+        console.log('Stored player in cache:', player, ' Rank:', i);
         await delay(50); // Delay for 3 seconds to avoid rate limiting
 
 
@@ -162,6 +162,8 @@ export function storeLossesInCache(playerId, losses) {
 
 export async function cacheLosses() {
     const totalPlayers = await getTotalPlayers(BRAACKET_URL)
+    console.log((totalPlayers * 0.51) / 60 + " minutes to cache all players");
+
     await fetchAndSaveHTML();
     let currentPath = null;
 

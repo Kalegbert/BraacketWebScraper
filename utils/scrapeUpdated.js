@@ -137,7 +137,7 @@ export async function getLossChar(html, opponentName) {
     // Now, for each character name, get the corresponding emoji from the characterEmojis object
     const emotes = [...characterNamesSet]
         .map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
-        .join(' '); // Join the emojis with a space
+        .join(''); // Join the emojis with a space
 
     return emotes; // Return the combined string of emojis
 }
