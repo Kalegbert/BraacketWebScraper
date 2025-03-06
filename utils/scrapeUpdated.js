@@ -1,12 +1,8 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
-import { BRAACKET_URL } from '../bot.js';
-import { getNextPageUrl, getPlayerRank, fetchAndSaveHTML, PAGE1, PAGE2, getPlayer } from './cacheStuff.js';
-import { readFileSync } from "fs";
+import fs, { readFileSync } from 'fs';
 import { resolve } from "path";
 import { characterEmojis } from './emojiMap.js';
-import { get } from 'http';
-import fs from 'fs';
 export const PLAYERPAGE = './htmlPages/playerPage.html';
 
 

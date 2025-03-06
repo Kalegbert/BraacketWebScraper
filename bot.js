@@ -1,10 +1,6 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
-import { cacheAll, cacheLosses, getPlayer, loadCache, saveCache, fetchAndSaveHTML, PAGE1, PAGE2 } from './utils/cacheStuff.js';
-import { characterEmojis } from './utils/emojiMap.js';
-import { scrapePlayerLosses } from './utils/lossUtils.js';
-import { getCharacterNamesForPlayerLosses, scrapePlayerUrl } from './utils/scrapeUtils.js';
-import { getPlayerName, getPlayerChar, getLossOpponent, getLossChar, trimLosses, lossHandler } from './utils/scrapeUpdated.js';
+import { cacheAll, cacheLosses, fetchAndSaveHTML, loadCache } from './utils/cacheStuff.js';
 dotenv.config();
 
 export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking?rows=200';
@@ -124,7 +120,7 @@ client.on('messageCreate', async (message) => {
   }
 });
 
-
+// Function for $viewcurrent
 async function fetchAndPromptPlayers(listSize, message) {
   try {
     // Build the player list from the cache
@@ -161,58 +157,6 @@ async function fetchAndPromptPlayers(listSize, message) {
     message.channel.send('An error occurred while fetching the player list.');
   }
 }
-
-async function fetchAndDisplayLosses(playerName, message, searchingMessage) {
-  try {
-    playerName = playerName.toLowerCase();
-    const cacheKey = `losses_${playerName}`;
-    const now = Date.now();
-
-
-    if (cache[cacheKey] && now - cache[cacheKey].timestamp < CACHE_EXPIRY) {
-
-      await message.channel.send(`# Losses for **${playerName}**:\n` + cache[cacheKey].data);
-      await searchingMessage.delete();
-      return;
-    }
-
-    const playerUrl = await scrapePlayerUrl(playerName);
-    const losses = await scrapePlayerLosses(playerUrl);
-
-    if (losses.length === 0) {
-      return message.channel.send(`No losses found for ${playerName}.`);
-    }
-
-    const lossCounts = losses.reduce((acc, opponent) => {
-      acc[opponent] = (acc[opponent] || 0) + 1;
-      return acc;
-    }, {});
-
-    const sortedLosses = Object.entries(lossCounts)
-      .sort(([, countA], [, countB]) => countB - countA)
-      .map(async ([opponent, count]) => {
-        const characterNames = await getCharacterNamesForPlayerLosses(playerName, opponent);
-        const emotes = characterNames
-          .map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
-          .join('');
-        return `${opponent} ${emotes} x${count}`;
-      });
-
-    const lossMessage = (await Promise.all(sortedLosses)).join('\n');
-
-    await message.channel.send(`# Losses for **${playerName}**:\n\n${lossMessage}`);
-
-    cache[cacheKey] = { timestamp: now, data: lossMessage };
-    saveCache(cache);
-
-    await searchingMessage.delete();
-  } catch (error) {
-    console.error(error);
-    message.channel.send(`An error occurred while fetching losses: ${error.message}`);
-  }
-}
-
-
 
 
 client.login(process.env.BOT_TOKEN);
