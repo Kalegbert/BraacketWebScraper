@@ -4,59 +4,24 @@
     "character": [
       "<:rob:1317799587443900416>",
       "<:joker:1317797677454327859>"
-    ],
-    "losses": [
-      "Vibe [object Set] x2",
-      "Foami [object Set] x1",
-      "Skeleton [object Set] x1",
-      "hobgoblin (dr. shrimp puerto rico) [object Set] x1",
-      "yonni [object Set] x1",
-      "Beastly [object Set] x1"
     ]
   },
   "player_2": {
     "playerData": "Vibe",
     "character": [
       "<:pokemon_trainer:1317799515238957109>"
-    ],
-    "losses": [
-      "Atomic [object Set] x5",
-      "Skeleton [object Set] x2",
-      "Brogan [object Set] x1",
-      "yonni [object Set] x1",
-      "Kyle [object Set] x1",
-      "SCents [object Set] x1",
-      "Silver [object Set] x1",
-      "Skitz [object Set] x1",
-      "Thuy (Peter) [object Set] x1",
-      "Chef [object Set] x1"
     ]
   },
   "player_3": {
     "playerData": "Skitz",
     "character": [
       "<:wario:1317800060838219776>"
-    ],
-    "losses": [
-      "Atomic [object Set] x6",
-      "Xillion [object Set] x1",
-      "DJDon [object Set] x1",
-      "Varun5 [object Set] x1",
-      "Skeleton [object Set] x1"
     ]
   },
   "player_4": {
     "playerData": "Grayson",
     "character": [
       "<:rob:1317799587443900416>"
-    ],
-    "losses": [
-      "Skitz [object Set] x5",
-      "Atomic [object Set] x3",
-      "yonni [object Set] x2",
-      "hippo [object Set] x1",
-      "SCents [object Set] x1",
-      "Lima [object Set] x1"
     ]
   },
   "player_5": {
@@ -65,26 +30,12 @@
       "<:steve:1317799945297985546>",
       "<:miigunner:1317799123549818950>",
       "<:miifighter:1317799095682994206>"
-    ],
-    "losses": [
-      "Atomic [object Set] x3",
-      "yonni [object Set] x2",
-      "Nova [object Set] x1",
-      "Cheeks [object Set] x1",
-      "Skitz [object Set] x1"
     ]
   },
   "player_6": {
     "playerData": "PeachFuzz",
     "character": [
       "<:rob:1317799587443900416>"
-    ],
-    "losses": [
-      "Vibe [object Set] x2",
-      "Atomic [object Set] x2",
-      "SCents [object Set] x1",
-      "RuskiNurd [object Set] x1",
-      "Grayson [object Set] x1"
     ]
   },
   "player_7": {
@@ -94,14 +45,32 @@
       "<:Terry:1317799966881611776>"
     ],
     "losses": [
-      "DJDon [object Set] x2",
-      "Atomic [object Set] x2",
-      "PeachFuzz [object Set] x1",
-      "Kyle [object Set] x1",
-      "Grayson [object Set] x1",
-      "RuskiNurd [object Set] x1",
-      "Skitz [object Set] x1",
-      "Chef [object Set] x1"
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_8": {
@@ -109,43 +78,12 @@
     "character": [
       "<:snake:1317799858924687381>",
       "<:chrom:1317796988384837642>"
-    ],
-    "losses": [
-      "Vibe [object Set] x8",
-      "Atomic [object Set] x5",
-      "yonni [object Set] x2",
-      "DJDon [object Set] x2",
-      "AZ [object Set] x2",
-      "Brogan [object Set] x2",
-      "Skitz [object Set] x1",
-      "Cheeks [object Set] x1",
-      "Grayson [object Set] x1",
-      "Bert The Dragon [object Set] x1",
-      "Beastly [object Set] x1",
-      "Jinx (Iowa) [object Set] x1",
-      "Jeckup [object Set] x1"
     ]
   },
   "player_9": {
     "playerData": "SCents",
     "character": [
       "<:villager:1317800012033298442>"
-    ],
-    "losses": [
-      "PeachFuzz [object Set] x2",
-      "Atomic [object Set] x2",
-      "Grayson [object Set] x2",
-      "Jeckup [object Set] x2",
-      "Brogan [object Set] x1",
-      "Kyle [object Set] x1",
-      "Cheeks [object Set] x1",
-      "Hector1962 [object Set] x1",
-      "Memphis [object Set] x1",
-      "Skeleton [object Set] x1",
-      "Vibe [object Set] x1",
-      "Skinny the Pooh [object Set] x1",
-      "yonni [object Set] x1",
-      "Lima [object Set] x1"
     ]
   },
   "player_10": {
@@ -153,31 +91,6 @@
     "character": [
       "<:kazuya:1317797698929168495>",
       "<:wolf:1317800080543060009>"
-    ],
-    "losses": [
-      "Vibe [object Set] x6",
-      "yonni [object Set] x5",
-      "Varun5 [object Set] x5",
-      "Atomic [object Set] x3",
-      "SCents [object Set] x3",
-      "PeachFuzz [object Set] x2",
-      "Lowestrain [object Set] x2",
-      "Cheeks [object Set] x2",
-      "Skinny the Pooh [object Set] x2",
-      "Skeleton [object Set] x1",
-      "DJDon [object Set] x1",
-      "Nova [object Set] x1",
-      "Bermuda [object Set] x1",
-      "Foami [object Set] x1",
-      "Hector1962 [object Set] x1",
-      "Xillion [object Set] x1",
-      "Wight [object Set] x1",
-      "RuskiNurd [object Set] x1",
-      "Guy [object Set] x1",
-      "Skitz [object Set] x1",
-      "Kazma [object Set] x1",
-      "Kapus [object Set] x1",
-      "Kyle [object Set] x1"
     ]
   },
   "player_11": {
@@ -187,52 +100,26 @@
       "<:luigi:1317797998213726288>"
     ],
     "losses": [
-      "Vibe",
-      "PeachFuzz",
-      "Brogan",
-      "Atomic",
-      "Nova",
-      "Nova",
-      "Skinny the Pooh",
-      "Cheeks",
-      "Kyle",
-      "Vibe",
-      "SCents",
-      "Vibe",
-      "Skitz",
-      "Atomic",
-      "TaloHalo",
-      "DoritoBandito",
-      "Guy",
-      "Brogan",
-      "Skeleton",
-      "Rusty",
-      "Xillion",
-      "Cheeks",
-      "Atomic",
-      "Kyle",
-      "Brogan",
-      "Brogan",
-      "Bert The Dragon",
-      "Grayson",
-      "DJDon",
-      "Brogan",
-      "Varun5",
-      "Brogan",
-      "Brogan",
-      "Grayson",
-      "KennyG",
-      "Grayson",
-      "Davy",
-      "Skinny the Pooh",
-      "Atomic",
-      "Atomic",
-      "Nova",
-      "Nova",
-      "Varun5",
-      "Xillion",
-      "Beastly",
-      "Grayson"
+      "Xillion <:robin:1317799642607390780>",
+      "DJDon <:steve:1317799945297985546>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950><:miifighter:1317799095682994206>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Varun5 <:steve:1317799945297985546>",
+      "Varun5 <:steve:1317799945297985546><:greninja:1317797437615640627>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
   "player_12": {
@@ -243,27 +130,6 @@
       "<:pyra:1317797481534193765>",
       "<:ike:1317797539898064937>",
       "<:lucina:1317797932845502485>"
-    ],
-    "losses": [
-      "Xillion",
-      "Bert The Dragon",
-      "yonni",
-      "Atomic",
-      "E_01",
-      "E_01",
-      "Kyle",
-      "Kyle",
-      "Atomic",
-      "RuskiNurd",
-      "Skeleton",
-      "yonni",
-      "Vibe",
-      "yonni",
-      "Brogan",
-      "Kyle",
-      "Beastly",
-      "yonni",
-      "Grayson"
     ]
   },
   "player_13": {
@@ -271,14 +137,6 @@
     "character": [
       "<:hero:1317797206195048499>",
       "<:inkling:1317797557270872114>"
-    ],
-    "losses": [
-      "Kyle",
-      "Kyle",
-      "Skinny the Pooh",
-      "Kapus",
-      "Grayson",
-      "Beastly"
     ]
   },
   "player_14": {
@@ -288,80 +146,50 @@
       "<:greninja:1317797437615640627>"
     ],
     "losses": [
-      "Jayce",
-      "DJDon",
-      "DJDon",
-      "Skitz",
-      "Kyle",
-      "Donald",
-      "Grayson",
-      "Bert The Dragon",
-      "Skeleton",
-      "Atomic",
-      "Atomic",
-      "Atomic",
-      "Davy",
-      "Grayson",
-      "Grayson",
-      "Atomic"
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_15": {
     "playerData": "Skinny the Pooh",
     "character": [
       "<:mario:1317798022016401440>"
-    ],
-    "losses": [
-      "Cheeks",
-      "E_01",
-      "Brogan",
-      "Brogan",
-      "Grayson",
-      "Grayson"
     ]
   },
   "player_16": {
     "playerData": "Bert The Dragon",
     "character": [
       "<:captain_falcon:1317796964632629250>"
-    ],
-    "losses": [
-      "Vibe",
-      "Atomic",
-      "Grapezard X",
-      "Kyle",
-      "Grayson",
-      "Atomic",
-      "AZ",
-      "SCents",
-      "Foami",
-      "Kyle",
-      "yonni",
-      "Thrillho"
     ]
   },
   "player_17": {
     "playerData": "RuskiNurd",
     "character": [
       "<:ness:1317799203589587015>"
-    ],
-    "losses": [
-      "Brogan",
-      "Skeleton",
-      "Bent",
-      "Guy",
-      "Wasabi (North Carolina)",
-      "Varun5",
-      "Atomic",
-      "Atomic",
-      "Skitz",
-      "Chef",
-      "Beastly",
-      "yonni",
-      "Bert The Dragon",
-      "Skitz",
-      "Varun5",
-      "yonni"
     ]
   },
   "player_18": {
@@ -369,24 +197,6 @@
     "character": [
       "<:wolf:1317800080543060009>",
       "<:roy:1317799702414098462>"
-    ],
-    "losses": [
-      "Vibe",
-      "Thuy (Peter)",
-      "Davy",
-      "Brogan",
-      "Atomic",
-      "Vibe",
-      "SCents",
-      "Brogan",
-      "Brogan",
-      "Brogan",
-      "Stealth_Pilot (Minnesota)",
-      "Brr",
-      "Bert The Dragon",
-      "Chef",
-      "SCents",
-      "SCents"
     ]
   },
   "player_19": {
@@ -394,6 +204,34 @@
     "character": [
       "<:miisword:1317799156949192736>",
       "<:pyra:1317797481534193765>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_20": {
@@ -418,6 +256,28 @@
     "playerData": "E_01",
     "character": [
       "<:byleth:1317796530673025034>"
+    ],
+    "losses": [
+      "Xillion <:robin:1317799642607390780>",
+      "DJDon <:steve:1317799945297985546>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950><:miifighter:1317799095682994206>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Varun5 <:steve:1317799945297985546>",
+      "Varun5 <:steve:1317799945297985546><:greninja:1317797437615640627>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
   "player_24": {
@@ -438,12 +298,45 @@
     "character": [
       "<:peach:1317799378982928454>",
       "<:daisy:1317797061986484285>"
+    ],
+    "losses": [
+      "Xillion <:robin:1317799642607390780>",
+      "DJDon <:steve:1317799945297985546>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950><:miifighter:1317799095682994206>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Varun5 <:steve:1317799945297985546>",
+      "Varun5 <:steve:1317799945297985546><:greninja:1317797437615640627>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
   "player_27": {
     "playerData": "Lima",
     "character": [
       "<:bayonetta:1317795811878371328>"
+    ],
+    "losses": [
+      "Foami <:joker:1317797677454327859>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "hobgoblin (dr. shrimp puerto rico) <:ridley:1317799565105303604>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Beastly <:diddy_kong:1317797163643703357>"
     ]
   },
   "player_28": {
@@ -456,6 +349,28 @@
     "playerData": "Hector1962",
     "character": [
       "<:pac_man:1317799245042155645>"
+    ],
+    "losses": [
+      "Xillion <:robin:1317799642607390780>",
+      "DJDon <:steve:1317799945297985546>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950><:miifighter:1317799095682994206>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Varun5 <:steve:1317799945297985546>",
+      "Varun5 <:steve:1317799945297985546><:greninja:1317797437615640627>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
   "player_30": {
@@ -476,6 +391,17 @@
       "<:Terry:1317799966881611776>",
       "<:rosalina_and_luma:1317799670143123477>",
       "<:pokemon_trainer:1317799515238957109>"
+    ],
+    "losses": [
+      "Foami <:joker:1317797677454327859>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "hobgoblin (dr. shrimp puerto rico) <:ridley:1317799565105303604>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Beastly <:diddy_kong:1317797163643703357>"
     ]
   },
   "player_33": {
@@ -492,12 +418,62 @@
       "<:banjo_and_kazooie:1317795750176100382>",
       "<:sonic:1317799903258345544>",
       "<:meta_knight:1317798084067201114>"
+    ],
+    "losses": [
+      "Xillion <:robin:1317799642607390780>",
+      "DJDon <:steve:1317799945297985546>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950><:miifighter:1317799095682994206>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Varun5 <:steve:1317799945297985546>",
+      "Varun5 <:steve:1317799945297985546><:greninja:1317797437615640627>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
   "player_35": {
     "playerData": "Jeckup",
     "character": [
       "<:ike:1317797539898064937>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_36": {
@@ -516,6 +492,28 @@
     "playerData": "Makloud",
     "character": [
       "<:fox:1317797329348333589>"
+    ],
+    "losses": [
+      "Xillion <:robin:1317799642607390780>",
+      "DJDon <:steve:1317799945297985546>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950><:miifighter:1317799095682994206>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Varun5 <:steve:1317799945297985546>",
+      "Varun5 <:steve:1317799945297985546><:greninja:1317797437615640627>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
   "player_39": {
@@ -529,6 +527,28 @@
     "playerData": "hobgoblin (dr. shrimp puerto rico)",
     "character": [
       "<:ridley:1317799565105303604>"
+    ],
+    "losses": [
+      "Xillion <:robin:1317799642607390780>",
+      "DJDon <:steve:1317799945297985546>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950>",
+      "DJDon <:steve:1317799945297985546><:miigunner:1317799123549818950><:miifighter:1317799095682994206>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Varun5 <:steve:1317799945297985546>",
+      "Varun5 <:steve:1317799945297985546><:greninja:1317797437615640627>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
   "player_41": {
@@ -592,6 +612,34 @@
     "playerData": "Bent",
     "character": [
       "<:sonic:1317799903258345544>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_51": {
@@ -605,6 +653,34 @@
     "playerData": "Nutmeg",
     "character": [
       "<:sheik:1317799787030118420>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_53": {
@@ -642,6 +718,34 @@
     "playerData": "Bermuda",
     "character": [
       "<:yoshi:1317800114710122557>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_59": {
@@ -655,6 +759,34 @@
     "playerData": "Usagi",
     "character": [
       "<:zelda:1317800161786855485>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_61": {
@@ -689,6 +821,34 @@
     "character": [
       "<:pyra:1317797481534193765>",
       "<:ike:1317797539898064937>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_66": {
@@ -701,6 +861,34 @@
     "playerData": "Arrendajo",
     "character": [
       "<:ridley:1317799565105303604>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_68": {
@@ -720,6 +908,34 @@
     "playerData": "Lavender",
     "character": [
       "<:young_link:1317800136398864394>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_71": {
@@ -728,6 +944,34 @@
       "<:mega_man:1317798062135185479>",
       "<:peach:1317799378982928454>",
       "<:mario:1317798022016401440>"
+    ],
+    "losses": [
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Brogan <:kazuya:1317797698929168495>",
+      "Brogan <:kazuya:1317797698929168495><:wolf:1317800080543060009>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kyle <:snake:1317799858924687381>",
+      "Kyle <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "SCents <:villager:1317800012033298442>",
+      "Silver <:falco:1317797304287367248>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Atomic <:rob:1317799587443900416>",
+      "Atomic <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Skitz <:wario:1317800060838219776>",
+      "Thuy (Peter) <:bowser:1317795835576193137>",
+      "Thuy (Peter) <:bowser:1317795835576193137><:roy:1317799702414098462>",
+      "Chef <:falco:1317797304287367248>"
     ]
   },
   "player_72": {
@@ -902,6 +1146,17 @@
     "playerData": "Wally West",
     "character": [
       "<:donkey_kong:1317797182593699860>"
+    ],
+    "losses": [
+      "Foami <:joker:1317797677454327859>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "hobgoblin (dr. shrimp puerto rico) <:ridley:1317799565105303604>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Beastly <:diddy_kong:1317797163643703357>"
     ]
   },
   "player_100": {
@@ -941,12 +1196,34 @@
     "character": [
       "<:mario:1317798022016401440>",
       "<:piranha_plant:1317799272976224316>"
+    ],
+    "losses": [
+      "Foami <:joker:1317797677454327859>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "hobgoblin (dr. shrimp puerto rico) <:ridley:1317799565105303604>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Beastly <:diddy_kong:1317797163643703357>"
     ]
   },
   "player_106": {
     "playerData": "Pleb64:)",
     "character": [
       "<:kirby:1317797798598672435>"
+    ],
+    "losses": [
+      "Foami <:joker:1317797677454327859>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Vibe <:pokemon_trainer:1317799515238957109>",
+      "Skeleton <:kazuya:1317797698929168495>",
+      "Skeleton <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "hobgoblin (dr. shrimp puerto rico) <:ridley:1317799565105303604>",
+      "yonni <:steve:1317799945297985546>",
+      "yonni <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Beastly <:diddy_kong:1317797163643703357>"
     ]
   },
   "player_107": {
@@ -1851,7 +2128,7 @@
     "character": []
   },
   "player_290": {
-    "playerData": "DSJ!",
+    "playerData": "TheBigDumb",
     "character": []
   },
   "player_291": {

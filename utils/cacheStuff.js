@@ -2,16 +2,18 @@ import axios from 'axios';
 import axiosRetry from 'axios-retry';
 import * as cheerio from 'cheerio';
 import fs from 'fs';
-import { BRAACKET_URL, url } from '../bot.js';
+import { BRAACKET_URL } from '../bot.js';
 import { characterEmojis } from './emojiMap.js';
+import { getPlayerName, getPlayerChar, getPlayerUrl } from './scrapeUpdated.js';
 
 // File path to the cache file
 const CACHE_FILE_PATH = './cache.json';
-const LOSS_CACHE_FILE_PATH = './lossCache.json';
-const PAGE1 = './htmlPages/page1.html';
-const PAGE2 = './htmlPages/page2.html';
+export const PAGE1 = './htmlPages/page1.html';
+export const PAGE2 = './htmlPages/page2.html';
 
-async function fetchAndSaveHTML() {
+let url = 'https://braacket.com/league/DFWSMASH2/ranking?rows=200';
+
+export async function fetchAndSaveHTML() {
     try {
         // Fetch first page
         const { data } = await axios.get(url);
@@ -79,40 +81,32 @@ let playerCache = loadCache();
 
 
 export async function cacheAll() {
-    const totalPlayers = await getTotalPlayers(BRAACKET_URL)
-    console.log((totalPlayers * 0.3) / 60 + " minutes to cache all players");
+
 
 
     const response = await axios.get(url);
     let $ = cheerio.load(response.data);
     let bool = true;
     const url2 = await getNextPageUrl(url);
+    let currentPath = null;
 
-    for (let i = 290; i <= totalPlayers; i++) {
+    const totalPlayers = await getTotalPlayers(BRAACKET_URL)
+    console.log((totalPlayers * 0.3) / 60 + " minutes to cache all players");
+
+    for (let i = 1; i <= totalPlayers; i++) {
+        
+        if((i / 200) <= 1){
+            currentPath = PAGE1;
+        } else {
+            currentPath = PAGE2;
+        }
 
 
 
         const rankNum = i;
-
         let neededPage = Math.ceil(rankNum / 200);
-
-
         let player = null;
-
-
-
-        // Loop through the player rows on the current page
-        $("section").eq(4).find(".table-hover tbody tr").each((index, row) => {
-            const playerName = $(row).find("td.ellipsis a").text().trim();
-
-            // Calculate the global rank: the rank across all pages, not just this page
-            const globalRank = (neededPage - 1) * 200 + (index + 1);
-
-            if (globalRank === rankNum) {
-                player = playerName;
-                return false; // Break the loop after finding the player
-            }
-        });
+        player = await getPlayerName(currentPath, i);
 
         // If no player was found
         if (player === null) {
@@ -120,35 +114,9 @@ export async function cacheAll() {
         }
 
         let playerName = player;
-        const character = [];
+        const character = await getPlayerChar(currentPath, playerName);
 
 
-
-        // Loop through the player rows and find the player
-
-        $("section").eq(4).find(".table-hover tbody tr").each((_, row) => {
-            const currentPlayerName = $(row).find("td.ellipsis a").text().trim();
-
-            // If the current row matches the player's name, extract the character names
-            if (currentPlayerName === playerName) {
-                // Find all character images associated with this player
-                $(row)
-                    .find("td.ellipsis span.game_characters img")
-                    .each((_, imgElement) => {
-                        const characterName =
-                            $(imgElement).attr("data-original-title")?.trim() ||
-                            $(imgElement).attr("alt")?.trim() ||
-                            $(imgElement).attr("title")?.trim();
-
-                        if (characterName) {
-                            const emote = characterEmojis[characterName];
-                            if (emote) {
-                                character.push(emote); // Store the emote in the array
-                            }
-                        }
-                    });
-            }
-        });
 
 
 
@@ -191,16 +159,22 @@ export function storeLossesInCache(playerId, losses) {
 
     // Replace the losses array while preserving other data
     playerCache[cacheKey].losses = losses;
-
-
-    // console.log(`Updated cache for ${playerId}`);
 }
 
 export async function cacheLosses() {
     const totalPlayers = await getTotalPlayers(BRAACKET_URL)
     await fetchAndSaveHTML();
+    let currentPath = null;
 
     for (let i = 1; i <= totalPlayers; i++) {
+
+        if((i / 200) <= 1){
+            currentPath = PAGE1;
+        } else {
+            currentPath = PAGE2;
+        }
+
+        
         let rankNum = i;
         let html;
         let $;
@@ -216,38 +190,13 @@ export async function cacheLosses() {
 
         //get the players name
         let player = null;
-
-        $("section").eq(4).find(".table-hover tbody tr").each((index, row) => {
-            const playerName = $(row).find("td.ellipsis a").text().trim();
-
-            // Calculate the global rank: the rank across all pages, not just this page
-            const globalRank = (neededPage - 1) * 200 + (index + 1);
-
-            if (globalRank === rankNum) {
-                player = playerName;
-                return false; // Break the loop after finding the player
-            }
-        });
+        player = await getPlayerName(currentPath, i);
 
 
 
         // Getting player's current link for losses
-        const playerRank = i;
-
-        let playerUrl = null;
-        $("section").eq(4).find(".table-hover tbody tr td.ellipsis a").each((_, element) => {
-            const name = $(element).text().trim().toLowerCase();
-            if (name === player.toLowerCase()) {
-                playerUrl = $(element).attr('href');
-                return false; // Stop iteration
-            }
-        });
-
-        if (!playerUrl) {
-            throw new Error(`Player "${player}" not found.`);
-        }
-
-        let playerLink = `https://braacket.com${playerUrl}`;
+        let playerLink = null;
+        playerLink = await getPlayerUrl(currentPath, player);
 
 
 
@@ -255,66 +204,76 @@ export async function cacheLosses() {
         const response = await axios.get(playerLink);
         $ = cheerio.load(response.data);
 
-
+        
         const losses = [];
         $("table.my-table-show_max tbody tr").each((i, el) => {
+            const characterNamesSet = new Set();
+            
             const result = $(el).find("td.ellipsis span.text-bold.number-danger").text().trim();
             if (result === "Lose") {
                 const opponent = $(el).find("td.ellipsis a[href^='/league/']").text().trim();
-                losses.push(opponent);
+                console.log(opponent);
+                ///////////////////////////////
+
+                let bool = true;
+                let test = null;
+                if(bool){
+                // Loop through the player rows and find the player
+                $("table.my-table-show_max tbody tr").each((_, el) => {
+                    const currentPlayerName = $(el).find("td.ellipsis a").text().trim();
+                    
+                    
+
+
+
+                    if (currentPlayerName === opponent && bool) {
+                        // Find all character images associated with this player
+                        $(el)
+                            .find("td.ellipsis span.game_characters img")
+                            .each((_, imgElement) => {
+                                // Extract character name from the image's data-original-title, alt, or title attribute
+                                const characterName = $(imgElement).attr("data-original-title")?.trim() ||
+                                    $(imgElement).attr("alt")?.trim() ||
+                                    $(imgElement).attr("title")?.trim();
+
+ 
+                                if (characterName) {
+
+                                    
+                                    test = characterNamesSet;
+                                    characterNamesSet.add(characterName);
+                                    if(test = characterNamesSet){
+                                        bool = false;
+                                        const characterNames = Array.from(characterNamesSet);
+                                        const emotes = characterNames
+                                        .map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
+                                        .join('');
+                                        losses.push(`${opponent} ${Array.from(emotes).join('')}`);
+                                        console.log()
+
+                                    }
+
+                                }
+                            });
+                    }
+                });
+            }
+
+                    const lossCounts = losses.reduce((acc, opponent) => {
+                      acc[opponent] = (acc[opponent] || 0) + 1;
+                      return acc;
+                    }, {});
+
+                      storeLossesInCache(i, losses);
+                    console.log(losses);
+                
+
+                //////////////////////////////////
             }
         });
 
 
 
-        // characters and amounts for losses
-
-        const lossCounts = losses.reduce((acc, opponent) => {
-            acc[opponent] = (acc[opponent] || 0) + 1;
-            return acc;
-        }, {});
-
-
-        let output = [];
-        const characterNamesSet = new Set(); // players can show up multiple times here, this array only allows unique strings
-        const sortedLosses = Object.entries(lossCounts)
-            .sort(([, countA], [, countB]) => countB - countA)
-            .map(async ([opponent, count]) => {
-                /////////////
-
-
-                // Loop through the player rows and find the player
-                losses.forEach((opponentName, i) => {
-                    $("table.my-table-show_max tbody tr").each((_, el) => {
-                        const currentPlayerName = $(el).find("td.ellipsis a").text().trim();
-
-                        // If the current row matches the player's name in the losses array
-                        if (currentPlayerName === opponentName) {
-                            // Find all character images associated with this player
-                            $(el)
-                                .find("td.ellipsis span.game_characters img")
-                                .each((_, imgElement) => {
-                                    // Extract character name from the image's data-original-title, alt, or title attribute
-                                    const characterName = $(imgElement).attr("data-original-title")?.trim() ||
-                                        $(imgElement).attr("alt")?.trim() ||
-                                        $(imgElement).attr("title")?.trim();
-
-                                    if (characterName) {
-                                        characterNamesSet.add(characterName);
-                                    }
-                                });
-                        }
-                    });
-                });
-
-
-
-                const emotes = characterNamesSet
-                Array.from(characterNamesSet).map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
-
-                    .join('');
-                output.push(`${opponent} ${emotes} x${count}`);
-            });
 
 
 
@@ -326,7 +285,6 @@ export async function cacheLosses() {
 
 
 
-        storeLossesInCache(i, output); // Store the players losses in the cache
         saveCache(playerCache);
         console.log(`Cached losses for player ${i}`);
         await delay(30); // Delay for 3 seconds to avoid rate

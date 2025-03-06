@@ -1,13 +1,18 @@
 import { Client, GatewayIntentBits } from 'discord.js';
 import dotenv from 'dotenv';
-import { cacheAll, cacheLosses, getPlayer, loadCache, saveCache } from './utils/cacheStuff.js';
+import { cacheAll, cacheLosses, getPlayer, loadCache, saveCache, fetchAndSaveHTML, PAGE1, PAGE2 } from './utils/cacheStuff.js';
 import { characterEmojis } from './utils/emojiMap.js';
 import { scrapePlayerLosses } from './utils/lossUtils.js';
 import { getCharacterNamesForPlayerLosses, scrapePlayerUrl } from './utils/scrapeUtils.js';
+import { getPlayerName, getPlayerChar, getLossOpponent, getLossChar, trimLosses, lossHandler } from './utils/scrapeUpdated.js';
 dotenv.config();
 
 export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking?rows=200';
-export let url = BRAACKET_URL;
+let url = BRAACKET_URL;
+await fetchAndSaveHTML();
+let testingg = await lossHandler(PAGE1, 'Cheeks');
+console.log(testingg);
+
 
 // Popular Region URLs
 const popularRegions = {
@@ -16,11 +21,12 @@ const popularRegions = {
   'SC': 'https://braacket.com/league/scultimate/ranking?rows=200',
 };
 
+const CACHE_FILE_PATH = './cache.json';
 // Load initial cache
 let cache = loadCache();
 
 const CACHE_EXPIRY = 60 * 60 * 1000; // 1 hour in milliseconds
-const CACHE_FILE_PATH = './cache.json';
+
 
 const client = new Client({
   intents: [
