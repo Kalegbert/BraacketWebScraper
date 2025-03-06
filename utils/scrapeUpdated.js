@@ -8,7 +8,7 @@ export const PLAYERPAGE = './htmlPages/playerPage.html';
 
 
 
-///////////// PLAYER RELATED
+/////////////////////////////////////////////////////////////////////////////////// PLAYER RELATED
 export async function getPlayerChar(htmlPath, playerName) {
 
     const filePath = resolve(htmlPath);
@@ -72,7 +72,7 @@ export async function getPlayerName(htmlPath, rankNum) {
 }
 
 
-////////// LOSS RELATED
+///////////////////////////////////////////////////////////////////////////////////////// LOSS RELATED
 export async function lossHandler(htmlPath, player) {
     await savePlayerHTML(htmlPath, player);
     const filePath = resolve(PLAYERPAGE);
@@ -152,7 +152,7 @@ export async function trimLosses(losses) {
 
 
 
-///////// PAGE RELATED
+/////////////////////////////////////////////////////////////////////////////////////// PAGE RELATED
 export async function getPlayerUrl(htmlPath, player) {
     const filePath = resolve(htmlPath);
     const html = readFileSync(filePath, "utf8");

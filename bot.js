@@ -48,7 +48,7 @@ client.on('messageCreate', async (message) => {
       cache = loadCache();
       let listSize = 15;
       if (args.length > 0 && !isNaN(args[0])) {
-        listSize = Math.min(Math.max(parseInt(args[0]), 1), 250); // Limit the list size to 1-200
+        listSize = Math.min(Math.max(parseInt(args[0]), 1), 50); // Limit the list size to 1-50
       }
       const waitingMessage = await message.channel.send(`Fetching top ${listSize} players, please wait...`);
       await fetchAndPromptPlayers(listSize, message);
@@ -107,7 +107,7 @@ client.on('messageCreate', async (message) => {
      else if (command === '$help') {
       message.channel.send(`
         **Available Commands:**
-        **$ViewCurrent [1-250]** - View the current player rankings. Default is top 15 players.
+        **$ViewCurrent [1-50]** - View the current player rankings. Default is top 15 players.
         **$Braacket [Popular Region or Link]** - Change the Braacket URL to a region or custom URL. Current available regions [MDVA], [DFW], [SC]
         **$ClearCache** - Clear cached data.
       `);
