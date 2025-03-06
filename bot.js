@@ -33,6 +33,7 @@ const client = new Client({
 client.once('ready', async () => {
   await cacheAll();
   await cacheLosses();
+  console.log('');
   console.log(`${client.user.tag} is online!`);
 });
 
