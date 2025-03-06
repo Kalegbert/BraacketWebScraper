@@ -10,8 +10,6 @@ dotenv.config();
 export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking?rows=200';
 let url = BRAACKET_URL;
 await fetchAndSaveHTML();
-let testingg = await lossHandler(PAGE1, 'Cheeks');
-console.log(testingg);
 
 
 // Popular Region URLs

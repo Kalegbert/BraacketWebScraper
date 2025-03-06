@@ -8,11 +8,11 @@ import { characterEmojis } from './emojiMap.js';
 import { get } from 'http';
 import fs from 'fs';
 export const PLAYERPAGE = './htmlPages/playerPage.html';
+
+
+
+
 ///////////// PLAYER RELATED
-
-
-
-// outputs array of characters emotes
 export async function getPlayerChar(htmlPath, playerName) {
 
     const filePath = resolve(htmlPath);
@@ -86,11 +86,9 @@ export async function lossHandler(htmlPath, player) {
     let trimmedLosses = await trimLosses(losses);
     let lossList = [];
     for (const value of trimmedLosses) {
-        console.log(`${value.opponent} ${value.count}`);
         lossList.push(`${value.opponent} x${value.count} ${await getLossChar(html, value.opponent)}`);
 
     }
-    console.log(lossList);
     return lossList;
 }
 
@@ -136,7 +134,12 @@ export async function getLossChar(html, opponentName) {
         }
     });
 
-    return [...characterNamesSet];
+    // Now, for each character name, get the corresponding emoji from the characterEmojis object
+    const emotes = [...characterNamesSet]
+        .map(characterName => characterEmojis[characterName] || `No emoji found for ${characterName}`)
+        .join(' '); // Join the emojis with a space
+
+    return emotes; // Return the combined string of emojis
 }
 
 export async function trimLosses(losses) {
@@ -145,13 +148,15 @@ export async function trimLosses(losses) {
         return acc;
     }, {});
 
-    // Convert the object into an array of key-value pairs
-    return Object.entries(lossCounts).map(([opponent, count]) => ({ opponent, count }));
+    // Convert the object into an array of key-value pairs and sort by count in descending order
+    return Object.entries(lossCounts)
+        .map(([opponent, count]) => ({ opponent, count })) // Convert to array of objects
+        .sort((a, b) => b.count - a.count); // Sort by count (highest to lowest)
 }
 
 
-///////// PAGE RELATED
 
+///////// PAGE RELATED
 export async function getPlayerUrl(htmlPath, player) {
     const filePath = resolve(htmlPath);
     const html = readFileSync(filePath, "utf8");
@@ -201,7 +206,7 @@ export async function savePlayerHTML(htmlPath, player) {
 
         const { data } = await axios.get(currentUrl);
         fs.writeFileSync(PLAYERPAGE, data, 'utf-8');
-        console.log('Player HTML page 1 saved successfully!');
+        console.log('Player HTML page saved successfully!');
 
     } catch (error) {
         console.error('Error fetching the page:', error);
