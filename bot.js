@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import { cacheAll, cacheLosses, fetchAndSaveHTML, loadCache } from './utils/cacheStuff.js';
 dotenv.config();
 
-export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking?rows=200';
+export let BRAACKET_URL = 'https://braacket.com/league/DFWSMASH2/ranking/1821307C-D8EF-4EC7-9B75-5EC8B96409A8?rows=200';
 let url = BRAACKET_URL;
 await fetchAndSaveHTML();
 

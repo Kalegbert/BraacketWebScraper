@@ -10,7 +10,7 @@ const CACHE_FILE_PATH = './cache.json';
 export const PAGE1 = './htmlPages/page1.html';
 export const PAGE2 = './htmlPages/page2.html';
 
-let url = 'https://braacket.com/league/DFWSMASH2/ranking?rows=200';
+let url = 'https://braacket.com/league/DFWSMASH2/ranking/1821307C-D8EF-4EC7-9B75-5EC8B96409A8?rows=200';
 
 
 // Initialize the cache from the file

@@ -1,0 +1,2 @@
+Fix <images>.png naming for all characters
+Better UI lol 
