@@ -2,12 +2,17 @@ import tkinter as tk
 from tkinter import PhotoImage, Label, Tk
 import json
 import re
+import sys, os
 
-with open("cache.json", "r") as file:
+def resource_path(relative_path):
+    try:
+        return os.path.join(sys._MEIPASS, relative_path)
+    except AttributeError:
+        return os.path.join(os.path.abspath("."), relative_path)
+
+
+with open(resource_path("cache.json"), "r") as file:
     cache = json.load(file)
-
-player_names = [data["playerData"] for data in cache.values() if "playerData" in data]
-
 
 class AutocompleteEntry(tk.Entry):
 
@@ -92,9 +97,14 @@ def get_losses_for_player(player_name):
     return f"Player '{player_name}' not found."
 
 
+
+################## Not functions finally
+
+player_names = [data["playerData"] for data in cache.values() if "playerData" in data]
+
 window = tk.Tk()
 window.title("Braacket Stats")
-window.geometry("600x700")
+window.geometry("500x700")
 
 
 labelTitle = tk.Label(window, text="Braacket Visualizer")
@@ -111,9 +121,12 @@ def on_click():
     user_input = entry.get().strip().lower()
     found = False
 
+    x = -1
     for data in cache.values():
+        x += 1
         if data["playerData"].lower() == user_input:
-            label.config(text=f"{data['playerData']}", font=("Arial", 16, "bold"))
+            x += 1
+            label.config(text=f"{data['playerData']}: {x}", font=("Arial", 16, "bold"))
             currentPlayer = data["playerData"]
 
             losses_text = get_losses_for_player(data["playerData"])
@@ -122,7 +135,9 @@ def on_click():
 
 
             if data["character"]:  # make sure character list isn't empty
-                image = PhotoImage(file=f"./images/{extract_char_name(data["character"][0])}.png")
+                image_path = resource_path(f"images/{extract_char_name(data['character'][0])}.png")
+                image = PhotoImage(file=image_path)
+
                 image = image.subsample(2, 2)
                 image_label.config(image=image)
                 image_label.image = image  # prevent garbage collection
@@ -157,7 +172,7 @@ def get_player_data_and_character_image(cache, player_key):
     end = first_char.find(":", start)
     char_name = first_char[start:end]
 
-    image_path = f"./images/{char_name}.png"
+    image_path = f'./images/{char_name}.png'
     return part1, image_path
 
 button = tk.Button(window, text="Search", command=on_click)
@@ -171,8 +186,9 @@ label = tk.Label(window, text="Player")
 label.grid(row=3, column=0, sticky="e", padx=10, pady=10)
 
 
-text_output = tk.Text(window, width=60, height=20, wrap="word")
+text_output = tk.Text(window, width=60, height=30, wrap="word")
 text_output.grid(row=4, column=0, columnspan=3, pady=10)
+text_output.config(font=(20))
 
 scrollbar = tk.Scrollbar(window, command=text_output.yview)
 scrollbar.grid(row=4, column=3, sticky="ns", pady=10)
@@ -181,6 +197,3 @@ text_output.configure(yscrollcommand=scrollbar.set)
 
 
 window.mainloop()
-
-
-print(get_player_data_and_character_image(cache, "player_1"))

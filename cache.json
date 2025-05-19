@@ -6,17 +6,73 @@
       "<:joker:1317797677454327859>"
     ],
     "losses": [
+      "DJDon x3 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Osh9 (Lubbock) x3 <:miifighter:1317799095682994206>",
+      "Mr. E (New York) x2 ",
       "Vibe x2 <:pokemon_trainer:1317799515238957109>",
-      "DJDon x2 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Tilde x1 <:falco:1317797304287367248>",
       "Skeleton x1 <:kazuya:1317797698929168495>",
       "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>",
       "Chef x1 <:falco:1317797304287367248>",
       "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
-      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>",
-      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>"
+      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>"
     ]
   },
   "player_2": {
+    "playerData": "DJDon",
+    "character": [
+      "<:steve:1317799945297985546>",
+      "<:miifighter:1317799095682994206>",
+      "<:miigunner:1317799123549818950>"
+    ],
+    "losses": [
+      "Skeleton x2 <:kazuya:1317797698929168495>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "AnthonyIsntCool x1 <:cloud:1317797012300890202>",
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>",
+      "Renegade (San Antonio) x1 <:snake:1317799858924687381>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
+    ]
+  },
+  "player_3": {
+    "playerData": "Skeleton",
+    "character": [
+      "<:kazuya:1317797698929168495>"
+    ],
+    "losses": [
+      "DJDon x3 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Vibe x3 <:pokemon_trainer:1317799515238957109>",
+      "Osh9 (Lubbock) x2 <:miifighter:1317799095682994206>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Skitz x1 <:wario:1317800060838219776>",
+      "Renegade (San Antonio) x1 <:snake:1317799858924687381>",
+      "jakarot (Houston) x1 <:hero:1317797206195048499>",
+      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>",
+      "Nova x1 <:hero:1317797206195048499><:inkling:1317797557270872114>",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>"
+    ]
+  },
+  "player_4": {
+    "playerData": "Grayson",
+    "character": [
+      "<:rob:1317799587443900416>"
+    ],
+    "losses": [
+      "Skitz x3 <:wario:1317800060838219776>",
+      "Atomic x2 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Wheezer x1 <:kazuya:1317797698929168495>",
+      "Lombardi (Ohio) x1 <:falco:1317797304287367248>",
+      "Mr. E (New York) x1 ",
+      "E_01 x1 <:byleth:1317796530673025034>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
+    ]
+  },
+  "player_5": {
     "playerData": "Vibe",
     "character": [
       "<:pokemon_trainer:1317799515238957109>"
@@ -24,6 +80,10 @@
     "losses": [
       "Atomic x2 <:rob:1317799587443900416><:joker:1317797677454327859>",
       "AZ x2 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "koda x1 ",
+      "Zie x1 <:palutena:1317799306488447047>",
+      "KOM x1 <:peach:1317799378982928454>",
+      "Chef x1 <:falco:1317797304287367248>",
       "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
       "RuskiNurd x1 <:ness:1317799203589587015>",
       "Grayson x1 <:rob:1317799587443900416>",
@@ -35,44 +95,68 @@
       "Nova x1 <:hero:1317797206195048499><:inkling:1317797557270872114>"
     ]
   },
-  "player_3": {
-    "playerData": "Grayson",
+  "player_6": {
+    "playerData": "AZ",
     "character": [
-      "<:rob:1317799587443900416>"
+      "<:wolf:1317800080543060009>",
+      "<:roy:1317799702414098462>"
     ],
     "losses": [
-      "Skitz x3 <:wario:1317800060838219776>",
-      "Atomic x2 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "Atomic x3 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "RuskiNurd x2 <:ness:1317799203589587015>",
+      "Vibe x2 <:pokemon_trainer:1317799515238957109>",
+      "yonni x2 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Exalt x1 <:ken:1317797721364758610>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "G-Dawg x1 ",
+      "Cybil x1 <:falco:1317797304287367248>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Wheezer x1 <:kazuya:1317797698929168495>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Sotelo x1 ",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "Brax (Lubbock) x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "Guy x1 <:kazuya:1317797698929168495>",
+      "Cake (Alabama) x1 <:fox:1317797329348333589>",
       "MuteAce (San Antonio) x1 <:peach:1317799378982928454>",
       "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
     ]
   },
-  "player_4": {
-    "playerData": "Skeleton",
+  "player_7": {
+    "playerData": "RuskiNurd",
     "character": [
-      "<:kazuya:1317797698929168495>"
+      "<:ness:1317799203589587015>"
     ],
     "losses": [
-      "Vibe x3 <:pokemon_trainer:1317799515238957109>",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Atomic x4 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Kyle x2 <:snake:1317799858924687381><:chrom:1317796988384837642>",
       "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "Skitz x1 <:wario:1317800060838219776>",
-      "Renegade (San Antonio) x1 <:snake:1317799858924687381>",
+      "SM|EOTS | Bubbros x1 ",
       "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
-      "jakarot (Houston) x1 <:hero:1317797206195048499>",
-      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>",
-      "Nova x1 <:hero:1317797206195048499><:inkling:1317797557270872114>",
-      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>"
+      "Rob. (Michigan) x1 <:snake:1317799858924687381>",
+      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>",
+      "E_01 x1 <:byleth:1317796530673025034>",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
+      "Lynxical x1 <:pyra:1317797481534193765>",
+      "Donald x1 <:miisword:1317799156949192736>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>"
     ]
   },
-  "player_5": {
+  "player_8": {
     "playerData": "Skitz",
     "character": [
       "<:wario:1317800060838219776>"
     ],
     "losses": [
       "Atomic x3 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Falconia | FC | Haze x1 ",
+      "Suit (Houston) x1 <:pyra:1317797481534193765><:rob:1317799587443900416>",
       "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
       "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
       "SCents x1 <:villager:1317800012033298442>",
@@ -80,29 +164,108 @@
       "Skeleton x1 <:kazuya:1317797698929168495>"
     ]
   },
-  "player_6": {
-    "playerData": "DJDon",
+  "player_9": {
+    "playerData": "SCents",
     "character": [
-      "<:steve:1317799945297985546>",
-      "<:miifighter:1317799095682994206>",
-      "<:miigunner:1317799123549818950>"
+      "<:villager:1317800012033298442>"
     ],
     "losses": [
-      "Thuy (Peter) x1 <:bowser:1317795835576193137>",
+      "Kapus x2 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
+      "Grayson x2 <:rob:1317799587443900416>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "GCU | Aggz x1 ",
+      "JC WSU | Trejohn6 x1 ",
+      "Falconia | FC | Haze x1 ",
+      "Stratas x1 ",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "RuskiNurd x1 <:ness:1317799203589587015>",
       "Skeleton x1 <:kazuya:1317797698929168495>",
-      "Renegade (San Antonio) x1 <:snake:1317799858924687381>",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
+      "Foami x1 <:joker:1317797677454327859>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Memphis x1 <:peach:1317799378982928454>"
     ]
   },
-  "player_7": {
+  "player_10": {
+    "playerData": "ICeless",
+    "character": [
+      "<:ice_climbers:1317797518054260816>",
+      "<:pikachu:1317799459224031274>"
+    ],
+    "losses": [
+      "SCents x2 <:villager:1317800012033298442>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Grayson x1 <:rob:1317799587443900416>",
+      "HLG | maxkangmario x1 ",
+      "Sotelo x1 ",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "Beastly x1 <:diddy_kong:1317797163643703357>",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
+      "Daveong x1 <:steve:1317799945297985546>",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skinny the Pooh x1 <:mario:1317798022016401440>"
+    ]
+  },
+  "player_11": {
+    "playerData": "Foami",
+    "character": [
+      "<:joker:1317797677454327859>"
+    ],
+    "losses": [
+      "Skeleton x2 <:kazuya:1317797698929168495>",
+      "Nova x2 <:hero:1317797206195048499><:inkling:1317797557270872114>",
+      "AZ x2 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "yonni x2 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "brandygege x1 ",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "Skinny the Pooh x1 <:mario:1317798022016401440>",
+      "1999ToyotaCorolla x1 ",
+      "Gelato (Lubbock) x1 <:ken:1317797721364758610>",
+      "Renegade (San Antonio) x1 <:snake:1317799858924687381>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
+    ]
+  },
+  "player_12": {
+    "playerData": "JAMA",
+    "character": [
+      "<:link:1317797818320293948>"
+    ],
+    "losses": [
+      "SCents x1 <:villager:1317800012033298442>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Nutmeg x1 <:sheik:1317799787030118420>",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Vaeyguh (Houston) x1 ",
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>"
+    ]
+  },
+  "player_13": {
     "playerData": "yonni",
     "character": [
       "<:steve:1317799945297985546>",
       "<:luigi:1317797998213726288>"
     ],
     "losses": [
+      "Grapezard X x4 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
       "Grayson x2 <:rob:1317799587443900416>",
       "DJDon x2 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
+      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "Mr. E (New York) x1 ",
       "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
       "Varun5 x1 <:steve:1317799945297985546>",
       "Cake (Alabama) x1 <:fox:1317797329348333589>",
@@ -115,130 +278,42 @@
       "Skinny the Pooh x1 <:mario:1317798022016401440>"
     ]
   },
-  "player_8": {
-    "playerData": "AZ",
-    "character": [
-      "<:wolf:1317800080543060009>",
-      "<:roy:1317799702414098462>"
-    ],
-    "losses": [
-      "Vibe x2 <:pokemon_trainer:1317799515238957109>",
-      "yonni x2 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
-      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
-      "Brax (Lubbock) x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
-      "Varun5 x1 <:steve:1317799945297985546>",
-      "Guy x1 <:kazuya:1317797698929168495>",
-      "Cake (Alabama) x1 <:fox:1317797329348333589>",
-      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>",
-      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
-    ]
-  },
-  "player_9": {
-    "playerData": "RuskiNurd",
-    "character": [
-      "<:ness:1317799203589587015>"
-    ],
-    "losses": [
-      "Kyle x2 <:snake:1317799858924687381><:chrom:1317796988384837642>",
-      "E_01 x1 <:byleth:1317796530673025034>",
-      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
-      "Varun5 x1 <:steve:1317799945297985546>",
-      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
-      "Lynxical x1 <:pyra:1317797481534193765>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Donald x1 <:miisword:1317799156949192736>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
-      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>"
-    ]
-  },
-  "player_10": {
+  "player_14": {
     "playerData": "Kyle",
     "character": [
       "<:snake:1317799858924687381>",
       "<:chrom:1317796988384837642>"
     ],
     "losses": [
-      "RuskiNurd x2 <:ness:1317799203589587015>",
+      "RuskiNurd x3 <:ness:1317799203589587015>",
+      "AZ x2 <:wolf:1317800080543060009><:roy:1317799702414098462>",
       "Osh9 (Lubbock) x2 <:miifighter:1317799095682994206>",
       "Chef x2 <:falco:1317797304287367248>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "Velta (Houston) x1 <:mega_man:1317798062135185479>",
       "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
       "PeachFuzz x1 <:rob:1317799587443900416>",
       "Vibe x1 <:pokemon_trainer:1317799515238957109>",
       "Thuy (Peter) x1 <:bowser:1317795835576193137>",
-      "Memphis x1 <:peach:1317799378982928454>",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
-    ]
-  },
-  "player_11": {
-    "playerData": "Varun5",
-    "character": [
-      "<:steve:1317799945297985546>"
-    ],
-    "losses": [
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Skeleton x1 <:kazuya:1317797698929168495>",
-      "Brax (Lubbock) x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
-      "Grayson x1 <:rob:1317799587443900416>",
-      "Chef x1 <:falco:1317797304287367248>"
-    ]
-  },
-  "player_12": {
-    "playerData": "TaloHalo",
-    "character": [
-      "<:miisword:1317799156949192736>",
-      "<:pyra:1317797481534193765>"
-    ],
-    "losses": [
-      "Skeleton x1 <:kazuya:1317797698929168495>",
-      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
-      "Renegade (San Antonio) x1 <:snake:1317799858924687381>",
-      "Skitz x1 <:wario:1317800060838219776>",
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
-    ]
-  },
-  "player_13": {
-    "playerData": "Foami",
-    "character": [
-      "<:joker:1317797677454327859>"
-    ],
-    "losses": [
-      "yonni x2 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "Skeleton x1 <:kazuya:1317797698929168495>",
-      "Skinny the Pooh x1 <:mario:1317798022016401440>",
-      "1999ToyotaCorolla x1 ",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
-      "Gelato (Lubbock) x1 <:ken:1317797721364758610>",
-      "Renegade (San Antonio) x1 <:snake:1317799858924687381>",
-      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
-      "Nova x1 <:hero:1317797206195048499><:inkling:1317797557270872114>",
-      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
-    ]
-  },
-  "player_14": {
-    "playerData": "moneycat (bermuda)",
-    "character": [
-      "<:yoshi:1317800114710122557>"
-    ],
-    "losses": [
-      "AZ x2 <:wolf:1317800080543060009><:roy:1317799702414098462>",
-      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
-      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
-      "Velta (Houston) x1 <:mega_man:1317798062135185479>"
+      "Memphis x1 <:peach:1317799378982928454>"
     ]
   },
   "player_15": {
-    "playerData": "JAMA",
+    "playerData": "E_01",
     "character": [
-      "<:link:1317797818320293948>"
+      "<:byleth:1317796530673025034>"
     ],
-    "losses": []
+    "losses": [
+      "koda x1 ",
+      "Tilde x1 <:falco:1317797304287367248>",
+      "Mr. E (New York) x1 ",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "Skitz x1 <:wario:1317800060838219776>",
+      "Grayson x1 <:rob:1317799587443900416>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>"
+    ]
   },
   "player_16": {
     "playerData": "Chef",
@@ -246,22 +321,92 @@
       "<:falco:1317797304287367248>"
     ],
     "losses": [
-      "Foami x2 <:joker:1317797677454327859>",
+      "Foami x4 <:joker:1317797677454327859>",
       "Grayson x2 <:rob:1317799587443900416>",
       "Atomic x2 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>",
+      "E_01 x1 <:byleth:1317796530673025034>",
       "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
       "Skitz x1 <:wario:1317800060838219776>"
     ]
   },
   "player_17": {
+    "playerData": "DoritoBandito",
+    "character": [
+      "<:mario:1317798022016401440>"
+    ],
+    "losses": [
+      "Vaeyguh (Houston) x2 ",
+      "Stealth_Pilot (Minnesota) x2 <:bowser:1317795835576193137>",
+      "Chronos (Colorado) x1 <:snake:1317799858924687381>",
+      "MXC | mason x1 ",
+      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
+    ]
+  },
+  "player_18": {
+    "playerData": "Varun5",
+    "character": [
+      "<:steve:1317799945297985546>"
+    ],
+    "losses": [
+      "Skeleton x2 <:kazuya:1317797698929168495>",
+      "Atomic x2 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "Wheezer x1 <:kazuya:1317797698929168495>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "Xillion x1 <:robin:1317799642607390780>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Brax (Lubbock) x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Grayson x1 <:rob:1317799587443900416>",
+      "Chef x1 <:falco:1317797304287367248>"
+    ]
+  },
+  "player_19": {
+    "playerData": "hobgoblin (dr. shrimp puerto rico)",
+    "character": [
+      "<:ridley:1317799565105303604>"
+    ],
+    "losses": [
+      "ICeless x4 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "JAMA x2 <:link:1317797818320293948>",
+      "Atomic x2 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "DoritoBandito x2 <:mario:1317798022016401440>",
+      "yonni x2 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "Some Shmuck x1 <:duck_hunt:1317797280035770389><:kirby:1317797798598672435>",
+      "SM|EOTS | Bubbros x1 ",
+      "Vaeyguh (Houston) x1 ",
+      "Denti x1 <:palutena:1317799306488447047>",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "Skitz x1 <:wario:1317800060838219776>",
+      "SloppyJoe x1 <:greninja:1317797437615640627>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "PSploshe x1 "
+    ]
+  },
+  "player_20": {
     "playerData": "Makloud",
     "character": [
       "<:fox:1317797329348333589>"
     ],
     "losses": [
+      "AZ x3 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "JAMA x2 <:link:1317797818320293948>",
+      "RuskiNurd x2 <:ness:1317799203589587015>",
+      "SCents x2 <:villager:1317800012033298442>",
+      "Redwood x1 ",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Dark x1 <:fox:1317797329348333589>",
       "Vibe x1 <:pokemon_trainer:1317799515238957109>",
       "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
       "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
       "WormHero (Lubbock) x1 <:rob:1317799587443900416>",
       "Grayson x1 <:rob:1317799587443900416>",
@@ -270,53 +415,242 @@
       "Memphis x1 <:peach:1317799378982928454>"
     ]
   },
-  "player_18": {
+  "player_21": {
+    "playerData": "Grapezard X",
+    "character": [
+      "<:pokemon_trainer:1317799515238957109>",
+      "<:banjo_and_kazooie:1317795750176100382>",
+      "<:sonic:1317799903258345544>",
+      "<:meta_knight:1317798084067201114>"
+    ],
+    "losses": [
+      "AZ x3 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "DJDon x2 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Kyle x2 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "Atomic x2 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>",
+      "Tam x1 <:cloud:1317797012300890202><:piranha_plant:1317799272976224316>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "MUOH | Lunar_ x1 ",
+      "Wheezer x1 <:kazuya:1317797698929168495>",
+      "Zayn x1 ",
+      "SJSU ebs | koda x1 ",
+      "Stealth_Pilot (Minnesota) x1 <:bowser:1317795835576193137>",
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "E_01 x1 <:byleth:1317796530673025034>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Grayson x1 <:rob:1317799587443900416>",
+      "Cake (Alabama) x1 <:fox:1317797329348333589>",
+      "Ados x1 <:Terry:1317799966881611776>",
+      "PeachFuzz x1 <:rob:1317799587443900416>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>"
+    ]
+  },
+  "player_22": {
+    "playerData": "TaloHalo",
+    "character": [
+      "<:miisword:1317799156949192736>",
+      "<:pyra:1317797481534193765>"
+    ],
+    "losses": [
+      "yonni x2 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Renegade (San Antonio) x1 <:snake:1317799858924687381>",
+      "Skitz x1 <:wario:1317800060838219776>",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
+    ]
+  },
+  "player_23": {
+    "playerData": "Skinny the Pooh",
+    "character": [
+      "<:mario:1317798022016401440>"
+    ],
+    "losses": [
+      "Mr. E (New York) x2 ",
+      "Skeleton x2 <:kazuya:1317797698929168495>",
+      "PHNM | Frostbyte x1 <:roy:1317799702414098462>",
+      "Tilde x1 <:falco:1317797304287367248>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "Daveong x1 <:steve:1317799945297985546>",
+      "Chef x1 <:falco:1317797304287367248>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Skitz x1 <:wario:1317800060838219776>"
+    ]
+  },
+  "player_24": {
+    "playerData": "moneycat (bermuda)",
+    "character": [
+      "<:yoshi:1317800114710122557>"
+    ],
+    "losses": [
+      "AZ x2 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Velta (Houston) x1 <:mega_man:1317798062135185479>"
+    ]
+  },
+  "player_25": {
+    "playerData": "Bert The Dragon",
+    "character": [
+      "<:captain_falcon:1317796964632629250>"
+    ],
+    "losses": [
+      "Grayson x3 <:rob:1317799587443900416>",
+      "Atomic x2 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "jakarot (Houston) x1 <:hero:1317797206195048499>",
+      "RuskiNurd x1 <:ness:1317799203589587015>"
+    ]
+  },
+  "player_26": {
     "playerData": "Thuy (Peter)",
     "character": [
       "<:bowser:1317795835576193137>"
     ],
     "losses": [
+      "Skeleton x2 <:kazuya:1317797698929168495>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "Nova x1 <:hero:1317797206195048499><:inkling:1317797557270872114>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
       "Vibe x1 <:pokemon_trainer:1317799515238957109>",
       "SCents x1 <:villager:1317800012033298442>",
       "Foami x1 <:joker:1317797677454327859>",
       "KoopaKiddo x1 <:bowser_jr:1317795862574796800>",
-      "Skeleton x1 <:kazuya:1317797698929168495>",
       "Skitz x1 <:wario:1317800060838219776>",
       "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
       "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
-  "player_19": {
-    "playerData": "E_01",
+  "player_27": {
+    "playerData": "Kapus",
     "character": [
-      "<:byleth:1317796530673025034>"
+      "<:mega_man:1317798062135185479>",
+      "<:peach:1317799378982928454>",
+      "<:mario:1317798022016401440>"
     ],
     "losses": [
-      "Varun5 x1 <:steve:1317799945297985546>",
-      "Skitz x1 <:wario:1317800060838219776>",
-      "Grayson x1 <:rob:1317799587443900416>",
-      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>"
+      "Lowestrain84 x2 <:mario:1317798022016401440>",
+      "boundless x1 <:ness:1317799203589587015>",
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "Skinny the Pooh x1 <:mario:1317798022016401440>"
     ]
   },
-  "player_20": {
-    "playerData": "SCents",
+  "player_28": {
+    "playerData": "Cheeks",
     "character": [
-      "<:villager:1317800012033298442>"
+      "<:cloud:1317797012300890202>",
+      "<:chrom:1317796988384837642>",
+      "<:corrin:1317797035994255391>"
     ],
     "losses": [
-      "Kapus x2 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
-      "Grayson x2 <:rob:1317799587443900416>",
-      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Lowestrain84 x1 <:mario:1317798022016401440>",
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "Skeleton x1 <:kazuya:1317797698929168495>",
       "Foami x1 <:joker:1317797677454327859>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
-      "Memphis x1 <:peach:1317799378982928454>"
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "Warguts | Flare x1 ",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "Sogoodpop x1 <:wii_fit_trainer:1317800039728287795>",
+      "Avien x1 <:minmin:1317798209002668114>",
+      "Ados x1 <:Terry:1317799966881611776>",
+      "Skinny the Pooh x1 <:mario:1317798022016401440>",
+      "Chef x1 <:falco:1317797304287367248>"
     ]
   },
-  "player_21": {
+  "player_29": {
+    "playerData": "Davy",
+    "character": [
+      "<:Terry:1317799966881611776>",
+      "<:steve:1317799945297985546>",
+      "<:rosalina_and_luma:1317799670143123477>"
+    ],
+    "losses": [
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>"
+    ]
+  },
+  "player_30": {
+    "playerData": "Lowestrain84",
+    "character": [
+      "<:mario:1317798022016401440>"
+    ],
+    "losses": [
+      "#hellnaw x2 ",
+      "Inku x1 <:captain_falcon:1317796964632629250>",
+      "Nimble x1 ",
+      "Vidad x1 <:rob:1317799587443900416>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "PeachFuzz x1 <:rob:1317799587443900416>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Skinny the Pooh x1 <:mario:1317798022016401440>"
+    ]
+  },
+  "player_31": {
+    "playerData": "PeachFuzz",
+    "character": [
+      "<:rob:1317799587443900416>"
+    ],
+    "losses": [
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "Avien x1 <:minmin:1317798209002668114>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "Memphis x1 <:peach:1317799378982928454>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
+    ]
+  },
+  "player_32": {
+    "playerData": "Hector1962",
+    "character": [
+      "<:pac_man:1317799245042155645>"
+    ],
+    "losses": [
+      "Mr Officer Man Cop x2 <:king_k_rool:1317797780114374777>",
+      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "MUOH | Mindles_Man x1 ",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "slowbeau x1 <:luigi:1317797998213726288>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "Jeckup x1 <:ike:1317797539898064937>",
+      "Skitz x1 <:wario:1317800060838219776>"
+    ]
+  },
+  "player_33": {
     "playerData": "Cake (Alabama)",
     "character": [
       "<:fox:1317797329348333589>"
@@ -328,7 +662,21 @@
       "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
-  "player_22": {
+  "player_34": {
+    "playerData": "Arrendajo",
+    "character": [
+      "<:ridley:1317799565105303604>"
+    ],
+    "losses": [
+      "JAMA x4 <:link:1317797818320293948>",
+      "hobgoblin (dr. shrimp puerto rico) x3 <:ridley:1317799565105303604>",
+      "ICeless x2 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "SloppyJoe x1 <:greninja:1317797437615640627>"
+    ]
+  },
+  "player_35": {
     "playerData": "Memphis",
     "character": [
       "<:peach:1317799378982928454>"
@@ -339,213 +687,447 @@
       "Skitz x1 <:wario:1317800060838219776>"
     ]
   },
-  "player_23": {
-    "playerData": "Skinny the Pooh",
-    "character": [
-      "<:mario:1317798022016401440>"
-    ],
-    "losses": [
-      "Skeleton x2 <:kazuya:1317797698929168495>",
-      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
-      "Daveong x1 <:steve:1317799945297985546>",
-      "Chef x1 <:falco:1317797304287367248>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Skitz x1 <:wario:1317800060838219776>"
-    ]
-  },
-  "player_24": {
-    "playerData": "Davy",
-    "character": [
-      "<:Terry:1317799966881611776>",
-      "<:steve:1317799945297985546>",
-      "<:rosalina_and_luma:1317799670143123477>"
-    ],
-    "losses": [
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "Skeleton x1 <:kazuya:1317797698929168495>",
-      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
-      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
-      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>",
-      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
-      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>"
-    ]
-  },
-  "player_25": {
-    "playerData": "Bert The Dragon",
-    "character": [
-      "<:captain_falcon:1317796964632629250>"
-    ],
-    "losses": [
-      "Grayson x3 <:rob:1317799587443900416>",
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Foami x1 <:joker:1317797677454327859>",
-      "jakarot (Houston) x1 <:hero:1317797206195048499>",
-      "RuskiNurd x1 <:ness:1317799203589587015>"
-    ]
-  },
-  "player_26": {
-    "playerData": "PeachFuzz",
-    "character": [
-      "<:rob:1317799587443900416>"
-    ],
-    "losses": [
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
-      "Skeleton x1 <:kazuya:1317797698929168495>",
-      "Memphis x1 <:peach:1317799378982928454>",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
-    ]
-  },
-  "player_27": {
-    "playerData": "ICeless",
-    "character": [
-      "<:ice_climbers:1317797518054260816>",
-      "<:pikachu:1317799459224031274>"
-    ],
-    "losses": [
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "Beastly x1 <:diddy_kong:1317797163643703357>",
-      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
-      "SCents x1 <:villager:1317800012033298442>",
-      "Daveong x1 <:steve:1317799945297985546>",
-      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Skinny the Pooh x1 <:mario:1317798022016401440>"
-    ]
-  },
-  "player_28": {
-    "playerData": "Hector1962",
-    "character": [
-      "<:pac_man:1317799245042155645>"
-    ],
-    "losses": [
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
-      "Jeckup x1 <:ike:1317797539898064937>",
-      "Skitz x1 <:wario:1317800060838219776>"
-    ]
-  },
-  "player_29": {
-    "playerData": "hobgoblin (dr. shrimp puerto rico)",
-    "character": [
-      "<:ridley:1317799565105303604>"
-    ],
-    "losses": [
-      "yonni x2 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "ICeless x2 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
-      "Skitz x1 <:wario:1317800060838219776>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "SloppyJoe x1 <:greninja:1317797437615640627>",
-      "JAMA x1 <:link:1317797818320293948>",
-      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
-      "PSploshe x1 "
-    ]
-  },
-  "player_30": {
-    "playerData": "Kapus",
-    "character": [
-      "<:mega_man:1317798062135185479>",
-      "<:peach:1317799378982928454>",
-      "<:mario:1317798022016401440>"
-    ],
-    "losses": []
-  },
-  "player_31": {
-    "playerData": "Grapezard X",
-    "character": [
-      "<:pokemon_trainer:1317799515238957109>",
-      "<:banjo_and_kazooie:1317795750176100382>",
-      "<:sonic:1317799903258345544>",
-      "<:meta_knight:1317798084067201114>"
-    ],
-    "losses": [
-      "Atomic x2 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
-      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "E_01 x1 <:byleth:1317796530673025034>",
-      "Hector1962 x1 <:pac_man:1317799245042155645>",
-      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
-      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
-      "Grayson x1 <:rob:1317799587443900416>",
-      "Cake (Alabama) x1 <:fox:1317797329348333589>",
-      "Ados x1 <:Terry:1317799966881611776>",
-      "PeachFuzz x1 <:rob:1317799587443900416>",
-      "Lowestrain84 x1 <:mario:1317798022016401440>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>"
-    ]
-  },
-  "player_32": {
-    "playerData": "Seb",
-    "character": [],
-    "losses": [
-      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
-      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
-      "Sailor! x1 <:luigi:1317797998213726288><:roy:1317799702414098462>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>"
-    ]
-  },
-  "player_33": {
-    "playerData": "Lowestrain84",
-    "character": [
-      "<:mario:1317798022016401440>"
-    ],
-    "losses": [
-      "#hellnaw x1 ",
-      "Skeleton x1 <:kazuya:1317797698929168495>",
-      "Hector1962 x1 <:pac_man:1317799245042155645>",
-      "Makloud x1 <:fox:1317797329348333589>",
-      "PeachFuzz x1 <:rob:1317799587443900416>",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "Skinny the Pooh x1 <:mario:1317798022016401440>"
-    ]
-  },
-  "player_34": {
-    "playerData": "Botheryounot",
-    "character": [
-      "<:pyra:1317797481534193765>",
-      "<:zelda:1317800161786855485>"
-    ],
-    "losses": [
-      "KennyG x1 <:greninja:1317797437615640627>",
-      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
-      "Grayson x1 <:rob:1317799587443900416>",
-      "Daveong x1 <:steve:1317799945297985546>"
-    ]
-  },
-  "player_35": {
-    "playerData": "Guy",
-    "character": [
-      "<:kazuya:1317797698929168495>"
-    ],
-    "losses": [
-      "Bent x1 <:sonic:1317799903258345544>",
-      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>",
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "Velta (Houston) x1 <:mega_man:1317798062135185479>"
-    ]
-  },
   "player_36": {
     "playerData": "KennyG",
     "character": [
       "<:greninja:1317797437615640627>"
     ],
     "losses": [
+      "Shigura (Lubbock) x2 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Zephiel x2 <:mario:1317798022016401440>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
+      "Mr. E (New York) x1 ",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
       "Suit (Houston) x1 <:pyra:1317797481534193765><:rob:1317799587443900416>",
       "Skinny the Pooh x1 <:mario:1317798022016401440>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
       "PeachFuzz x1 <:rob:1317799587443900416>"
     ]
   },
   "player_37": {
+    "playerData": "Nova",
+    "character": [
+      "<:hero:1317797206195048499>",
+      "<:inkling:1317797557270872114>"
+    ],
+    "losses": [
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>",
+      "SJSU ebs | koda x1 ",
+      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Mobé x1 ",
+      "Chef x1 <:falco:1317797304287367248>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
+    ]
+  },
+  "player_38": {
+    "playerData": "Sotelo",
+    "character": [],
+    "losses": [
+      "Makloud x3 <:fox:1317797329348333589>",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
+    ]
+  },
+  "player_39": {
+    "playerData": "boundless",
+    "character": [
+      "<:ness:1317799203589587015>"
+    ],
+    "losses": [
+      "Kapus x3 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "HLG | maxkangmario x1 ",
+      "SCents x1 <:villager:1317800012033298442>",
+      "Mr Officer Man Cop x1 <:king_k_rool:1317797780114374777>",
+      "brandygege x1 ",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "Jayce x1 <:zelda:1317800161786855485><:marth:1317798040748298310>"
+    ]
+  },
+  "player_40": {
+    "playerData": "Heartbreaker556",
+    "character": [
+      "<:meta_knight:1317798084067201114>"
+    ],
+    "losses": [
+      "Varun5 x2 <:steve:1317799945297985546>",
+      "Chef x2 <:falco:1317797304287367248>",
+      "KennyG x2 <:greninja:1317797437615640627>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Zohar x1 ",
+      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
+      "EBS | HLG | Willow x1 ",
+      "Xillion x1 <:robin:1317799642607390780>",
+      "Stealth_Pilot (Minnesota) x1 <:bowser:1317795835576193137>",
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Cake (Alabama) x1 <:fox:1317797329348333589>",
+      "jonhy x1 <:roy:1317799702414098462><:sephiroth:1317799767472082944>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Grayson x1 <:rob:1317799587443900416>"
+    ]
+  },
+  "player_41": {
+    "playerData": "Zohar",
+    "character": [],
+    "losses": [
+      "JAMA x2 <:link:1317797818320293948>"
+    ]
+  },
+  "player_42": {
+    "playerData": "Xillion",
+    "character": [
+      "<:robin:1317799642607390780>"
+    ],
+    "losses": [
+      "AZ x2 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>",
+      "Chef x1 <:falco:1317797304287367248>",
+      "Wheezer x1 <:kazuya:1317797698929168495>",
+      "Stealth_Pilot (Minnesota) x1 <:bowser:1317795835576193137>",
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "Jayce x1 <:zelda:1317800161786855485><:marth:1317798040748298310>",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
+      "Skeleton x1 <:kazuya:1317797698929168495>"
+    ]
+  },
+  "player_43": {
+    "playerData": "JC WSU | Trejohn6",
+    "character": [],
+    "losses": [
+      "Tilde x1 <:falco:1317797304287367248>"
+    ]
+  },
+  "player_44": {
+    "playerData": "Falconia | FC | Haze",
+    "character": [],
+    "losses": [
+      "NVR | MPg (Delaware) x1 <:mega_man:1317798062135185479>",
+      "PHNM | Frostbyte x1 <:roy:1317799702414098462>",
+      "Xillion x1 <:robin:1317799642607390780>",
+      "Mr. E (New York) x1 "
+    ]
+  },
+  "player_45": {
+    "playerData": "brandygege",
+    "character": [],
+    "losses": [
+      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "triscuit x1 <:pac_man:1317799245042155645>",
+      "AnthonyIsntCool x1 <:cloud:1317797012300890202>",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "Renegade (San Antonio) x1 <:snake:1317799858924687381>"
+    ]
+  },
+  "player_46": {
+    "playerData": "Seb",
+    "character": [],
+    "losses": [
+      "Kyle x2 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "WSU | Azael x1 ",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>",
+      "Sotelo x1 ",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Sailor! x1 <:luigi:1317797998213726288><:roy:1317799702414098462>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>"
+    ]
+  },
+  "player_47": {
+    "playerData": "Yusuf",
+    "character": [],
+    "losses": [
+      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>",
+      "AnthonyIsntCool x1 <:cloud:1317797012300890202>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Grayson x1 <:rob:1317799587443900416>"
+    ]
+  },
+  "player_48": {
+    "playerData": "Stratas",
+    "character": [],
+    "losses": [
+      "SKE | NU | SpringyL x1 ",
+      "Chronos (Colorado) x1 <:snake:1317799858924687381>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
+    ]
+  },
+  "player_49": {
+    "playerData": "Zayn",
+    "character": [],
+    "losses": [
+      "Yusuf x1 ",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
+    ]
+  },
+  "player_50": {
+    "playerData": "KoopaKiddo",
+    "character": [
+      "<:bowser_jr:1317795862574796800>"
+    ],
+    "losses": [
+      "boundless x3 <:ness:1317799203589587015>",
+      "Makloud x2 <:fox:1317797329348333589>",
+      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
+      "Yusuf x1 ",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Velta (Houston) x1 <:mega_man:1317798062135185479>",
+      "Mr. E (New York) x1 ",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "aurorasksk x1 <:bayonetta:1317795811878371328>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Skitz x1 <:wario:1317800060838219776>",
+      "Ikazuchi x1 <:zero_suit_samus:1317800188315959387>",
+      "RuskiNurd x1 <:ness:1317799203589587015>"
+    ]
+  },
+  "player_51": {
+    "playerData": "Some Shmuck",
+    "character": [
+      "<:duck_hunt:1317797280035770389>",
+      "<:kirby:1317797798598672435>"
+    ],
+    "losses": [
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Demothen x1 <:miifighter:1317799095682994206>",
+      "Arrendajo x1 <:ridley:1317799565105303604>"
+    ]
+  },
+  "player_52": {
+    "playerData": "SM|EOTS | Bubbros",
+    "character": [],
+    "losses": [
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
+    ]
+  },
+  "player_53": {
+    "playerData": "Zephiel",
+    "character": [
+      "<:mario:1317798022016401440>"
+    ],
+    "losses": [
+      "SloppyJoe x2 <:greninja:1317797437615640627>",
+      "Arrendajo x1 <:ridley:1317799565105303604>",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "JAMA x1 <:link:1317797818320293948>"
+    ]
+  },
+  "player_54": {
+    "playerData": "Lynxical",
+    "character": [
+      "<:pyra:1317797481534193765>"
+    ],
+    "losses": [
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "KOM x1 <:peach:1317799378982928454>",
+      "E_01 x1 <:byleth:1317796530673025034>",
+      "jonhy x1 <:roy:1317799702414098462><:sephiroth:1317799767472082944>"
+    ]
+  },
+  "player_55": {
+    "playerData": "Mr Officer Man Cop",
+    "character": [
+      "<:king_k_rool:1317797780114374777>"
+    ],
+    "losses": [
+      "Skinny the Pooh x2 <:mario:1317798022016401440>",
+      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
+      "brandygege x1 ",
+      "WSU | Azael x1 ",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>"
+    ]
+  },
+  "player_56": {
+    "playerData": "Mr.C",
+    "character": [
+      "<:lucina:1317797932845502485>",
+      "<:pyra:1317797481534193765>"
+    ],
+    "losses": [
+      "Nimble x1 ",
+      "Smithy x1 ",
+      "Vaeyguh (Houston) x1 ",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Zohar x1 ",
+      "KennyG x1 <:greninja:1317797437615640627>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Bacon x1 ",
+      "Arrendajo x1 <:ridley:1317799565105303604>",
+      "Suit (Houston) x1 <:pyra:1317797481534193765><:rob:1317799587443900416>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
+    ]
+  },
+  "player_57": {
+    "playerData": "GCU | Aggz",
+    "character": [],
+    "losses": [
+      "koda x1 ",
+      "Zie x1 <:palutena:1317799306488447047>"
+    ]
+  },
+  "player_58": {
+    "playerData": "#hellnaw",
+    "character": ["<:wario:1317800060838219776>"],
+    "losses": [
+      "Kyle x2 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Kusanagi x1 <:cloud:1317797012300890202><:richter:1317799542955180072>",
+      "Blook x1 <:ridley:1317799565105303604><:samus:1317799746206699581>",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
+      "PeachFuzz x1 <:rob:1317799587443900416>",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "Skinny the Pooh x1 <:mario:1317798022016401440>",
+      "Xillion x1 <:robin:1317799642607390780>",
+      "Cake (Alabama) x1 <:fox:1317797329348333589>",
+      "Rusty x1 <:captain_falcon:1317796964632629250>"
+    ]
+  },
+  "player_59": {
+    "playerData": "SJSU ebs | koda",
+    "character": [],
+    "losses": [
+      "EBS | HLG | Willow x1 ",
+      "Varun5 x1 <:steve:1317799945297985546>"
+    ]
+  },
+  "player_60": {
+    "playerData": "handsome",
+    "character": [
+      "<:lucas:1317797906949869660>",
+      "<:yoshi:1317800114710122557>"
+    ],
+    "losses": [
+      "SCents x2 <:villager:1317800012033298442>",
+      "slowbeau x2 <:luigi:1317797998213726288>",
+      "Hector1962 x2 <:pac_man:1317799245042155645>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Arrendajo x1 <:ridley:1317799565105303604>",
+      "Gmasterbrown x1 <:hero:1317797206195048499><:minmin:1317798209002668114><:snake:1317799858924687381><:steve:1317799945297985546><:wii_fit_trainer:1317800039728287795>",
+      "Just.red x1 ",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Vaeyguh (Houston) x1 ",
+      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "Tam x1 <:cloud:1317797012300890202><:piranha_plant:1317799272976224316>"
+    ]
+  },
+  "player_61": {
+    "playerData": "Gmasterbrown",
+    "character": [
+      "<:hero:1317797206195048499>",
+      "<:minmin:1317798209002668114>",
+      "<:snake:1317799858924687381>",
+      "<:steve:1317799945297985546>",
+      "<:wii_fit_trainer:1317800039728287795>"
+    ],
+    "losses": [
+      "Kusanagi x1 <:cloud:1317797012300890202><:richter:1317799542955180072>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "Exalt x1 <:ken:1317797721364758610>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>"
+    ]
+  },
+  "player_62": {
+    "playerData": "slowbeau",
+    "character": [
+      "<:luigi:1317797998213726288>"
+    ],
+    "losses": [
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "petebr0 x1 <:mega_man:1317798062135185479>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "KANYEREST??? x1 "
+    ]
+  },
+  "player_63": {
+    "playerData": "Botheryounot",
+    "character": [
+      "<:pyra:1317797481534193765>",
+      "<:zelda:1317800161786855485>"
+    ],
+    "losses": [
+      "UH | Doolos x1 ",
+      "N U T T x1 ",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "NationWide (Lubbock) x1 <:bowser_jr:1317795862574796800><:sephiroth:1317799767472082944>",
+      "KennyG x1 <:greninja:1317797437615640627>",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
+      "Grayson x1 <:rob:1317799587443900416>",
+      "Daveong x1 <:steve:1317799945297985546>"
+    ]
+  },
+  "player_64": {
+    "playerData": "Exalt",
+    "character": [
+      "<:ken:1317797721364758610>"
+    ],
+    "losses": [
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "KANYEREST??? x1 ",
+      "Usagi x1 <:zelda:1317800161786855485>"
+    ]
+  },
+  "player_65": {
+    "playerData": "HLG | maxkangmario",
+    "character": [],
+    "losses": [
+      "Wheezer x1 <:kazuya:1317797698929168495>",
+      "MUOH | Lunar_ x1 ",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "RuskiNurd x1 <:ness:1317799203589587015>"
+    ]
+  },
+  "player_66": {
+    "playerData": "Demothen",
+    "character": [
+      "<:miifighter:1317799095682994206>"
+    ],
+    "losses": [
+      "ICeless x2 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Guy x1 <:kazuya:1317797698929168495>",
+      "Ventis x1 <:joker:1317797677454327859>",
+      "Mr. Science x1 <:ken:1317797721364758610>",
+      "Inku x1 <:captain_falcon:1317796964632629250>"
+    ]
+  },
+  "player_67": {
     "playerData": "Donald",
     "character": [
       "<:miisword:1317799156949192736>"
@@ -557,53 +1139,51 @@
       "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
-  "player_38": {
-    "playerData": "KoopaKiddo",
+  "player_68": {
+    "playerData": "SloppyJoe",
     "character": [
-      "<:bowser_jr:1317795862574796800>"
+      "<:greninja:1317797437615640627>"
     ],
     "losses": [
-      "boundless x2 <:ness:1317799203589587015>",
-      "Makloud x2 <:fox:1317797329348333589>",
-      "SCents x1 <:villager:1317800012033298442>",
+      "JAMA x5 <:link:1317797818320293948>",
+      "KennyG x2 <:greninja:1317797437615640627>",
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
       "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "aurorasksk x1 <:bayonetta:1317795811878371328>",
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
-      "Skitz x1 <:wario:1317800060838219776>",
-      "Ikazuchi x1 <:zero_suit_samus:1317800188315959387>",
-      "RuskiNurd x1 <:ness:1317799203589587015>"
+      "Nimble x1 ",
+      "Brax (Lubbock) x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>"
     ]
   },
-  "player_39": {
-    "playerData": "Lynxical",
+  "player_69": {
+    "playerData": "Warguts | Flare",
+    "character": [],
+    "losses": [
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>",
+      "SCents x1 <:villager:1317800012033298442>"
+    ]
+  },
+  "player_70": {
+    "playerData": "Redwood",
+    "character": [],
+    "losses": [
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "JAMA x1 <:link:1317797818320293948>"
+    ]
+  },
+  "player_71": {
+    "playerData": "Kusanagi",
     "character": [
-      "<:pyra:1317797481534193765>"
+      "<:cloud:1317797012300890202>",
+      "<:richter:1317799542955180072>"
     ],
     "losses": [
-      "E_01 x1 <:byleth:1317796530673025034>",
-      "jonhy x1 <:roy:1317799702414098462><:sephiroth:1317799767472082944>"
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
-  "player_40": {
-    "playerData": "Heartbreaker556",
-    "character": [
-      "<:meta_knight:1317798084067201114>"
-    ],
-    "losses": [
-      "Chef x1 <:falco:1317797304287367248>",
-      "Skeleton x1 <:kazuya:1317797698929168495>",
-      "Makloud x1 <:fox:1317797329348333589>",
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
-      "Varun5 x1 <:steve:1317799945297985546>",
-      "Cake (Alabama) x1 <:fox:1317797329348333589>",
-      "KennyG x1 <:greninja:1317797437615640627>",
-      "jonhy x1 <:roy:1317799702414098462><:sephiroth:1317799767472082944>",
-      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
-      "Grayson x1 <:rob:1317799587443900416>"
-    ]
-  },
-  "player_41": {
+  "player_72": {
     "playerData": "MB",
     "character": [
       "<:little_mac:1317797836552798248>",
@@ -611,25 +1191,17 @@
     ],
     "losses": [
       "KoopaKiddo x2 <:bowser_jr:1317795862574796800>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "Arrendajo x1 <:ridley:1317799565105303604>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Some Shmuck x1 <:duck_hunt:1317797280035770389><:kirby:1317797798598672435>",
       "Lisp (Lubbock) x1 <:steve:1317799945297985546>",
       "Varun5 x1 <:steve:1317799945297985546>",
       "Foami x1 <:joker:1317797677454327859>",
       "Makloud x1 <:fox:1317797329348333589>"
     ]
   },
-  "player_42": {
-    "playerData": "SloppyJoe",
-    "character": [
-      "<:greninja:1317797437615640627>"
-    ],
-    "losses": [
-      "JAMA x4 <:link:1317797818320293948>",
-      "Nimble x1 ",
-      "Brax (Lubbock) x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
-      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>"
-    ]
-  },
-  "player_43": {
+  "player_73": {
     "playerData": "jonhy",
     "character": [
       "<:roy:1317799702414098462>",
@@ -640,7 +1212,24 @@
       "Skitz x1 <:wario:1317800060838219776>"
     ]
   },
-  "player_44": {
+  "player_74": {
+    "playerData": "Nutmeg",
+    "character": [
+      "<:sheik:1317799787030118420>"
+    ],
+    "losses": [
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "Redwood x1 ",
+      "King_Kiwi x1 <:toon_link:1317799992206823464><:greninja:1317797437615640627>",
+      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>",
+      "E_01 x1 <:byleth:1317796530673025034>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
+      "Cake (Alabama) x1 <:fox:1317797329348333589>"
+    ]
+  },
+  "player_75": {
     "playerData": "Beastly",
     "character": [
       "<:diddy_kong:1317797163643703357>"
@@ -650,7 +1239,17 @@
       "Skeleton x1 <:kazuya:1317797698929168495>"
     ]
   },
-  "player_45": {
+  "player_76": {
+    "playerData": "EBS | HLG | Willow",
+    "character": [],
+    "losses": [
+      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>",
+      "CJFrozen x1 <:snake:1317799858924687381>",
+      "Grayson x1 <:rob:1317799587443900416>",
+      "Chef x1 <:falco:1317797304287367248>"
+    ]
+  },
+  "player_77": {
     "playerData": "Lazarus",
     "character": [
       "<:kazuya:1317797698929168495>",
@@ -664,19 +1263,45 @@
       "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
     ]
   },
-  "player_46": {
+  "player_78": {
+    "playerData": "Nimble",
+    "character": [],
+    "losses": [
+      "ZekeReds x1 ",
+      "triscuit x1 <:pac_man:1317799245042155645>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Varun5 x1 <:steve:1317799945297985546>"
+    ]
+  },
+  "player_79": {
+    "playerData": "Guy",
+    "character": [
+      "<:kazuya:1317797698929168495>"
+    ],
+    "losses": [
+      "SJSU ebs | koda x1 ",
+      "Zayn x1 ",
+      "Bent x1 <:sonic:1317799903258345544>",
+      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>",
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "Velta (Houston) x1 <:mega_man:1317798062135185479>"
+    ]
+  },
+  "player_80": {
     "playerData": "Bent",
     "character": [
       "<:sonic:1317799903258345544>"
     ],
     "losses": [
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "DM x1 <:pikachu:1317799459224031274><:pyra:1317797481534193765>",
       "Skitz x1 <:wario:1317800060838219776>",
       "Skeleton x1 <:kazuya:1317797698929168495>",
       "petebr0 x1 <:mega_man:1317798062135185479>",
       "Skinny the Pooh x1 <:mario:1317798022016401440>"
     ]
   },
-  "player_47": {
+  "player_81": {
     "playerData": "Jeckup",
     "character": [
       "<:ike:1317797539898064937>"
@@ -690,7 +1315,98 @@
       "Skinny the Pooh x1 <:mario:1317798022016401440>"
     ]
   },
-  "player_48": {
+  "player_82": {
+    "playerData": "ZFN OH LAWD",
+    "character": [
+      "<:ganondorf:1317797359400390746>"
+    ],
+    "losses": [
+      "#hellnaw x1 ",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Tam x1 <:cloud:1317797012300890202><:piranha_plant:1317799272976224316>",
+      "Spin (cen tex) x1 <:duck_hunt:1317797280035770389>",
+      "boundless x1 <:ness:1317799203589587015>",
+      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>",
+      "DM x1 <:pikachu:1317799459224031274><:pyra:1317797481534193765>",
+      "JeJaJeJa x1 <:kirby:1317797798598672435>",
+      "KANYEREST??? x1 ",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "KennyG x1 <:greninja:1317797437615640627>",
+      "OMJ x1 <:sonic:1317799903258345544>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
+    ]
+  },
+  "player_83": {
+    "playerData": "Tam",
+    "character": [
+      "<:cloud:1317797012300890202>",
+      "<:piranha_plant:1317799272976224316>"
+    ],
+    "losses": [
+      "Shigura (Lubbock) x2 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "Chr0me x1 <:falco:1317797304287367248>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
+    ]
+  },
+  "player_84": {
+    "playerData": "Tywo2",
+    "character": [
+      "<:bayonetta:1317795811878371328>",
+      "<:corrin:1317797035994255391>"
+    ],
+    "losses": [
+      "hobgoblin (dr. shrimp puerto rico) x3 <:ridley:1317799565105303604>",
+      "Demothen x2 <:miifighter:1317799095682994206>",
+      "Seb x2 ",
+      "Osh9 (Lubbock) x2 <:miifighter:1317799095682994206>",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
+      "Some Shmuck x1 <:duck_hunt:1317797280035770389><:kirby:1317797798598672435>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Eromath x1 ",
+      "cyanzura x1 ",
+      "GCU | Aggz x1 ",
+      "Zohar x1 ",
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
+      "Gmasterbrown x1 <:hero:1317797206195048499><:minmin:1317798209002668114><:snake:1317799858924687381><:steve:1317799945297985546><:wii_fit_trainer:1317800039728287795>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "Navs •-• x1 <:pokemon_trainer:1317799515238957109>",
+      "Sohkah x1 ",
+      "Skitz x1 <:wario:1317800060838219776>"
+    ]
+  },
+  "player_85": {
+    "playerData": "Yufine",
+    "character": [],
+    "losses": [
+      "JC WSU | Trejohn6 x1 ",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
+    ]
+  },
+  "player_86": {
+    "playerData": "WSU | Azael",
+    "character": [],
+    "losses": [
+      "PeachFuzz x1 <:rob:1317799587443900416>",
+      "Gravity x1 "
+    ]
+  },
+  "player_87": {
+    "playerData": "petebr0",
+    "character": [
+      "<:mega_man:1317798062135185479>"
+    ],
+    "losses": [
+      "Seb x1 ",
+      "Sotelo x1 ",
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "Müiro x1 "
+    ]
+  },
+  "player_88": {
     "playerData": "1999ToyotaCorolla",
     "character": [],
     "losses": [
@@ -698,7 +1414,7 @@
       "zIP (Austin) x1 <:zero_suit_samus:1317800188315959387>"
     ]
   },
-  "player_49": {
+  "player_89": {
     "playerData": "PSploshe",
     "character": [],
     "losses": [
@@ -706,93 +1422,81 @@
       "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
     ]
   },
-  "player_50": {
-    "playerData": "Gmasterbrown",
+  "player_90": {
+    "playerData": "OurLord&SaviorRamenCat",
     "character": [
-      "<:hero:1317797206195048499>",
-      "<:minmin:1317798209002668114>",
-      "<:snake:1317799858924687381>",
-      "<:steve:1317799945297985546>",
-      "<:wii_fit_trainer:1317800039728287795>"
+      "<:mario:1317798022016401440>"
     ],
     "losses": [
-      "Makloud x1 <:fox:1317797329348333589>",
-      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
-      "Exalt x1 <:ken:1317797721364758610>",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
-      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "Arrendajo x4 <:ridley:1317799565105303604>",
+      "JAMA x3 <:link:1317797818320293948>",
+      "hobgoblin (dr. shrimp puerto rico) x2 <:ridley:1317799565105303604>",
+      "Zephiel x2 <:mario:1317798022016401440>",
+      "SloppyJoe x2 <:greninja:1317797437615640627>",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "Some Shmuck x1 <:duck_hunt:1317797280035770389><:kirby:1317797798598672435>",
+      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
+      "Zohar x1 "
+    ]
+  },
+  "player_91": {
+    "playerData": "G-Dawg",
+    "character": [],
+    "losses": [
+      "Chef x1 <:falco:1317797304287367248>",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>"
+    ]
+  },
+  "player_92": {
+    "playerData": "MUOH | Mindles_Man",
+    "character": [],
+    "losses": [
+      "Sogoodpop x1 <:wii_fit_trainer:1317800039728287795>",
+      "Avien x1 <:minmin:1317798209002668114>"
+    ]
+  },
+  "player_93": {
+    "playerData": "Blook",
+    "character": [
+      "<:ridley:1317799565105303604>",
+      "<:samus:1317799746206699581>"
+    ],
+    "losses": [
+      "ash x1 <:dark_samus:1317797134690553856><:samus:1317799746206699581>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Chef x1 <:falco:1317797304287367248>",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
+    ]
+  },
+  "player_94": {
+    "playerData": "MXC | mason",
+    "character": [],
+    "losses": [
+      "Stratas x1 ",
+      "Cybil x1 <:falco:1317797304287367248>"
+    ]
+  },
+  "player_95": {
+    "playerData": "MUOH | Lunar_",
+    "character": [],
+    "losses": [
+      "Straw Hat | Hoo D. Nii x1 ",
       "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>"
     ]
   },
-  "player_51": {
-    "playerData": "boundless",
-    "character": [
-      "<:ness:1317799203589587015>"
-    ],
-    "losses": [
-      "SCents x1 <:villager:1317800012033298442>",
-      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
-      "Mr Officer Man Cop x1 <:king_k_rool:1317797780114374777>",
-      "brandygege x1 ",
-      "Varun5 x1 <:steve:1317799945297985546>",
-      "Jayce x1 <:zelda:1317800161786855485><:marth:1317798040748298310>"
-    ]
-  },
-  "player_52": {
-    "playerData": "Nova",
-    "character": [
-      "<:hero:1317797206195048499>",
-      "<:inkling:1317797557270872114>"
-    ],
-    "losses": [
-      "Chef x1 <:falco:1317797304287367248>",
-      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
-    ]
-  },
-  "player_53": {
-    "playerData": "#hellnaw",
-    "character": [],
-    "losses": [
-      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
-      "PeachFuzz x1 <:rob:1317799587443900416>",
-      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
-      "Varun5 x1 <:steve:1317799945297985546>",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "Skinny the Pooh x1 <:mario:1317798022016401440>",
-      "Xillion x1 <:robin:1317799642607390780>",
-      "Cake (Alabama) x1 <:fox:1317797329348333589>",
-      "Rusty x1 <:captain_falcon:1317796964632629250>",
-      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>"
-    ]
-  },
-  "player_54": {
-    "playerData": "Xillion",
-    "character": [
-      "<:robin:1317799642607390780>"
-    ],
-    "losses": [
-      "AZ x2 <:wolf:1317800080543060009><:roy:1317799702414098462>",
-      "Jayce x1 <:zelda:1317800161786855485><:marth:1317798040748298310>",
-      "Varun5 x1 <:steve:1317799945297985546>",
-      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
-      "Skeleton x1 <:kazuya:1317797698929168495>"
-    ]
-  },
-  "player_55": {
-    "playerData": "KANYEREST???",
-    "character": [],
-    "losses": [
-      "Hector1962 x1 <:pac_man:1317799245042155645>",
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
-    ]
-  },
-  "player_56": {
+  "player_96": {
     "playerData": "D-masked",
     "character": [
       "<:toon_link:1317799992206823464>"
     ],
     "losses": [
       "Foami x2 <:joker:1317797677454327859>",
+      "Warguts | Flare x1 ",
+      "Warguts | Morganssch x1 ",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "KennyG x1 <:greninja:1317797437615640627>",
       "Seb x1 ",
       "Alarmed Mantis x1 <:ridley:1317799565105303604>",
       "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
@@ -801,23 +1505,68 @@
       "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>"
     ]
   },
-  "player_57": {
-    "playerData": "slowbeau",
+  "player_97": {
+    "playerData": "Little-Video",
     "character": [
-      "<:luigi:1317797998213726288>"
+      "<:simon:1317799834245267466>"
     ],
     "losses": [
-      "Makloud x1 <:fox:1317797329348333589>",
-      "KANYEREST??? x1 "
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "Inku x1 <:captain_falcon:1317796964632629250>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "RuskiNurd x1 <:ness:1317799203589587015>"
     ]
   },
-  "player_58": {
+  "player_98": {
+    "playerData": "SKE | NU | SpringyL",
+    "character": [],
+    "losses": [
+      "Cybil x1 <:falco:1317797304287367248>",
+      "Nexus (SoCal) x1 "
+    ]
+  },
+  "player_99": {
+    "playerData": "KANYEREST???",
+    "character": [],
+    "losses": [
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
+    ]
+  },
+  "player_100": {
+    "playerData": "Denti",
+    "character": [
+      "<:palutena:1317799306488447047>"
+    ],
+    "losses": [
+      "Xillion x2 <:robin:1317799642607390780>",
+      "Blook x1 <:ridley:1317799565105303604><:samus:1317799746206699581>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Yusuf x1 ",
+      "Stealth_Pilot (Minnesota) x1 <:bowser:1317795835576193137>",
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Zanryo x1 <:wolf:1317800080543060009>",
+      "Grayson x1 <:rob:1317799587443900416>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
+    ]
+  },
+  "player_101": {
     "playerData": "Usagi",
     "character": [
       "<:zelda:1317800161786855485>"
     ],
     "losses": [
       "Grapezard X x2 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Multi (Ohio) x1 <:king_dedede:1317797742273232938><:link:1317797818320293948>",
+      "MOB | Loftz x1 ",
+      "Seb x1 ",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
       "Makloud x1 <:fox:1317797329348333589>",
       "Lowestrain84 x1 <:mario:1317798022016401440>",
       "slowbeau x1 <:luigi:1317797998213726288>",
@@ -832,7 +1581,54 @@
       "Laboon x1 <:fox:1317797329348333589>"
     ]
   },
-  "player_59": {
+  "player_102": {
+    "playerData": "ZekeReds",
+    "character": [],
+    "losses": [
+      "TWITCHY! x1 <:isabelle:1317797578674278442>",
+      "AnthonyIsntCool x1 <:cloud:1317797012300890202>",
+      "ShiNe x1 ",
+      "RuskiNurd x1 <:ness:1317799203589587015>"
+    ]
+  },
+  "player_103": {
+    "playerData": "Elib",
+    "character": [
+      "<:falco:1317797304287367248>",
+      "<:isabelle:1317797578674278442>"
+    ],
+    "losses": [
+      "Sotelo x1 ",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "PoisonJam x1 <:kazuya:1317797698929168495>",
+      "charszum x1 ",
+      "petebr0 x1 <:mega_man:1317798062135185479>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "DangerousFreya x1 <:joker:1317797677454327859>",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
+      "Seb x1 ",
+      "Makloud x1 <:fox:1317797329348333589>"
+    ]
+  },
+  "player_104": {
+    "playerData": "Inku",
+    "character": [
+      "<:captain_falcon:1317796964632629250>"
+    ],
+    "losses": [
+      "Little-Video x1 <:simon:1317799834245267466>",
+      "Kusanagi x1 <:cloud:1317797012300890202><:richter:1317799542955180072>",
+      "GoodManDan x1 ",
+      "SM | Silcy x1 ",
+      "Usagi x1 <:zelda:1317800161786855485>",
+      "Skeleton x1 <:kazuya:1317797698929168495>",
+      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
+      "Makloud x1 <:fox:1317797329348333589>"
+    ]
+  },
+  "player_105": {
     "playerData": "Jayce",
     "character": [
       "<:zelda:1317800161786855485>",
@@ -847,19 +1643,18 @@
       "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>"
     ]
   },
-  "player_60": {
-    "playerData": "Nutmeg",
+  "player_106": {
+    "playerData": "ash",
     "character": [
-      "<:sheik:1317799787030118420>"
+      "<:dark_samus:1317797134690553856>",
+      "<:samus:1317799746206699581>"
     ],
     "losses": [
-      "E_01 x1 <:byleth:1317796530673025034>",
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
-      "Cake (Alabama) x1 <:fox:1317797329348333589>"
+      "Nova x1 <:hero:1317797206195048499><:inkling:1317797557270872114>",
+      "Chef x1 <:falco:1317797304287367248>"
     ]
   },
-  "player_61": {
+  "player_107": {
     "playerData": "aurorasksk",
     "character": [
       "<:bayonetta:1317795811878371328>"
@@ -869,7 +1664,7 @@
       "Beastly x1 <:diddy_kong:1317797163643703357>"
     ]
   },
-  "player_62": {
+  "player_108": {
     "playerData": "Ados",
     "character": [
       "<:Terry:1317799966881611776>"
@@ -879,50 +1674,58 @@
       "jonhy x1 <:roy:1317799702414098462><:sephiroth:1317799767472082944>"
     ]
   },
-  "player_63": {
-    "playerData": "Elib",
+  "player_109": {
+    "playerData": "Chr0me",
     "character": [
-      "<:falco:1317797304287367248>",
-      "<:isabelle:1317797578674278442>"
+      "<:falco:1317797304287367248>"
     ],
     "losses": [
-      "DangerousFreya x1 <:joker:1317797677454327859>",
-      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
-      "Seb x1 ",
-      "Makloud x1 <:fox:1317797329348333589>"
-    ]
-  },
-  "player_64": {
-    "playerData": "Tywo2",
-    "character": [
-      "<:bayonetta:1317795811878371328>",
-      "<:corrin:1317797035994255391>"
-    ],
-    "losses": [
-      "Seb x2 ",
-      "Osh9 (Lubbock) x2 <:miifighter:1317799095682994206>",
-      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
-      "Gmasterbrown x1 <:hero:1317797206195048499><:minmin:1317798209002668114><:snake:1317799858924687381><:steve:1317799945297985546><:wii_fit_trainer:1317800039728287795>",
+      "#hellnaw x2 ",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
       "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "Demothen x1 <:miifighter:1317799095682994206>",
-      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "Navs •-• x1 <:pokemon_trainer:1317799515238957109>",
-      "Sohkah x1 ",
-      "Skitz x1 <:wario:1317800060838219776>"
+      "Exalt x1 <:ken:1317797721364758610>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>"
     ]
   },
-  "player_65": {
-    "playerData": "Mr.C",
+  "player_110": {
+    "playerData": "Smithy",
+    "character": [],
+    "losses": [
+      "Zayn x1 ",
+      "TWITCHY! x1 <:isabelle:1317797578674278442>"
+    ]
+  },
+  "player_111": {
+    "playerData": "N U T T",
+    "character": [],
+    "losses": [
+      "DM x1 <:pikachu:1317799459224031274><:pyra:1317797481534193765>",
+      "ShiNe x1 "
+    ]
+  },
+  "player_112": {
+    "playerData": "King_Kiwi",
     "character": [
-      "<:lucina:1317797932845502485>",
-      "<:pyra:1317797481534193765>"
+      "<:toon_link:1317799992206823464>",
+      "<:greninja:1317797437615640627>"
     ],
     "losses": [
-      "Suit (Houston) x1 <:pyra:1317797481534193765><:rob:1317799587443900416>",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
+      "boundless x2 <:ness:1317799203589587015>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "SloppyJoe x1 <:greninja:1317797437615640627>"
     ]
   },
-  "player_66": {
+  "player_113": {
+    "playerData": "Straw Hat | Hoo D. Nii",
+    "character": [],
+    "losses": [
+      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
+    ]
+  },
+  "player_114": {
     "playerData": "Sailor!",
     "character": [
       "<:luigi:1317797998213726288>",
@@ -933,152 +1736,22 @@
       "Hector1962 x1 <:pac_man:1317799245042155645>"
     ]
   },
-  "player_67": {
-    "playerData": "SheerCold",
-    "character": [],
-    "losses": [
-      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
-      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>"
-    ]
-  },
-  "player_68": {
-    "playerData": "Alarmed Mantis",
-    "character": [
-      "<:ridley:1317799565105303604>"
-    ],
-    "losses": [
-      "Lowestrain84 x1 <:mario:1317798022016401440>",
-      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>"
-    ]
-  },
-  "player_69": {
-    "playerData": "Zephiel",
-    "character": [
-      "<:mario:1317798022016401440>"
-    ],
-    "losses": [
-      "SloppyJoe x1 <:greninja:1317797437615640627>",
-      "JAMA x1 <:link:1317797818320293948>"
-    ]
-  },
-  "player_70": {
-    "playerData": "handsome",
-    "character": [
-      "<:lucas:1317797906949869660>",
-      "<:yoshi:1317800114710122557>"
-    ],
-    "losses": [
-      "Makloud x1 <:fox:1317797329348333589>",
-      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
-      "slowbeau x1 <:luigi:1317797998213726288>",
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "Tam x1 <:cloud:1317797012300890202><:piranha_plant:1317799272976224316>",
-      "Hector1962 x1 <:pac_man:1317799245042155645>"
-    ]
-  },
-  "player_71": {
-    "playerData": "Inku",
-    "character": [
-      "<:captain_falcon:1317796964632629250>"
-    ],
-    "losses": [
-      "Usagi x1 <:zelda:1317800161786855485>",
-      "Skeleton x1 <:kazuya:1317797698929168495>",
-      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
-      "Hector1962 x1 <:pac_man:1317799245042155645>",
-      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
-      "Makloud x1 <:fox:1317797329348333589>"
-    ]
-  },
-  "player_72": {
-    "playerData": "Mr Officer Man Cop",
-    "character": [
-      "<:king_k_rool:1317797780114374777>"
-    ],
-    "losses": [
-      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
-      "Skinny the Pooh x1 <:mario:1317798022016401440>"
-    ]
-  },
-  "player_73": {
-    "playerData": "Exalt",
-    "character": [
-      "<:ken:1317797721364758610>"
-    ],
-    "losses": [
-      "KANYEREST??? x1 ",
-      "Usagi x1 <:zelda:1317800161786855485>"
-    ]
-  },
-  "player_74": {
-    "playerData": "brandygege",
-    "character": [],
-    "losses": [
-      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
-      "Renegade (San Antonio) x1 <:snake:1317799858924687381>"
-    ]
-  },
-  "player_75": {
-    "playerData": "NoTap",
-    "character": [
-      "<:roy:1317799702414098462>"
-    ],
-    "losses": [
-      "Hector1962 x1 <:pac_man:1317799245042155645>",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
-    ]
-  },
-  "player_76": {
-    "playerData": "DoritoBandito",
-    "character": [
-      "<:mario:1317798022016401440>"
-    ],
-    "losses": [
-      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
-    ]
-  },
-  "player_77": {
-    "playerData": "Sohkah",
-    "character": [],
-    "losses": [
-      "Gelato (Lubbock) x1 <:ken:1317797721364758610>",
-      "Thuy (Peter) x1 <:bowser:1317795835576193137>"
-    ]
-  },
-  "player_78": {
-    "playerData": "DangerousFreya",
-    "character": [
-      "<:joker:1317797677454327859>"
-    ],
-    "losses": [
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
-      "Thuy (Peter) x1 <:bowser:1317795835576193137>"
-    ]
-  },
-  "player_79": {
-    "playerData": "Denti",
-    "character": [
-      "<:palutena:1317799306488447047>"
-    ],
-    "losses": [
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "Zanryo x1 <:wolf:1317800080543060009>",
-      "Grayson x1 <:rob:1317799587443900416>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "Xillion x1 <:robin:1317799642607390780>",
-      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
-    ]
-  },
-  "player_80": {
+  "player_115": {
     "playerData": "Ikazuchi",
     "character": [
       "<:zero_suit_samus:1317800188315959387>"
     ],
     "losses": [
       "Foami x2 <:joker:1317797677454327859>",
+      "Just.red x1 ",
+      "Seb x1 ",
+      "D-masked x1 <:toon_link:1317799992206823464>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "UA | Leiarealms x1 ",
+      "PHNM | Frostbyte x1 <:roy:1317799702414098462>",
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "Vaeyguh (Houston) x1 ",
       "Puente x1 <:ness:1317799203589587015>",
       "Gmasterbrown x1 <:hero:1317797206195048499><:minmin:1317798209002668114><:snake:1317799858924687381><:steve:1317799945297985546><:wii_fit_trainer:1317800039728287795>",
       "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
@@ -1089,7 +1762,224 @@
       "PSploshe x1 "
     ]
   },
-  "player_81": {
+  "player_116": {
+    "playerData": "Bacon",
+    "character": [],
+    "losses": [
+      "Zephiel x1 <:mario:1317798022016401440>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Arrendajo x1 <:ridley:1317799565105303604>"
+    ]
+  },
+  "player_117": {
+    "playerData": "SheerCold",
+    "character": [],
+    "losses": [
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>"
+    ]
+  },
+  "player_118": {
+    "playerData": "InCoold (Quirked Up White Boy)",
+    "character": [
+      "<:falco:1317797304287367248>"
+    ],
+    "losses": [
+      "Mr Officer Man Cop x1 <:king_k_rool:1317797780114374777>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>"
+    ]
+  },
+  "player_119": {
+    "playerData": "SM | Silcy",
+    "character": [],
+    "losses": [
+      "SCents x1 <:villager:1317800012033298442>",
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>"
+    ]
+  },
+  "player_120": {
+    "playerData": "Just.red",
+    "character": [],
+    "losses": [
+      "slowbeau x1 <:luigi:1317797998213726288>",
+      "#hellnaw x1 ",
+      "SM | Silcy x1 ",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "AeroLink x1 ",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "Sailor! x1 <:luigi:1317797998213726288><:roy:1317799702414098462>"
+    ]
+  },
+  "player_121": {
+    "playerData": "Eromath",
+    "character": [],
+    "losses": [
+      "Tywo2 x2 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "Navs •-• x2 <:pokemon_trainer:1317799515238957109>",
+      "Redwood x1 ",
+      "Nutmeg x1 <:sheik:1317799787030118420>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "Demothen x1 <:miifighter:1317799095682994206>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "NGO x1 ",
+      "Vaeyguh (Houston) x1 ",
+      "SloppyJoe x1 <:greninja:1317797437615640627>",
+      "Striatum x1 ",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>"
+    ]
+  },
+  "player_122": {
+    "playerData": "NoTap",
+    "character": [
+      "<:roy:1317799702414098462>"
+    ],
+    "losses": [
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
+    ]
+  },
+  "player_123": {
+    "playerData": "Squaffles",
+    "character": [
+      "<:ness:1317799203589587015>"
+    ],
+    "losses": [
+      "Osh9 (Lubbock) x2 <:miifighter:1317799095682994206>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
+      "SPAM x1 <:mr_game_and_watch:1317799184417558599>",
+      "NationWide (Lubbock) x1 <:bowser_jr:1317795862574796800><:sephiroth:1317799767472082944>",
+      "Xillion x1 <:robin:1317799642607390780>",
+      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Denti x1 <:palutena:1317799306488447047>",
+      "Koi x1 <:robin:1317799642607390780>",
+      "LockGX x1 ",
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>"
+    ]
+  },
+  "player_124": {
+    "playerData": "Zanryo",
+    "character": [
+      "<:wolf:1317800080543060009>"
+    ],
+    "losses": [
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "#hellnaw x1 ",
+      "Xillion x1 <:robin:1317799642607390780>",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>"
+    ]
+  },
+  "player_125": {
+    "playerData": "Kople",
+    "character": [],
+    "losses": [
+      "Dark x1 <:fox:1317797329348333589>",
+      "CJFrozen x1 <:snake:1317799858924687381>"
+    ]
+  },
+  "player_126": {
+    "playerData": "Warguts | Morganssch",
+    "character": [],
+    "losses": [
+      "Spin (cen tex) x1 <:duck_hunt:1317797280035770389>",
+      "Skeleton x1 <:kazuya:1317797698929168495>"
+    ]
+  },
+  "player_127": {
+    "playerData": "Mobé",
+    "character": [],
+    "losses": [
+      "Seb x1 ",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "soljah x1 ",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
+    ]
+  },
+  "player_128": {
+    "playerData": "Certly",
+    "character": [
+      "<:samus:1317799746206699581>",
+      "<:dark_samus:1317797134690553856>"
+    ],
+    "losses": [
+      "King_Kiwi x1 <:toon_link:1317799992206823464><:greninja:1317797437615640627>",
+      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "KOM x1 <:peach:1317799378982928454>",
+      "Mr. E (New York) x1 ",
+      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "boundless x1 <:ness:1317799203589587015>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
+    ]
+  },
+  "player_129": {
+    "playerData": "Sohkah",
+    "character": [],
+    "losses": [
+      "Gelato (Lubbock) x1 <:ken:1317797721364758610>",
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>"
+    ]
+  },
+  "player_130": {
+    "playerData": "DangerousFreya",
+    "character": [
+      "<:joker:1317797677454327859>"
+    ],
+    "losses": [
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>"
+    ]
+  },
+  "player_131": {
+    "playerData": "Swift",
+    "character": [],
+    "losses": [
+      "Skitz x1 <:wario:1317800060838219776>",
+      "NationWide (Lubbock) x1 <:bowser_jr:1317795862574796800><:sephiroth:1317799767472082944>"
+    ]
+  },
+  "player_132": {
+    "playerData": "UH | Doolos",
+    "character": [],
+    "losses": [
+      "SBU | vanchy x1 <:mega_man:1317798062135185479>",
+      "OSU | Micro x1 "
+    ]
+  },
+  "player_133": {
+    "playerData": "Laboon",
+    "character": [
+      "<:fox:1317797329348333589>"
+    ],
+    "losses": [
+      "Xillion x1 <:robin:1317799642607390780>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "Foami x1 <:joker:1317797677454327859>"
+    ]
+  },
+  "player_134": {
+    "playerData": "Pleb64:)",
+    "character": [
+      "<:kirby:1317797798598672435>"
+    ],
+    "losses": [
+      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
+      "Nutmeg x1 <:sheik:1317799787030118420>",
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "ShiNe x1 ",
+      "Velta (Houston) x1 <:mega_man:1317798062135185479>",
+      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
+      "SheerCold x1 ",
+      "Gmasterbrown x1 <:hero:1317797206195048499><:minmin:1317798209002668114><:snake:1317799858924687381><:steve:1317799945297985546><:wii_fit_trainer:1317800039728287795>"
+    ]
+  },
+  "player_135": {
     "playerData": "David Banjo",
     "character": [
       "<:banjo_and_kazooie:1317795750176100382>"
@@ -1101,21 +1991,15 @@
       "RuskiNurd x1 <:ness:1317799203589587015>"
     ]
   },
-  "player_82": {
-    "playerData": "Chr0me",
-    "character": [
-      "<:falco:1317797304287367248>"
-    ],
+  "player_136": {
+    "playerData": "Acida",
+    "character": [],
     "losses": [
-      "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "Exalt x1 <:ken:1317797721364758610>",
-      "SCents x1 <:villager:1317800012033298442>",
-      "#hellnaw x1 ",
-      "Thuy (Peter) x1 <:bowser:1317795835576193137>"
+      "Yufine x1 ",
+      "Zie x1 <:palutena:1317799306488447047>"
     ]
   },
-  "player_83": {
+  "player_137": {
     "playerData": "Mr. Science",
     "character": [
       "<:ken:1317797721364758610>"
@@ -1125,33 +2009,7 @@
       "Makloud x1 <:fox:1317797329348333589>"
     ]
   },
-  "player_84": {
-    "playerData": "Little-Video",
-    "character": [
-      "<:simon:1317799834245267466>"
-    ],
-    "losses": [
-      "Lowestrain84 x1 <:mario:1317798022016401440>",
-      "Inku x1 <:captain_falcon:1317796964632629250>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "RuskiNurd x1 <:ness:1317799203589587015>"
-    ]
-  },
-  "player_85": {
-    "playerData": "ZFN OH LAWD",
-    "character": [
-      "<:ganondorf:1317797359400390746>"
-    ],
-    "losses": [
-      "KANYEREST??? x1 ",
-      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
-      "Foami x1 <:joker:1317797677454327859>",
-      "KennyG x1 <:greninja:1317797437615640627>",
-      "OMJ x1 <:sonic:1317799903258345544>",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
-    ]
-  },
-  "player_86": {
+  "player_138": {
     "playerData": "Steg",
     "character": [],
     "losses": [
@@ -1159,7 +2017,33 @@
       "RuskiNurd x1 <:ness:1317799203589587015>"
     ]
   },
-  "player_87": {
+  "player_139": {
+    "playerData": "Rusty",
+    "character": [
+      "<:captain_falcon:1317796964632629250>"
+    ],
+    "losses": [
+      "Gmasterbrown x1 <:hero:1317797206195048499><:minmin:1317798209002668114><:snake:1317799858924687381><:steve:1317799945297985546><:wii_fit_trainer:1317800039728287795>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "PeachFuzz x1 <:rob:1317799587443900416>",
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "Little-Video x1 <:simon:1317799834245267466>",
+      "Jayce x1 <:zelda:1317800161786855485><:marth:1317798040748298310>"
+    ]
+  },
+  "player_140": {
+    "playerData": "Alarmed Mantis",
+    "character": [
+      "<:ridley:1317799565105303604>"
+    ],
+    "losses": [
+      "kaputuncle x1 ",
+      "Gmasterbrown x1 <:hero:1317797206195048499><:minmin:1317798209002668114><:snake:1317799858924687381><:steve:1317799945297985546><:wii_fit_trainer:1317800039728287795>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>"
+    ]
+  },
+  "player_141": {
     "playerData": "Fluff+",
     "character": [
       "<:roy:1317799702414098462>"
@@ -1169,33 +2053,23 @@
       "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
-  "player_88": {
-    "playerData": "Zanryo",
-    "character": [
-      "<:wolf:1317800080543060009>"
-    ],
+  "player_142": {
+    "playerData": "FC | Kuro Ashi",
+    "character": [],
     "losses": [
-      "Xillion x1 <:robin:1317799642607390780>",
-      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>"
+      "TWITCHY! x1 <:isabelle:1317797578674278442>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
     ]
   },
-  "player_89": {
-    "playerData": "Squaffles",
-    "character": [
-      "<:ness:1317799203589587015>"
-    ],
+  "player_143": {
+    "playerData": "TAMU | DM | Meks",
+    "character": [],
     "losses": [
-      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
-      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Denti x1 <:palutena:1317799306488447047>",
-      "Koi x1 <:robin:1317799642607390780>",
-      "LockGX x1 ",
-      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
-      "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>"
+      "Sogoodpop x1 <:wii_fit_trainer:1317800039728287795>",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>"
     ]
   },
-  "player_90": {
+  "player_144": {
     "playerData": "OMJ",
     "character": [
       "<:sonic:1317799903258345544>"
@@ -1205,7 +2079,19 @@
       "PeachFuzz x1 <:rob:1317799587443900416>"
     ]
   },
-  "player_91": {
+  "player_145": {
+    "playerData": "GoodManDan",
+    "character": [],
+    "losses": [
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>",
+      "petebr0 x1 <:mega_man:1317798062135185479>",
+      "Mobé x1 ",
+      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
+      "RuskiNurd x1 <:ness:1317799203589587015>"
+    ]
+  },
+  "player_146": {
     "playerData": "BBoi",
     "character": [],
     "losses": [
@@ -1213,23 +2099,7 @@
       "D-masked x1 <:toon_link:1317799992206823464>"
     ]
   },
-  "player_92": {
-    "playerData": "Sotelo",
-    "character": [],
-    "losses": [
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
-    ]
-  },
-  "player_93": {
-    "playerData": "Nimble",
-    "character": [],
-    "losses": [
-      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
-      "Varun5 x1 <:steve:1317799945297985546>"
-    ]
-  },
-  "player_94": {
+  "player_147": {
     "playerData": "Müiro",
     "character": [],
     "losses": [
@@ -1237,7 +2107,7 @@
       "Bert The Dragon x1 <:captain_falcon:1317796964632629250>"
     ]
   },
-  "player_95": {
+  "player_148": {
     "playerData": "DF8",
     "character": [],
     "losses": [
@@ -1245,20 +2115,7 @@
       "Skeleton x1 <:kazuya:1317797698929168495>"
     ]
   },
-  "player_96": {
-    "playerData": "Cheeks",
-    "character": [
-      "<:cloud:1317797012300890202>",
-      "<:chrom:1317796988384837642>",
-      "<:corrin:1317797035994255391>"
-    ],
-    "losses": [
-      "Ados x1 <:Terry:1317799966881611776>",
-      "Skinny the Pooh x1 <:mario:1317798022016401440>",
-      "Chef x1 <:falco:1317797304287367248>"
-    ]
-  },
-  "player_97": {
+  "player_149": {
     "playerData": "Ventis",
     "character": [
       "<:joker:1317797677454327859>"
@@ -1268,7 +2125,33 @@
       "Osh9 (Lubbock) x1 <:miifighter:1317799095682994206>"
     ]
   },
-  "player_98": {
+  "player_150": {
+    "playerData": "charszum",
+    "character": [],
+    "losses": [
+      "Puffles (Houston) x1 <:young_link:1317800136398864394>",
+      "Mr. E (New York) x1 "
+    ]
+  },
+  "player_151": {
+    "playerData": "Shnoopy",
+    "character": [
+      "<:joker:1317797677454327859>"
+    ],
+    "losses": [
+      "Zohar x1 ",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>"
+    ]
+  },
+  "player_152": {
+    "playerData": "Vfam | Youngbad",
+    "character": [],
+    "losses": [
+      "Makloud x1 <:fox:1317797329348333589>",
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>"
+    ]
+  },
+  "player_153": {
     "playerData": "Koi",
     "character": [
       "<:robin:1317799642607390780>"
@@ -1278,29 +2161,15 @@
       "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>"
     ]
   },
-  "player_99": {
-    "playerData": "OurLord&SaviorRamenCat",
-    "character": [
-      "<:mario:1317798022016401440>"
-    ],
+  "player_154": {
+    "playerData": "MOB | Loftz",
+    "character": [],
     "losses": [
-      "JAMA x2 <:link:1317797818320293948>",
-      "Zephiel x1 <:mario:1317798022016401440>",
-      "SloppyJoe x1 <:greninja:1317797437615640627>",
-      "Arrendajo x1 <:ridley:1317799565105303604>"
+      "Makloud x1 <:fox:1317797329348333589>",
+      "Rob. (Michigan) x1 <:snake:1317799858924687381>"
     ]
   },
-  "player_100": {
-    "playerData": "petebr0",
-    "character": [
-      "<:mega_man:1317798062135185479>"
-    ],
-    "losses": [
-      "DoritoBandito x1 <:mario:1317798022016401440>",
-      "Müiro x1 "
-    ]
-  },
-  "player_101": {
+  "player_155": {
     "playerData": "Navs •-•",
     "character": [
       "<:pokemon_trainer:1317799515238957109>"
@@ -1312,7 +2181,7 @@
       "Striatum x1 "
     ]
   },
-  "player_102": {
+  "player_156": {
     "playerData": "LockGX",
     "character": [],
     "losses": [
@@ -1320,7 +2189,7 @@
       "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>"
     ]
   },
-  "player_103": {
+  "player_157": {
     "playerData": "Broico",
     "character": [
       "<:sora:1317799924754288690>"
@@ -1330,242 +2199,15 @@
       "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
-  "player_104": {
-    "playerData": "Demothen",
-    "character": [
-      "<:miifighter:1317799095682994206>"
-    ],
-    "losses": [
-      "Guy x1 <:kazuya:1317797698929168495>",
-      "Ventis x1 <:joker:1317797677454327859>",
-      "Mr. Science x1 <:ken:1317797721364758610>",
-      "Inku x1 <:captain_falcon:1317796964632629250>"
-    ]
-  },
-  "player_105": {
-    "playerData": "One Crit Man",
-    "character": [
-      "<:robin:1317799642607390780>"
-    ],
-    "losses": [
-      "Thuy (Peter) x1 <:bowser:1317795835576193137>",
-      "Gelato (Lubbock) x1 <:ken:1317797721364758610>"
-    ]
-  },
-  "player_106": {
-    "playerData": "Conthor",
-    "character": [],
-    "losses": [
-      "KoopaKiddo x2 <:bowser_jr:1317795862574796800>",
-      "boundless x1 <:ness:1317799203589587015>",
-      "Beastly x1 <:diddy_kong:1317797163643703357>",
-      "cactus-1 x1 <:diddy_kong:1317797163643703357>",
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
-      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>"
-    ]
-  },
-  "player_107": {
-    "playerData": "acE",
-    "character": [
-      "<:jigglypuff:1317797605517824081>"
-    ],
-    "losses": [
-      "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
-      "SCents x1 <:villager:1317800012033298442>"
-    ]
-  },
-  "player_108": {
-    "playerData": "amiZa",
-    "character": [
-      "<:snake:1317799858924687381>",
-      "<:falco:1317797304287367248>"
-    ],
-    "losses": [
-      "boundless x1 <:ness:1317799203589587015>",
-      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>",
-      "David Banjo x1 <:banjo_and_kazooie:1317795750176100382>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
-      "Foami x1 <:joker:1317797677454327859>",
-      "zIP (Austin) x1 <:zero_suit_samus:1317800188315959387>"
-    ]
-  },
-  "player_109": {
-    "playerData": "Gelato",
-    "character": [],
-    "losses": [
-      "SheerCold x1 ",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
-    ]
-  },
-  "player_110": {
-    "playerData": "Kaby",
-    "character": [
-      "<:joker:1317797677454327859>"
-    ],
-    "losses": [
-      "NoTap x1 <:roy:1317799702414098462>",
-      "Lowestrain84 x1 <:mario:1317798022016401440>"
-    ]
-  },
-  "player_111": {
-    "playerData": "Rusty",
-    "character": [
-      "<:captain_falcon:1317796964632629250>"
-    ],
-    "losses": [
-      "PeachFuzz x1 <:rob:1317799587443900416>",
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "Little-Video x1 <:simon:1317799834245267466>",
-      "Jayce x1 <:zelda:1317800161786855485><:marth:1317798040748298310>"
-    ]
-  },
-  "player_112": {
-    "playerData": "Puente",
-    "character": [
-      "<:ness:1317799203589587015>"
-    ],
-    "losses": [
-      "Usagi x1 <:zelda:1317800161786855485>",
-      "Zoranaz x1 <:pyra:1317797481534193765>"
-    ]
-  },
-  "player_113": {
-    "playerData": "N",
-    "character": [
-      "<:ken:1317797721364758610>"
-    ],
-    "losses": [
-      "petebr0 x1 <:mega_man:1317798062135185479>",
-      "Chef x1 <:falco:1317797304287367248>"
-    ]
-  },
-  "player_114": {
-    "playerData": "Striatum",
-    "character": [],
-    "losses": [
-      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
-      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>"
-    ]
-  },
-  "player_115": {
-    "playerData": "Tam",
-    "character": [
-      "<:cloud:1317797012300890202>",
-      "<:piranha_plant:1317799272976224316>"
-    ],
-    "losses": [
-      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
-      "Chr0me x1 <:falco:1317797304287367248>",
-      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
-    ]
-  },
-  "player_116": {
-    "playerData": "AeroLink",
-    "character": [],
-    "losses": [
-      "Alarmed Mantis x1 <:ridley:1317799565105303604>",
-      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>"
-    ]
-  },
-  "player_117": {
-    "playerData": "Jelani3099",
-    "character": [
-      "<:pikachu:1317799459224031274>"
-    ],
-    "losses": [
-      "#hellnaw x2 ",
-      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
-      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
-      "Xillion x1 <:robin:1317799642607390780>",
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "Skitz x1 <:wario:1317800060838219776>",
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
-      "Jayce x1 <:zelda:1317800161786855485><:marth:1317798040748298310>",
-      "Little-Video x1 <:simon:1317799834245267466>"
-    ]
-  },
-  "player_118": {
-    "playerData": "KingKittan",
-    "character": [],
-    "losses": [
-      "Müiro x1 ",
-      "jakarot (Houston) x1 <:hero:1317797206195048499>"
-    ]
-  },
-  "player_119": {
-    "playerData": "Mimic",
-    "character": [
-      "<:sora:1317799924754288690>",
-      "<:hero:1317797206195048499>",
-      "<:marth:1317798040748298310>",
-      "<:samus:1317799746206699581>"
-    ],
-    "losses": [
-      "Usagi x1 <:zelda:1317800161786855485>",
-      "PeachFuzz x1 <:rob:1317799587443900416>",
-      "Makloud x1 <:fox:1317797329348333589>",
-      "SCents x1 <:villager:1317800012033298442>"
-    ]
-  },
-  "player_120": {
-    "playerData": "ChauNeee",
-    "character": [
-      "<:sephiroth:1317799767472082944>"
-    ],
-    "losses": [
-      "Foami x1 <:joker:1317797677454327859>",
-      "Chef x1 <:falco:1317797304287367248>"
-    ]
-  },
-  "player_121": {
-    "playerData": "Laboon",
-    "character": [
-      "<:fox:1317797329348333589>"
-    ],
-    "losses": [
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "Foami x1 <:joker:1317797677454327859>"
-    ]
-  },
-  "player_122": {
-    "playerData": "cheeky!",
-    "character": [
-      "<:villager:1317800012033298442>",
-      "<:luigi:1317797998213726288>"
-    ],
-    "losses": [
-      "Chef x1 <:falco:1317797304287367248>",
-      "Nutmeg x1 <:sheik:1317799787030118420>",
-      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
-      "Lowestrain84 x1 <:mario:1317798022016401440>",
-      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
-      "Foami x1 <:joker:1317797677454327859>",
-      "PeachFuzz x1 <:rob:1317799587443900416>",
-      "Squaffles x1 <:ness:1317799203589587015>",
-      "Hector1962 x1 <:pac_man:1317799245042155645>"
-    ]
-  },
-  "player_123": {
-    "playerData": "duckie",
-    "character": [
-      "<:inkling:1317797557270872114>"
-    ],
-    "losses": [
-      "Foami x1 <:joker:1317797677454327859>",
-      "Zanryo x1 <:wolf:1317800080543060009>",
-      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
-    ]
-  },
-  "player_124": {
+  "player_158": {
     "playerData": "cactus-1",
     "character": [
       "<:diddy_kong:1317797163643703357>"
     ],
     "losses": [
+      "Nova x2 <:hero:1317797206195048499><:inkling:1317797557270872114>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "SCents x1 <:villager:1317800012033298442>",
       "#hellnaw x1 ",
       "Conthor x1 ",
       "Mr Officer Man Cop x1 <:king_k_rool:1317797780114374777>",
@@ -1580,21 +2222,493 @@
       "BBoi x1 "
     ]
   },
-  "player_125": {
-    "playerData": "Zoranaz",
+  "player_159": {
+    "playerData": "One Crit Man",
     "character": [
-      "<:pyra:1317797481534193765>"
+      "<:robin:1317799642607390780>"
     ],
     "losses": [
-      "#hellnaw x1 ",
-      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
-      "Little-Video x1 <:simon:1317799834245267466>",
-      "Hector1962 x1 <:pac_man:1317799245042155645>",
-      "Sohkah x1 ",
-      "DF8 x1 "
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>",
+      "Gelato (Lubbock) x1 <:ken:1317797721364758610>"
     ]
   },
-  "player_126": {
+  "player_160": {
+    "playerData": "iR Jagzzz",
+    "character": [],
+    "losses": [
+      "Vaeyguh (Houston) x1 ",
+      "Eromath x1 ",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Arrendajo x1 <:ridley:1317799565105303604>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
+      "Bacon x1 "
+    ]
+  },
+  "player_161": {
+    "playerData": "Jelani3099",
+    "character": [
+      "<:pikachu:1317799459224031274>"
+    ],
+    "losses": [
+      "#hellnaw x2 ",
+      "Smithy x1 ",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "Xillion x1 <:robin:1317799642607390780>",
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "Skitz x1 <:wario:1317800060838219776>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Jayce x1 <:zelda:1317800161786855485><:marth:1317798040748298310>",
+      "Little-Video x1 <:simon:1317799834245267466>"
+    ]
+  },
+  "player_162": {
+    "playerData": "WIN | Niko",
+    "character": [],
+    "losses": [
+      "Chronos (Colorado) x1 <:snake:1317799858924687381>",
+      "UA | TH0T x1 "
+    ]
+  },
+  "player_163": {
+    "playerData": "Master",
+    "character": [],
+    "losses": [
+      "Denti x1 <:palutena:1317799306488447047>",
+      "Xillion x1 <:robin:1317799642607390780>",
+      "Sotelo x1 ",
+      "WormHero (Lubbock) x1 <:rob:1317799587443900416>"
+    ]
+  },
+  "player_164": {
+    "playerData": "UA | Leiarealms",
+    "character": [],
+    "losses": [
+      "NationWide (Lubbock) x1 <:bowser_jr:1317795862574796800><:sephiroth:1317799767472082944>",
+      "Mr. E (New York) x1 "
+    ]
+  },
+  "player_165": {
+    "playerData": "NGO",
+    "character": [],
+    "losses": [
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Demothen x1 <:miifighter:1317799095682994206>"
+    ]
+  },
+  "player_166": {
+    "playerData": "ImJagg",
+    "character": [],
+    "losses": [
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "RuskiNurd x1 <:ness:1317799203589587015>"
+    ]
+  },
+  "player_167": {
+    "playerData": "cyanzura",
+    "character": [],
+    "losses": [
+      "Yufine x1 ",
+      "Tilde x1 <:falco:1317797304287367248>"
+    ]
+  },
+  "player_168": {
+    "playerData": "acE",
+    "character": [
+      "<:jigglypuff:1317797605517824081>"
+    ],
+    "losses": [
+      "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "SCents x1 <:villager:1317800012033298442>"
+    ]
+  },
+  "player_169": {
+    "playerData": "Arod",
+    "character": [
+      "<:zero_suit_samus:1317800188315959387>",
+      "<:sheik:1317799787030118420>",
+      "<:minmin:1317798209002668114>",
+      "<:lucina:1317797932845502485>"
+    ],
+    "losses": [
+      "InCoold (Quirked Up White Boy) x1 <:falco:1317797304287367248>",
+      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>"
+    ]
+  },
+  "player_170": {
+    "playerData": "Conthor",
+    "character": [],
+    "losses": [
+      "KoopaKiddo x2 <:bowser_jr:1317795862574796800>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Arod x1 <:zero_suit_samus:1317800188315959387><:sheik:1317799787030118420><:minmin:1317798209002668114><:lucina:1317797932845502485>",
+      "King_Kiwi x1 <:toon_link:1317799992206823464><:greninja:1317797437615640627>",
+      "Pleb64:) x1 <:kirby:1317797798598672435>",
+      "Meddy x1 <:roy:1317799702414098462>",
+      "Skinny the Pooh x1 <:mario:1317798022016401440>",
+      "boundless x1 <:ness:1317799203589587015>",
+      "Beastly x1 <:diddy_kong:1317797163643703357>",
+      "cactus-1 x1 <:diddy_kong:1317797163643703357>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>"
+    ]
+  },
+  "player_171": {
+    "playerData": "Gelato",
+    "character": [],
+    "losses": [
+      "SheerCold x1 ",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>"
+    ]
+  },
+  "player_172": {
+    "playerData": "Kaby",
+    "character": [
+      "<:joker:1317797677454327859>"
+    ],
+    "losses": [
+      "NoTap x1 <:roy:1317799702414098462>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>"
+    ]
+  },
+  "player_173": {
+    "playerData": "Puente",
+    "character": [
+      "<:ness:1317799203589587015>"
+    ],
+    "losses": [
+      "Usagi x1 <:zelda:1317800161786855485>",
+      "Zoranaz x1 <:pyra:1317797481534193765>"
+    ]
+  },
+  "player_174": {
+    "playerData": "N",
+    "character": [
+      "<:ken:1317797721364758610>"
+    ],
+    "losses": [
+      "petebr0 x1 <:mega_man:1317798062135185479>",
+      "Chef x1 <:falco:1317797304287367248>"
+    ]
+  },
+  "player_175": {
+    "playerData": "UA | TH0T",
+    "character": [],
+    "losses": [
+      "Stratas x1 ",
+      "Grayson x1 <:rob:1317799587443900416>"
+    ]
+  },
+  "player_176": {
+    "playerData": "Striatum",
+    "character": [],
+    "losses": [
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>"
+    ]
+  },
+  "player_177": {
+    "playerData": "Shakiez",
+    "character": [],
+    "losses": [
+      "Chr0me x1 <:falco:1317797304287367248>",
+      "Little-Video x1 <:simon:1317799834245267466>"
+    ]
+  },
+  "player_178": {
+    "playerData": "AeroLink",
+    "character": [],
+    "losses": [
+      "Alarmed Mantis x1 <:ridley:1317799565105303604>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>"
+    ]
+  },
+  "player_179": {
+    "playerData": "KingKittan",
+    "character": [],
+    "losses": [
+      "Müiro x1 ",
+      "jakarot (Houston) x1 <:hero:1317797206195048499>"
+    ]
+  },
+  "player_180": {
+    "playerData": "BinziBlade",
+    "character": [
+      "<:pokemon_trainer:1317799515238957109>"
+    ],
+    "losses": [
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Stealth_Pilot (Minnesota) x1 <:bowser:1317795835576193137>"
+    ]
+  },
+  "player_181": {
+    "playerData": "Mimic",
+    "character": [
+      "<:sora:1317799924754288690>",
+      "<:hero:1317797206195048499>",
+      "<:marth:1317798040748298310>",
+      "<:samus:1317799746206699581>"
+    ],
+    "losses": [
+      "Usagi x1 <:zelda:1317800161786855485>",
+      "PeachFuzz x1 <:rob:1317799587443900416>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "SCents x1 <:villager:1317800012033298442>"
+    ]
+  },
+  "player_182": {
+    "playerData": "Hawk",
+    "character": [],
+    "losses": [
+      "Foami x2 <:joker:1317797677454327859>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>"
+    ]
+  },
+  "player_183": {
+    "playerData": "OSU | Micro",
+    "character": [],
+    "losses": [
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "ShiNe x1 "
+    ]
+  },
+  "player_184": {
+    "playerData": "ChauNeee",
+    "character": [
+      "<:sephiroth:1317799767472082944>"
+    ],
+    "losses": [
+      "Foami x1 <:joker:1317797677454327859>",
+      "Chef x1 <:falco:1317797304287367248>"
+    ]
+  },
+  "player_185": {
+    "playerData": "kaputuncle",
+    "character": [],
+    "losses": [
+      "Seb x2 ",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Blook x1 <:ridley:1317799565105303604><:samus:1317799746206699581>",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "Little-Video x1 <:simon:1317799834245267466>",
+      "KC x1 ",
+      "Donald x1 <:miisword:1317799156949192736>"
+    ]
+  },
+  "player_186": {
+    "playerData": "amiZa",
+    "character": [
+      "<:snake:1317799858924687381>",
+      "<:falco:1317797304287367248>"
+    ],
+    "losses": [
+      "KC x1 ",
+      "SCents x1 <:villager:1317800012033298442>",
+      "mini x1 <:jigglypuff:1317797605517824081>",
+      "Velta (Houston) x1 <:mega_man:1317798062135185479>",
+      "boundless x1 <:ness:1317799203589587015>",
+      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>",
+      "David Banjo x1 <:banjo_and_kazooie:1317795750176100382>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "zIP (Austin) x1 <:zero_suit_samus:1317800188315959387>"
+    ]
+  },
+  "player_187": {
+    "playerData": "ShadowSafe",
+    "character": [
+      "<:roy:1317799702414098462>"
+    ],
+    "losses": [
+      "Foami x1 <:joker:1317797677454327859>",
+      "InCoold (Quirked Up White Boy) x1 <:falco:1317797304287367248>",
+      "Seb x1 "
+    ]
+  },
+  "player_188": {
+    "playerData": "SPAM",
+    "character": [
+      "<:mr_game_and_watch:1317799184417558599>"
+    ],
+    "losses": [
+      "Vfam | Youngbad x1 ",
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>"
+    ]
+  },
+  "player_189": {
+    "playerData": "Mr. Chan",
+    "character": [],
+    "losses": [
+      "Eromath x2 ",
+      "Nutmeg x1 <:sheik:1317799787030118420>",
+      "Makloud x1 <:fox:1317797329348333589>",
+      "Redwood x1 ",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Just.red x1 ",
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "iR Jagzzz x1 ",
+      "Ikazuchi x1 <:zero_suit_samus:1317800188315959387>",
+      "SloppyJoe x1 <:greninja:1317797437615640627>",
+      "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
+      "Jelani3099 x1 <:pikachu:1317799459224031274>",
+      "NoTap x1 <:roy:1317799702414098462>",
+      "SCents x1 <:villager:1317800012033298442>"
+    ]
+  },
+  "player_190": {
+    "playerData": "duckie",
+    "character": [
+      "<:inkling:1317797557270872114>"
+    ],
+    "losses": [
+      "hobgoblin (dr. shrimp puerto rico) x2 <:ridley:1317799565105303604>",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "Arrendajo x1 <:ridley:1317799565105303604>",
+      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
+      "Some Shmuck x1 <:duck_hunt:1317797280035770389><:kirby:1317797798598672435>",
+      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "Meowthmix x1 <:Terry:1317799966881611776><:lucas:1317797906949869660><:dark_pit:1317797092403445813><:king_k_rool:1317797780114374777><:rob:1317799587443900416>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "Zanryo x1 <:wolf:1317800080543060009>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
+    ]
+  },
+  "player_191": {
+    "playerData": "Boomer",
+    "character": [],
+    "losses": [
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "Lombardi (Ohio) x1 <:falco:1317797304287367248>"
+    ]
+  },
+  "player_192": {
+    "playerData": "Brr",
+    "character": [
+      "<:kazuya:1317797698929168495>",
+      "<:sora:1317799924754288690>"
+    ],
+    "losses": [
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "Skinny the Pooh x1 <:mario:1317798022016401440>"
+    ]
+  },
+  "player_193": {
+    "playerData": "Ivan0108",
+    "character": [],
+    "losses": [
+      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
+    ]
+  },
+  "player_194": {
+    "playerData": "percules",
+    "character": [],
+    "losses": [
+      "KennyG x1 <:greninja:1317797437615640627>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
+    ]
+  },
+  "player_195": {
+    "playerData": "Meowthmix",
+    "character": [
+      "<:Terry:1317799966881611776>",
+      "<:lucas:1317797906949869660>",
+      "<:dark_pit:1317797092403445813>",
+      "<:king_k_rool:1317797780114374777>",
+      "<:rob:1317799587443900416>"
+    ],
+    "losses": [
+      "RuskiNurd x2 <:ness:1317799203589587015>",
+      "Conthor x2 ",
+      "Milamberking x1 <:link:1317797818320293948>",
+      "Chef x1 <:falco:1317797304287367248>",
+      "Arod x1 <:zero_suit_samus:1317800188315959387><:sheik:1317799787030118420><:minmin:1317798209002668114><:lucina:1317797932845502485>",
+      "Mr Officer Man Cop x1 <:king_k_rool:1317797780114374777>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
+      "whoissilver x1 ",
+      "Pleb64:) x1 <:kirby:1317797798598672435>",
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "Laboon x1 <:fox:1317797329348333589>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>",
+      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "mo; x1 <:bowser:1317795835576193137>",
+      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
+      "ChauNeee x1 <:sephiroth:1317799767472082944>",
+      "duckie x1 <:inkling:1317797557270872114>",
+      "Mr. Science x1 <:ken:1317797721364758610>"
+    ]
+  },
+  "player_196": {
+    "playerData": "KC",
+    "character": [],
+    "losses": [
+      "cactus-1 x1 <:diddy_kong:1317797163643703357>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "Duallium x1 <:yoshi:1317800114710122557>",
+      "Shnoopy x1 <:joker:1317797677454327859>",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Nova x1 <:hero:1317797206195048499><:inkling:1317797557270872114>",
+      "Stratas x1 ",
+      "Broico x1 <:sora:1317799924754288690>",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "Digital Rice x1 ",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
+    ]
+  },
+  "player_197": {
+    "playerData": "CPT_JAY",
+    "character": [],
+    "losses": [
+      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
+      "E_01 x1 <:byleth:1317796530673025034>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "PSploshe x1 "
+    ]
+  },
+  "player_198": {
+    "playerData": "Gravity",
+    "character": [],
+    "losses": [
+      "TAMU | DM | Meks x1 ",
+      "Skinny the Pooh x1 <:mario:1317798022016401440>"
+    ]
+  },
+  "player_199": {
+    "playerData": "MUOH | JAMN",
+    "character": [],
+    "losses": [
+      "Acida x1 ",
+      "SCents x1 <:villager:1317800012033298442>"
+    ]
+  },
+  "player_200": {
+    "playerData": "mini",
+    "character": [
+      "<:jigglypuff:1317797605517824081>"
+    ],
+    "losses": [
+      "ShadowSafe x1 <:roy:1317799702414098462>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
+    ]
+  },
+  "player_201": {
     "playerData": "Maiko",
     "character": [],
     "losses": [
@@ -1602,15 +2716,7 @@
       "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
     ]
   },
-  "player_127": {
-    "playerData": "GoodManDan",
-    "character": [],
-    "losses": [
-      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
-      "RuskiNurd x1 <:ness:1317799203589587015>"
-    ]
-  },
-  "player_128": {
+  "player_202": {
     "playerData": "Timpai",
     "character": [
       "<:pyra:1317797481534193765>",
@@ -1621,7 +2727,7 @@
       "SCents x1 <:villager:1317800012033298442>"
     ]
   },
-  "player_129": {
+  "player_203": {
     "playerData": "Instinct",
     "character": [
       "<:snake:1317799858924687381>"
@@ -1631,46 +2737,76 @@
       "Renegade (San Antonio) x1 <:snake:1317799858924687381>"
     ]
   },
-  "player_130": {
-    "playerData": "Just.red",
+  "player_204": {
+    "playerData": "TZ | TheSaltedSalmon",
     "character": [],
     "losses": [
-      "AeroLink x1 ",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
-      "Sailor! x1 <:luigi:1317797998213726288><:roy:1317799702414098462>"
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "SloppyJoe x1 <:greninja:1317797437615640627>",
+      "KennyG x1 <:greninja:1317797437615640627>",
+      "Zephiel x1 <:mario:1317798022016401440>"
     ]
   },
-  "player_131": {
-    "playerData": "CPT_JAY",
+  "player_205": {
+    "playerData": "N/A | The Gnome King1",
     "character": [],
     "losses": [
-      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "PSploshe x1 "
+      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
+      "DJDon x1 <:steve:1317799945297985546><:miifighter:1317799095682994206><:miigunner:1317799123549818950>"
     ]
   },
-  "player_132": {
+  "player_206": {
+    "playerData": "Meddy",
+    "character": [
+      "<:roy:1317799702414098462>"
+    ],
+    "losses": [
+      "InCoold (Quirked Up White Boy) x1 <:falco:1317797304287367248>",
+      "brandygege x1 ",
+      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>",
+      "Brr x1 <:kazuya:1317797698929168495><:sora:1317799924754288690>"
+    ]
+  },
+  "player_207": {
+    "playerData": "cheeky!",
+    "character": [
+      "<:villager:1317800012033298442>",
+      "<:luigi:1317797998213726288>"
+    ],
+    "losses": [
+      "Ivan0108 x1 ",
+      "Exalt x1 <:ken:1317797721364758610>",
+      "Meowthmix x1 <:Terry:1317799966881611776><:lucas:1317797906949869660><:dark_pit:1317797092403445813><:king_k_rool:1317797780114374777><:rob:1317799587443900416>",
+      "SM|EOTS | Bubbros x1 ",
+      "Jelani3099 x1 <:pikachu:1317799459224031274>",
+      "Falconia | FC | Haze x1 ",
+      "Chef x1 <:falco:1317797304287367248>",
+      "Nutmeg x1 <:sheik:1317799787030118420>",
+      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
+      "Lowestrain84 x1 <:mario:1317798022016401440>",
+      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Foami x1 <:joker:1317797677454327859>",
+      "PeachFuzz x1 <:rob:1317799587443900416>",
+      "Squaffles x1 <:ness:1317799203589587015>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>"
+    ]
+  },
+  "player_208": {
     "playerData": "LionHeart",
     "character": [
       "<:zero_suit_samus:1317800188315959387>"
     ],
     "losses": [
+      "Rusty x1 <:captain_falcon:1317796964632629250>",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>",
+      "Seb x1 ",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
       "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
       "RuskiNurd x1 <:ness:1317799203589587015>"
     ]
   },
-  "player_133": {
-    "playerData": "Certly",
-    "character": [
-      "<:samus:1317799746206699581>",
-      "<:dark_samus:1317797134690553856>"
-    ],
-    "losses": [
-      "boundless x1 <:ness:1317799203589587015>",
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
-    ]
-  },
-  "player_134": {
+  "player_209": {
     "playerData": "McClue",
     "character": [],
     "losses": [
@@ -1678,7 +2814,7 @@
       "Vibe x1 <:pokemon_trainer:1317799515238957109>"
     ]
   },
-  "player_135": {
+  "player_210": {
     "playerData": "soljah",
     "character": [],
     "losses": [
@@ -1686,7 +2822,17 @@
       "E_01 x1 <:byleth:1317796530673025034>"
     ]
   },
-  "player_136": {
+  "player_211": {
+    "playerData": "Richter$",
+    "character": [],
+    "losses": [
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>",
+      "Sogoodpop x1 <:wii_fit_trainer:1317800039728287795>",
+      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
+      "Gelato x1 "
+    ]
+  },
+  "player_212": {
     "playerData": "SSJINCAN",
     "character": [
       "<:mario:1317798022016401440>",
@@ -1697,23 +2843,55 @@
       "Grayson x1 <:rob:1317799587443900416>"
     ]
   },
-  "player_137": {
-    "playerData": "Richter$",
-    "character": [],
+  "player_213": {
+    "playerData": "Zoranaz",
+    "character": [
+      "<:pyra:1317797481534193765>"
+    ],
     "losses": [
-      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
-      "Gelato x1 "
+      "GoodManDan x1 ",
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>",
+      "WIN | Niko x1 ",
+      "Boomer x1 ",
+      "#hellnaw x1 ",
+      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
+      "Little-Video x1 <:simon:1317799834245267466>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Sohkah x1 ",
+      "DF8 x1 "
     ]
   },
-  "player_138": {
-    "playerData": "Master",
-    "character": [],
+  "player_214": {
+    "playerData": "Duallium",
+    "character": [
+      "<:yoshi:1317800114710122557>"
+    ],
     "losses": [
-      "Sotelo x1 ",
-      "WormHero (Lubbock) x1 <:rob:1317799587443900416>"
+      "Shnoopy x1 <:joker:1317797677454327859>",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>"
     ]
   },
-  "player_139": {
+  "player_215": {
+    "playerData": "Palpa",
+    "character": [],
+    "losses": [
+      "Kople x1 ",
+      "Lynxical x1 <:pyra:1317797481534193765>"
+    ]
+  },
+  "player_216": {
+    "playerData": "likeluke",
+    "character": [
+      "<:byleth:1317796530673025034>"
+    ],
+    "losses": [
+      "Usagi x1 <:zelda:1317800161786855485>",
+      "slowbeau x1 <:luigi:1317797998213726288>"
+    ]
+  },
+  "player_217": {
     "playerData": "KrabbyJP",
     "character": [],
     "losses": [
@@ -1721,7 +2899,7 @@
       "Puffles (Houston) x1 <:young_link:1317800136398864394>"
     ]
   },
-  "player_140": {
+  "player_218": {
     "playerData": "Akuwa",
     "character": [],
     "losses": [
@@ -1729,7 +2907,7 @@
       "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
     ]
   },
-  "player_141": {
+  "player_219": {
     "playerData": "Pocket",
     "character": [
       "<:cloud:1317797012300890202>"
@@ -1739,7 +2917,7 @@
       "Lynxical x1 <:pyra:1317797481534193765>"
     ]
   },
-  "player_142": {
+  "player_220": {
     "playerData": "judjams",
     "character": [],
     "losses": [
@@ -1747,7 +2925,7 @@
       "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>"
     ]
   },
-  "player_143": {
+  "player_221": {
     "playerData": "Creature",
     "character": [],
     "losses": [
@@ -1755,17 +2933,17 @@
       "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>"
     ]
   },
-  "player_144": {
-    "playerData": "Arrendajo",
-    "character": [
-      "<:ridley:1317799565105303604>"
-    ],
+  "player_222": {
+    "playerData": "whoissilver",
+    "character": [],
     "losses": [
-      "JAMA x1 <:link:1317797818320293948>",
-      "SloppyJoe x1 <:greninja:1317797437615640627>"
+      "Certly x1 <:samus:1317799746206699581><:dark_samus:1317797134690553856>",
+      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
+      "MUOH | JAMN x1 ",
+      "koda x1 "
     ]
   },
-  "player_145": {
+  "player_223": {
     "playerData": "Payaso",
     "character": [
       "<:kirby:1317797798598672435>"
@@ -1777,7 +2955,7 @@
       "Foami x1 <:joker:1317797677454327859>"
     ]
   },
-  "player_146": {
+  "player_224": {
     "playerData": "Digital Rice",
     "character": [],
     "losses": [
@@ -1787,7 +2965,7 @@
       "NoTap x1 <:roy:1317799702414098462>"
     ]
   },
-  "player_147": {
+  "player_225": {
     "playerData": "Flow",
     "character": [],
     "losses": [
@@ -1795,7 +2973,7 @@
       "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>"
     ]
   },
-  "player_148": {
+  "player_226": {
     "playerData": "Worst Player Here",
     "character": [
       "<:ganondorf:1317797359400390746>"
@@ -1807,7 +2985,7 @@
       "Tam x1 <:cloud:1317797012300890202><:piranha_plant:1317799272976224316>"
     ]
   },
-  "player_149": {
+  "player_227": {
     "playerData": "Phanta",
     "character": [],
     "losses": [
@@ -1815,7 +2993,7 @@
       "PSploshe x1 "
     ]
   },
-  "player_150": {
+  "player_228": {
     "playerData": "Tanner!",
     "character": [],
     "losses": [
@@ -1823,7 +3001,7 @@
       "Squaffles x1 <:ness:1317799203589587015>"
     ]
   },
-  "player_151": {
+  "player_229": {
     "playerData": "FalseDH",
     "character": [],
     "losses": [
@@ -1831,7 +3009,21 @@
       "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
     ]
   },
-  "player_152": {
+  "player_230": {
+    "playerData": "RhikerSaint",
+    "character": [
+      "<:miisword:1317799156949192736>"
+    ],
+    "losses": [
+      "D-masked x1 <:toon_link:1317799992206823464>",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
+      "Chr0me x1 <:falco:1317797304287367248>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "Sailor! x1 <:luigi:1317797998213726288><:roy:1317799702414098462>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
+    ]
+  },
+  "player_231": {
     "playerData": "gek",
     "character": [],
     "losses": [
@@ -1839,40 +3031,18 @@
       "Sohkah x1 "
     ]
   },
-  "player_153": {
-    "playerData": "Meowthmix",
+  "player_232": {
+    "playerData": "Neon",
     "character": [
-      "<:Terry:1317799966881611776>",
-      "<:lucas:1317797906949869660>",
-      "<:dark_pit:1317797092403445813>",
-      "<:king_k_rool:1317797780114374777>",
-      "<:rob:1317799587443900416>"
+      "<:zero_suit_samus:1317800188315959387>",
+      "<:minmin:1317798209002668114>"
     ],
     "losses": [
-      "Conthor x2 ",
-      "Kapus x1 <:mega_man:1317798062135185479><:peach:1317799378982928454><:mario:1317798022016401440>",
-      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "RuskiNurd x1 <:ness:1317799203589587015>",
-      "mo; x1 <:bowser:1317795835576193137>",
-      "Vibe x1 <:pokemon_trainer:1317799515238957109>",
-      "ChauNeee x1 <:sephiroth:1317799767472082944>",
-      "duckie x1 <:inkling:1317797557270872114>",
-      "Mr. Science x1 <:ken:1317797721364758610>"
+      "Exalt x1 <:ken:1317797721364758610>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>"
     ]
   },
-  "player_154": {
-    "playerData": "RhikerSaint",
-    "character": [
-      "<:miisword:1317799156949192736>"
-    ],
-    "losses": [
-      "Chr0me x1 <:falco:1317797304287367248>",
-      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
-      "Sailor! x1 <:luigi:1317797998213726288><:roy:1317799702414098462>",
-      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
-    ]
-  },
-  "player_155": {
+  "player_233": {
     "playerData": "mo;",
     "character": [
       "<:bowser:1317795835576193137>"
@@ -1884,7 +3054,17 @@
       "amiZa x1 <:snake:1317799858924687381><:falco:1317797304287367248>"
     ]
   },
-  "player_156": {
+  "player_234": {
+    "playerData": "Kip",
+    "character": [],
+    "losses": [
+      "FC | Kuro Ashi x1 ",
+      "brandygege x1 ",
+      "Master x1 ",
+      "Certly x1 <:samus:1317799746206699581><:dark_samus:1317797134690553856>"
+    ]
+  },
+  "player_235": {
     "playerData": "KevMev",
     "character": [],
     "losses": [
@@ -1892,17 +3072,15 @@
       "Kaby x1 <:joker:1317797677454327859>"
     ]
   },
-  "player_157": {
-    "playerData": "KC",
+  "player_236": {
+    "playerData": "Shadow403killer",
     "character": [],
     "losses": [
-      "Broico x1 <:sora:1317799924754288690>",
-      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
-      "Digital Rice x1 ",
-      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
+      "Squaffles x1 <:ness:1317799203589587015>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
     ]
   },
-  "player_158": {
+  "player_237": {
     "playerData": "[DBU] Jellicent015",
     "character": [],
     "losses": [
@@ -1910,7 +3088,7 @@
       "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>"
     ]
   },
-  "player_159": {
+  "player_238": {
     "playerData": "Lavender",
     "character": [
       "<:young_link:1317800136398864394>"
@@ -1924,28 +3102,50 @@
       "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>"
     ]
   },
-  "player_160": {
-    "playerData": "Mr. Chan",
+  "player_239": {
+    "playerData": "GameeerKing",
     "character": [],
     "losses": [
-      "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>",
-      "Jelani3099 x1 <:pikachu:1317799459224031274>",
-      "NoTap x1 <:roy:1317799702414098462>",
-      "SCents x1 <:villager:1317800012033298442>"
-    ]
-  },
-  "player_161": {
-    "playerData": "Eromath",
-    "character": [],
-    "losses": [
-      "Navs •-• x2 <:pokemon_trainer:1317799515238957109>",
+      "Warguts | Morganssch x1 ",
+      "Neon x1 <:zero_suit_samus:1317800188315959387><:minmin:1317798209002668114>",
+      "NGO x1 ",
+      "Demothen x1 <:miifighter:1317799095682994206>",
+      "Eromath x1 ",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "Zephiel x1 <:mario:1317798022016401440>",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
       "SloppyJoe x1 <:greninja:1317797437615640627>",
-      "Striatum x1 ",
-      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
-      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>"
+      "TZ | TheSaltedSalmon x1 ",
+      "KennyG x1 <:greninja:1317797437615640627>"
     ]
   },
-  "player_162": {
+  "player_240": {
+    "playerData": "Milamberking",
+    "character": [
+      "<:link:1317797818320293948>"
+    ],
+    "losses": [
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "ash x1 <:dark_samus:1317797134690553856><:samus:1317799746206699581>",
+      "LockGX x1 ",
+      "Usagi x1 <:zelda:1317800161786855485>",
+      "Denti x1 <:palutena:1317799306488447047>",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
+    ]
+  },
+  "player_241": {
+    "playerData": "Ani",
+    "character": [],
+    "losses": [
+      "iR Jagzzz x1 ",
+      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
+      "Bacon x1 ",
+      "JAMA x1 <:link:1317797818320293948>",
+      "Arrendajo x1 <:ridley:1317799565105303604>"
+    ]
+  },
+  "player_242": {
     "playerData": "ICE_HAZARD",
     "character": [],
     "losses": [
@@ -1953,7 +3153,40 @@
       "RuskiNurd x1 <:ness:1317799203589587015>"
     ]
   },
-  "player_163": {
+  "player_243": {
+    "playerData": "Kaz",
+    "character": [],
+    "losses": [
+      "Arrendajo x1 <:ridley:1317799565105303604>",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>"
+    ]
+  },
+  "player_244": {
+    "playerData": "KidFlash",
+    "character": [
+      "<:donkey_kong:1317797182593699860>",
+      "<:mewtwo:1317798109916561449>"
+    ],
+    "losses": [
+      "RuskiNurd x1 <:ness:1317799203589587015>",
+      "G-Dawg x1 ",
+      "Thuy (Peter) x1 <:bowser:1317795835576193137>",
+      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
+      "Laboon x1 <:fox:1317797329348333589>",
+      "BinziBlade x1 <:pokemon_trainer:1317799515238957109>",
+      "brandygege x1 ",
+      "Mr Officer Man Cop x1 <:king_k_rool:1317797780114374777>",
+      "ChauNeee x1 <:sephiroth:1317799767472082944>",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "One Crit Man x1 <:robin:1317799642607390780>",
+      "Denti x1 <:palutena:1317799306488447047>"
+    ]
+  },
+  "player_245": {
     "playerData": "TheBlueJ",
     "character": [],
     "losses": [
@@ -1961,7 +3194,7 @@
       "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>"
     ]
   },
-  "player_164": {
+  "player_246": {
     "playerData": "DairBair",
     "character": [
       "<:palutena:1317799306488447047>"
@@ -1973,7 +3206,7 @@
       "Squaffles x1 <:ness:1317799203589587015>"
     ]
   },
-  "player_165": {
+  "player_247": {
     "playerData": "Spectre",
     "character": [
       "<:inkling:1317797557270872114>"
@@ -1987,20 +3220,66 @@
       "Ikazuchi x1 <:zero_suit_samus:1317800188315959387>"
     ]
   },
-  "player_166": {
-    "playerData": "PenguinMob",
+  "player_248": {
+    "playerData": "BÄ$H",
     "character": [],
     "losses": [
-      "KoopaKiddo x2 <:bowser_jr:1317795862574796800>",
-      "amiZa x1 <:snake:1317799858924687381><:falco:1317797304287367248>",
-      "SCents x1 <:villager:1317800012033298442>",
-      "DairBair x1 <:palutena:1317799306488447047>",
-      "TheBlueJ x1 ",
-      "Pocket x1 <:cloud:1317797012300890202>",
-      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>"
+      "HLG | maxkangmario x1 ",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Chef x1 <:falco:1317797304287367248>"
     ]
   },
-  "player_167": {
+  "player_249": {
+    "playerData": "MXC | eNVy",
+    "character": [],
+    "losses": [
+      "HLG | maxkangmario x1 ",
+      "Varun5 x1 <:steve:1317799945297985546>"
+    ]
+  },
+  "player_250": {
+    "playerData": "DK=OP | croosie",
+    "character": [],
+    "losses": [
+      "Nad79 x1 <:mario:1317798022016401440>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>",
+      "KOM x1 <:peach:1317799378982928454>",
+      "KennyG x1 <:greninja:1317797437615640627>"
+    ]
+  },
+  "player_251": {
+    "playerData": "PLINKO",
+    "character": [
+      "<:sora:1317799924754288690>",
+      "<:zero_suit_samus:1317800188315959387>"
+    ],
+    "losses": [
+      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
+      "duckie x1 <:inkling:1317797557270872114>",
+      "Some Shmuck x1 <:duck_hunt:1317797280035770389><:kirby:1317797798598672435>",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>",
+      "Arrendajo x1 <:ridley:1317799565105303604>"
+    ]
+  },
+  "player_252": {
+    "playerData": "Luster",
+    "character": [],
+    "losses": [
+      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
+      "Xillion x1 <:robin:1317799642607390780>"
+    ]
+  },
+  "player_253": {
+    "playerData": "Young Game Time",
+    "character": [],
+    "losses": [
+      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
+    ]
+  },
+  "player_254": {
     "playerData": "Jakobi",
     "character": [
       "<:steve:1317799945297985546>",
@@ -2011,18 +3290,58 @@
       "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>"
     ]
   },
-  "player_168": {
-    "playerData": "King_Kiwi",
-    "character": [
-      "<:toon_link:1317799992206823464>",
-      "<:greninja:1317797437615640627>"
-    ],
+  "player_255": {
+    "playerData": "NormalRanger599",
+    "character": [],
     "losses": [
-      "Makloud x1 <:fox:1317797329348333589>",
-      "SloppyJoe x1 <:greninja:1317797437615640627>"
+      "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>",
+      "Blook x1 <:ridley:1317799565105303604><:samus:1317799746206699581>"
     ]
   },
-  "player_169": {
+  "player_256": {
+    "playerData": "PenguinMob",
+    "character": [],
+    "losses": [
+      "KoopaKiddo x2 <:bowser_jr:1317795862574796800>",
+      "Conthor x1 ",
+      "Nutmeg x1 <:sheik:1317799787030118420>",
+      "amiZa x1 <:snake:1317799858924687381><:falco:1317797304287367248>",
+      "SCents x1 <:villager:1317800012033298442>",
+      "DairBair x1 <:palutena:1317799306488447047>",
+      "TheBlueJ x1 ",
+      "Pocket x1 <:cloud:1317797012300890202>",
+      "MuteAce (San Antonio) x1 <:peach:1317799378982928454>"
+    ]
+  },
+  "player_257": {
+    "playerData": "Damascus",
+    "character": [],
+    "losses": [
+      "PoisonJam x1 <:kazuya:1317797698929168495>",
+      "Skitz x1 <:wario:1317800060838219776>"
+    ]
+  },
+  "player_258": {
+    "playerData": "Centipede",
+    "character": [
+      "<:captain_falcon:1317796964632629250>"
+    ],
+    "losses": [
+      "DoritoBandito x1 <:mario:1317798022016401440>",
+      "Nexus (SoCal) x1 "
+    ]
+  },
+  "player_259": {
+    "playerData": "cruzloops",
+    "character": [
+      "<:samus:1317799746206699581>"
+    ],
+    "losses": [
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "Seb x1 "
+    ]
+  },
+  "player_260": {
     "playerData": "LooseGanon",
     "character": [],
     "losses": [
@@ -2030,7 +3349,38 @@
       "Guy x1 <:kazuya:1317797698929168495>"
     ]
   },
-  "player_170": {
+  "player_261": {
+    "playerData": "ScarletDecencies",
+    "character": [
+      "<:wii_fit_trainer:1317800039728287795>"
+    ],
+    "losses": [
+      "#hellnaw x1 ",
+      "Bert The Dragon x1 <:captain_falcon:1317796964632629250>",
+      "percules x1 ",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
+    ]
+  },
+  "player_262": {
+    "playerData": "dead beaver",
+    "character": [],
+    "losses": [
+      "Wheezer x1 <:kazuya:1317797698929168495>",
+      "Atomic x1 <:rob:1317799587443900416><:joker:1317797677454327859>"
+    ]
+  },
+  "player_263": {
+    "playerData": "Unfairy",
+    "character": [
+      "<:snake:1317799858924687381>",
+      "<:minmin:1317798209002668114>"
+    ],
+    "losses": [
+      "Zanryo x1 <:wolf:1317800080543060009>",
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>"
+    ]
+  },
+  "player_264": {
     "playerData": "Socks",
     "character": [],
     "losses": [
@@ -2038,17 +3388,36 @@
       "KennyG x1 <:greninja:1317797437615640627>"
     ]
   },
-  "player_171": {
+  "player_265": {
+    "playerData": "laundy_matt",
+    "character": [],
+    "losses": [
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Varun5 x1 <:steve:1317799945297985546>",
+      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
+      "SSJINCAN x1 <:mario:1317798022016401440><:samus:1317799746206699581>"
+    ]
+  },
+  "player_266": {
     "playerData": "I",
     "character": [
       "<:mario:1317798022016401440>"
     ],
     "losses": [
+      "likeluke x1 <:byleth:1317796530673025034>",
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
       "1999ToyotaCorolla x1 ",
       "D-masked x1 <:toon_link:1317799992206823464>"
     ]
   },
-  "player_172": {
+  "player_267": {
+    "playerData": "CFGC| RD | AlbyFRESH",
+    "character": [],
+    "losses": [
+      "Yusuf x1 "
+    ]
+  },
+  "player_268": {
     "playerData": "BaronBears",
     "character": [],
     "losses": [
@@ -2056,7 +3425,15 @@
       "KennyG x1 <:greninja:1317797437615640627>"
     ]
   },
-  "player_173": {
+  "player_269": {
+    "playerData": "stream sudbath | MichelleObamaLunchFood",
+    "character": [],
+    "losses": [
+      "HLG | maxkangmario x1 ",
+      "Nad79 x1 <:mario:1317798022016401440>"
+    ]
+  },
+  "player_270": {
     "playerData": "sento",
     "character": [],
     "losses": [
@@ -2064,16 +3441,41 @@
       "Lowestrain84 x1 <:mario:1317798022016401440>"
     ]
   },
-  "player_174": {
-    "playerData": "BattleGuy",
+  "player_271": {
+    "playerData": "Etherious",
     "character": [],
     "losses": [
-      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
-      "Zephiel x1 <:mario:1317798022016401440>",
-      "JAMA x1 <:link:1317797818320293948>"
+      "WIN | Niko x1 ",
+      "Grayson x1 <:rob:1317799587443900416>"
     ]
   },
-  "player_175": {
+  "player_272": {
+    "playerData": "Evangelium | | LionLamb",
+    "character": [],
+    "losses": [
+      "Pleb64:) x1 <:kirby:1317797798598672435>",
+      "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
+    ]
+  },
+  "player_273": {
+    "playerData": "Katsu",
+    "character": [
+      "<:cloud:1317797012300890202>"
+    ],
+    "losses": [
+      "Nova x1 <:hero:1317797206195048499><:inkling:1317797557270872114>",
+      "Sotelo x1 "
+    ]
+  },
+  "player_274": {
+    "playerData": "Morgana",
+    "character": [],
+    "losses": [
+      "Pleb64:) x1 <:kirby:1317797798598672435>",
+      "boundless x1 <:ness:1317799203589587015>"
+    ]
+  },
+  "player_275": {
     "playerData": "FunkyPants",
     "character": [],
     "losses": [
@@ -2081,7 +3483,15 @@
       "Jeckup x1 <:ike:1317797539898064937>"
     ]
   },
-  "player_176": {
+  "player_276": {
+    "playerData": "Alphx",
+    "character": [],
+    "losses": [
+      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>",
+      "Denti x1 <:palutena:1317799306488447047>"
+    ]
+  },
+  "player_277": {
     "playerData": "Shiny",
     "character": [],
     "losses": [
@@ -2089,7 +3499,15 @@
       "hobgoblin (dr. shrimp puerto rico) x1 <:ridley:1317799565105303604>"
     ]
   },
-  "player_177": {
+  "player_278": {
+    "playerData": "Cooker3889",
+    "character": [],
+    "losses": [
+      "Certly x1 <:samus:1317799746206699581><:dark_samus:1317797134690553856>",
+      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>"
+    ]
+  },
+  "player_279": {
     "playerData": "ViaCher",
     "character": [],
     "losses": [
@@ -2097,15 +3515,25 @@
       "D-masked x1 <:toon_link:1317799992206823464>"
     ]
   },
-  "player_178": {
-    "playerData": "Mobé",
+  "player_280": {
+    "playerData": "Dredge64",
     "character": [],
     "losses": [
-      "soljah x1 ",
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
+      "Hawk x1 ",
+      "Chef x1 <:falco:1317797304287367248>"
     ]
   },
-  "player_179": {
+  "player_281": {
+    "playerData": "Andyroo",
+    "character": [
+      "<:wario:1317800060838219776>"
+    ],
+    "losses": [
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "ash x1 <:dark_samus:1317797134690553856><:samus:1317799746206699581>"
+    ]
+  },
+  "player_282": {
     "playerData": "Shizzy",
     "character": [],
     "losses": [
@@ -2113,7 +3541,7 @@
       "Guy x1 <:kazuya:1317797698929168495>"
     ]
   },
-  "player_180": {
+  "player_283": {
     "playerData": "Suave",
     "character": [
       "<:captain_falcon:1317796964632629250>"
@@ -2125,7 +3553,33 @@
       "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>"
     ]
   },
-  "player_181": {
+  "player_284": {
+    "playerData": "MetalBroX1",
+    "character": [],
+    "losses": [
+      "Inku x2 <:captain_falcon:1317796964632629250>",
+      "Rusty x1 <:captain_falcon:1317796964632629250>",
+      "Ivan0108 x1 ",
+      "Vfam | Youngbad x1 ",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
+      "Shnoopy x1 <:joker:1317797677454327859>",
+      "KC x1 ",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "Heartbreaker556 x1 <:meta_knight:1317798084067201114>",
+      "Donald x1 <:miisword:1317799156949192736>",
+      "D-masked x1 <:toon_link:1317799992206823464>",
+      "LionHeart x1 <:zero_suit_samus:1317800188315959387>"
+    ]
+  },
+  "player_285": {
+    "playerData": "PEK | ARXH3RY",
+    "character": [],
+    "losses": [
+      "Exalt x1 <:ken:1317797721364758610>",
+      "Warguts | Flare x1 "
+    ]
+  },
+  "player_286": {
     "playerData": "MIguel",
     "character": [],
     "losses": [
@@ -2133,41 +3587,23 @@
       "Chef x1 <:falco:1317797304287367248>"
     ]
   },
-  "player_182": {
-    "playerData": "MetalBroX1",
+  "player_287": {
+    "playerData": "stiglord",
     "character": [],
     "losses": [
-      "Donald x1 <:miisword:1317799156949192736>",
-      "Inku x1 <:captain_falcon:1317796964632629250>",
-      "D-masked x1 <:toon_link:1317799992206823464>",
-      "LionHeart x1 <:zero_suit_samus:1317800188315959387>"
+      "Kyle x1 <:snake:1317799858924687381><:chrom:1317796988384837642>",
+      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>"
     ]
   },
-  "player_183": {
-    "playerData": "Rou",
+  "player_288": {
+    "playerData": "RATT | NovaSurge___",
     "character": [],
     "losses": [
-      "amiZa x1 <:snake:1317799858924687381><:falco:1317797304287367248>",
-      "Meowthmix x1 <:Terry:1317799966881611776><:lucas:1317797906949869660><:dark_pit:1317797092403445813><:king_k_rool:1317797780114374777><:rob:1317799587443900416>"
+      "Shakiez x1 ",
+      "ImJagg x1 "
     ]
   },
-  "player_184": {
-    "playerData": "heiferhauler",
-    "character": [],
-    "losses": [
-      "David Banjo x1 <:banjo_and_kazooie:1317795750176100382>",
-      "Meowthmix x1 <:Terry:1317799966881611776><:lucas:1317797906949869660><:dark_pit:1317797092403445813><:king_k_rool:1317797780114374777><:rob:1317799587443900416>"
-    ]
-  },
-  "player_185": {
-    "playerData": "Zee",
-    "character": [],
-    "losses": [
-      "Conthor x1 ",
-      "PenguinMob x1 "
-    ]
-  },
-  "player_186": {
+  "player_289": {
     "playerData": "KirbyStarship",
     "character": [],
     "losses": [
@@ -2175,23 +3611,27 @@
       "yonni x1 <:steve:1317799945297985546><:luigi:1317797998213726288>"
     ]
   },
-  "player_187": {
-    "playerData": "Sonic the Ledgehog",
-    "character": [],
+  "player_290": {
+    "playerData": "WarmDayBeanie",
+    "character": [
+      "<:pokemon_trainer:1317799515238957109>"
+    ],
     "losses": [
-      "D-masked x1 <:toon_link:1317799992206823464>",
-      "CPT_JAY x1 "
+      "Palpa x1 ",
+      "KOM x1 <:peach:1317799378982928454>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
+      "Laboon x1 <:fox:1317797329348333589>"
     ]
   },
-  "player_188": {
-    "playerData": "Reznd",
+  "player_291": {
+    "playerData": "MUOH | Klutz",
     "character": [],
     "losses": [
-      "Usagi x1 <:zelda:1317800161786855485>",
-      "Worst Player Here x1 <:ganondorf:1317797359400390746>"
+      "GCU | Aggz x1 ",
+      "Acida x1 "
     ]
   },
-  "player_189": {
+  "player_292": {
     "playerData": "Rey",
     "character": [
       "<:mario:1317798022016401440>",
@@ -2202,7 +3642,46 @@
       "Xillion x1 <:robin:1317799642607390780>"
     ]
   },
-  "player_190": {
+  "player_293": {
+    "playerData": "Poli",
+    "character": [],
+    "losses": [
+      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
+      "Shigura (Lubbock) x1 <:chrom:1317796988384837642><:roy:1317799702414098462><:cloud:1317797012300890202><:sephiroth:1317799767472082944>",
+      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
+      "Bent x1 <:sonic:1317799903258345544>"
+    ]
+  },
+  "player_294": {
+    "playerData": "Sonic the Ledgehog",
+    "character": [],
+    "losses": [
+      "D-masked x1 <:toon_link:1317799992206823464>",
+      "CPT_JAY x1 "
+    ]
+  },
+  "player_295": {
+    "playerData": "AtomicStriker",
+    "character": [],
+    "losses": [
+      "Guy x1 <:kazuya:1317797698929168495>",
+      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
+      "cactus-1 x1 <:diddy_kong:1317797163643703357>",
+      "Foami x1 <:joker:1317797677454327859>"
+    ]
+  },
+  "player_296": {
+    "playerData": "Dgetes2237",
+    "character": [],
+    "losses": [
+      "SloppyJoe x1 <:greninja:1317797437615640627>",
+      "Eromath x1 ",
+      "Mr. Chan x1 ",
+      "iR Jagzzz x1 ",
+      "Ikazuchi x1 <:zero_suit_samus:1317800188315959387>"
+    ]
+  },
+  "player_297": {
     "playerData": "MegaMania",
     "character": [
       "<:sora:1317799924754288690>",
@@ -2214,238 +3693,7 @@
       "Phanta x1 "
     ]
   },
-  "player_191": {
-    "playerData": "AtomicStriker",
-    "character": [],
-    "losses": [
-      "Guy x1 <:kazuya:1317797698929168495>",
-      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
-      "cactus-1 x1 <:diddy_kong:1317797163643703357>",
-      "Foami x1 <:joker:1317797677454327859>"
-    ]
-  },
-  "player_192": {
-    "playerData": "Tyran",
-    "character": [],
-    "losses": [
-      "Eromath x1 ",
-      "SloppyJoe x1 <:greninja:1317797437615640627>",
-      "Navs •-• x1 <:pokemon_trainer:1317799515238957109>"
-    ]
-  },
-  "player_193": {
-    "playerData": "Goken-San",
-    "character": [],
-    "losses": [
-      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
-      "Seb x1 "
-    ]
-  },
-  "player_194": {
-    "playerData": "WarmDayBeanie",
-    "character": [
-      "<:pokemon_trainer:1317799515238957109>"
-    ],
-    "losses": [
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>",
-      "Laboon x1 <:fox:1317797329348333589>"
-    ]
-  },
-  "player_195": {
-    "playerData": "Shashterpiece",
-    "character": [],
-    "losses": [
-      "cheeky! x1 <:villager:1317800012033298442><:luigi:1317797998213726288>",
-      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
-    ]
-  },
-  "player_196": {
-    "playerData": "Milamberking",
-    "character": [
-      "<:link:1317797818320293948>"
-    ],
-    "losses": [
-      "LockGX x1 ",
-      "Usagi x1 <:zelda:1317800161786855485>",
-      "Denti x1 <:palutena:1317799306488447047>",
-      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
-    ]
-  },
-  "player_197": {
-    "playerData": "Ulric",
-    "character": [],
-    "losses": [
-      "N x1 <:ken:1317797721364758610>",
-      "KingKittan x1 "
-    ]
-  },
-  "player_198": {
-    "playerData": "EXM",
-    "character": [],
-    "losses": [
-      "Creature x1 ",
-      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
-    ]
-  },
-  "player_199": {
-    "playerData": "p0etic",
-    "character": [
-      "<:greninja:1317797437615640627>"
-    ],
-    "losses": [
-      "KingKittan x1 ",
-      "N x1 <:ken:1317797721364758610>"
-    ]
-  },
-  "player_200": {
-    "playerData": "Rice",
-    "character": [],
-    "losses": [
-      "Tanner! x1 ",
-      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
-    ]
-  },
-  "player_201": {
-    "playerData": "DoroZ",
-    "character": [],
-    "losses": [
-      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
-      "Nutmeg x1 <:sheik:1317799787030118420>"
-    ]
-  },
-  "player_202": {
-    "playerData": "ReactiveTax",
-    "character": [],
-    "losses": [
-      "D-masked x1 <:toon_link:1317799992206823464>",
-      "DoritoBandito x1 <:mario:1317798022016401440>"
-    ]
-  },
-  "player_203": {
-    "playerData": "Drac0",
-    "character": [],
-    "losses": [
-      "Steg x1 ",
-      "McClue x1 "
-    ]
-  },
-  "player_204": {
-    "playerData": "Poli",
-    "character": [],
-    "losses": [
-      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
-      "Bent x1 <:sonic:1317799903258345544>"
-    ]
-  },
-  "player_205": {
-    "playerData": "Tw8",
-    "character": [],
-    "losses": [
-      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
-      "Inku x1 <:captain_falcon:1317796964632629250>"
-    ]
-  },
-  "player_206": {
-    "playerData": "Mr.Stealyo",
-    "character": [],
-    "losses": [
-      "Denti x1 <:palutena:1317799306488447047>",
-      "Gelato (Lubbock) x1 <:ken:1317797721364758610>"
-    ]
-  },
-  "player_207": {
-    "playerData": "laundy_matt",
-    "character": [],
-    "losses": [
-      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
-      "SSJINCAN x1 <:mario:1317798022016401440><:samus:1317799746206699581>"
-    ]
-  },
-  "player_208": {
-    "playerData": "FramesHarden",
-    "character": [],
-    "losses": [
-      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
-      "Ventis x1 <:joker:1317797677454327859>"
-    ]
-  },
-  "player_209": {
-    "playerData": "Dub75",
-    "character": [],
-    "losses": [
-      "Maiko x1 ",
-      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>"
-    ]
-  },
-  "player_210": {
-    "playerData": "Speed",
-    "character": [],
-    "losses": [
-      "Master x1 ",
-      "acE x1 <:jigglypuff:1317797605517824081>"
-    ]
-  },
-  "player_211": {
-    "playerData": "ABN_VALDEZ",
-    "character": [],
-    "losses": [
-      "GoodManDan x1 ",
-      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>"
-    ]
-  },
-  "player_212": {
-    "playerData": "Cobster",
-    "character": [],
-    "losses": [
-      "KrabbyJP x1 ",
-      "Jelani3099 x1 <:pikachu:1317799459224031274>"
-    ]
-  },
-  "player_213": {
-    "playerData": "TheNinja",
-    "character": [
-      "<:cloud:1317797012300890202>"
-    ],
-    "losses": [
-      "acE x1 <:jigglypuff:1317797605517824081>",
-      "WormHero (Lubbock) x1 <:rob:1317799587443900416>"
-    ]
-  },
-  "player_214": {
-    "playerData": "Pleb64:)",
-    "character": [
-      "<:kirby:1317797798598672435>"
-    ],
-    "losses": [
-      "SheerCold x1 ",
-      "Gmasterbrown x1 <:hero:1317797206195048499><:minmin:1317798209002668114><:snake:1317799858924687381><:steve:1317799945297985546><:wii_fit_trainer:1317800039728287795>"
-    ]
-  },
-  "player_215": {
-    "playerData": "Sledge",
-    "character": [],
-    "losses": [
-      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
-      "Richter$ x1 "
-    ]
-  },
-  "player_216": {
-    "playerData": "Sarcasmic",
-    "character": [],
-    "losses": [
-      "judjams x1 ",
-      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>"
-    ]
-  },
-  "player_217": {
-    "playerData": "Soap",
-    "character": [],
-    "losses": [
-      "Lavender x1 <:young_link:1317800136398864394>",
-      "Certly x1 <:samus:1317799746206699581><:dark_samus:1317797134690553856>"
-    ]
-  },
-  "player_218": {
+  "player_298": {
     "playerData": "Akshay",
     "character": [
       "<:samus:1317799746206699581>"
@@ -2455,38 +3703,121 @@
       "Jeckup x1 <:ike:1317797539898064937>"
     ]
   },
-  "player_219": {
-    "playerData": "KidFlash",
-    "character": [
-      "<:donkey_kong:1317797182593699860>",
-      "<:mewtwo:1317798109916561449>"
-    ],
-    "losses": [
-      "brandygege x1 ",
-      "Mr Officer Man Cop x1 <:king_k_rool:1317797780114374777>",
-      "ChauNeee x1 <:sephiroth:1317799767472082944>",
-      "Varun5 x1 <:steve:1317799945297985546>",
-      "One Crit Man x1 <:robin:1317799642607390780>",
-      "Denti x1 <:palutena:1317799306488447047>"
-    ]
-  },
-  "player_220": {
-    "playerData": "Lx",
+  "player_299": {
+    "playerData": "Jihad Fahad",
     "character": [],
     "losses": [
-      "cheeky! x1 <:villager:1317800012033298442><:luigi:1317797998213726288>",
-      "Usagi x1 <:zelda:1317800161786855485>"
+      "Inku x1 <:captain_falcon:1317796964632629250>",
+      "Mr. Chan x1 "
     ]
   },
-  "player_221": {
-    "playerData": "And1DX",
+  "player_300": {
+    "playerData": "NinjamRee",
     "character": [],
     "losses": [
-      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
+      "koda x1 ",
+      "JC WSU | Trejohn6 x1 "
+    ]
+  },
+  "player_301": {
+    "playerData": "Sledge",
+    "character": [],
+    "losses": [
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "Richter$ x1 "
+    ]
+  },
+  "player_302": {
+    "playerData": "Echo",
+    "character": [],
+    "losses": [
+      "Mr. Chan x1 ",
+      "Inku x1 <:captain_falcon:1317796964632629250>"
+    ]
+  },
+  "player_303": {
+    "playerData": "Joshua",
+    "character": [],
+    "losses": [
+      "N/A | The Gnome King1 x1 ",
+      "Warguts | Flare x1 "
+    ]
+  },
+  "player_304": {
+    "playerData": "RZA | The-RZA",
+    "character": [],
+    "losses": [
+      "ZekeReds x1 ",
+      "Riku (Florida) x1 <:pokemon_trainer:1317799515238957109><:steve:1317799945297985546>"
+    ]
+  },
+  "player_305": {
+    "playerData": "MUOH | LJ",
+    "character": [],
+    "losses": [
+      "Ikazuchi x1 <:zero_suit_samus:1317800188315959387>",
+      "Swift x1 "
+    ]
+  },
+  "player_306": {
+    "playerData": "Gooberville | Soup!",
+    "character": [],
+    "losses": [
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>",
       "Chr0me x1 <:falco:1317797304287367248>"
     ]
   },
-  "player_222": {
+  "player_307": {
+    "playerData": "Chris",
+    "character": [],
+    "losses": [
+      "ImJagg x1 ",
+      "Shakiez x1 "
+    ]
+  },
+  "player_308": {
+    "playerData": "FramesHarden",
+    "character": [],
+    "losses": [
+      "Hector1962 x1 <:pac_man:1317799245042155645>",
+      "Usagi x1 <:zelda:1317800161786855485>",
+      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
+      "Ventis x1 <:joker:1317797677454327859>"
+    ]
+  },
+  "player_309": {
+    "playerData": "KrillinThresh77",
+    "character": [],
+    "losses": [
+      "Ikazuchi x1 <:zero_suit_samus:1317800188315959387>",
+      "Tam x1 <:cloud:1317797012300890202><:piranha_plant:1317799272976224316>"
+    ]
+  },
+  "player_310": {
+    "playerData": "duce",
+    "character": [],
+    "losses": [
+      "cactus-1 x1 <:diddy_kong:1317797163643703357>",
+      "Spritzy (Lubbock) x1 <:toon_link:1317799992206823464>"
+    ]
+  },
+  "player_311": {
+    "playerData": "Sarcasmic",
+    "character": [],
+    "losses": [
+      "judjams x1 ",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>"
+    ]
+  },
+  "player_312": {
+    "playerData": "Azi",
+    "character": [],
+    "losses": [
+      "Certly x1 <:samus:1317799746206699581><:dark_samus:1317797134690553856>",
+      "Master x1 "
+    ]
+  },
+  "player_313": {
     "playerData": "Beeg Beeg Yoshi",
     "character": [],
     "losses": [
@@ -2494,7 +3825,240 @@
       "Mimic x1 <:sora:1317799924754288690><:hero:1317797206195048499><:marth:1317798040748298310><:samus:1317799746206699581>"
     ]
   },
-  "player_223": {
+  "player_314": {
+    "playerData": "Ulric",
+    "character": [],
+    "losses": [
+      "N x1 <:ken:1317797721364758610>",
+      "KingKittan x1 "
+    ]
+  },
+  "player_315": {
+    "playerData": "BattleGuy",
+    "character": [],
+    "losses": [
+      "JAMA x2 <:link:1317797818320293948>",
+      "Eromath x1 ",
+      "GameeerKing x1 ",
+      "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>",
+      "NGO x1 ",
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Demothen x1 <:miifighter:1317799095682994206>",
+      "Bacon x1 ",
+      "Ani x1 ",
+      "Arrendajo x1 <:ridley:1317799565105303604>",
+      "iR Jagzzz x1 ",
+      "Mr.C x1 <:lucina:1317797932845502485><:pyra:1317797481534193765>",
+      "OurLord&SaviorRamenCat x1 <:mario:1317798022016401440>",
+      "Zephiel x1 <:mario:1317798022016401440>"
+    ]
+  },
+  "player_316": {
+    "playerData": "Tyran",
+    "character": [],
+    "losses": [
+      "Eromath x1 ",
+      "SloppyJoe x1 <:greninja:1317797437615640627>",
+      "Navs •-• x1 <:pokemon_trainer:1317799515238957109>"
+    ]
+  },
+  "player_317": {
+    "playerData": "Dogswithstocks",
+    "character": [],
+    "losses": [
+      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
+      "Guy x1 <:kazuya:1317797698929168495>"
+    ]
+  },
+  "player_318": {
+    "playerData": "EXM",
+    "character": [],
+    "losses": [
+      "Creature x1 ",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
+    ]
+  },
+  "player_319": {
+    "playerData": "Speed",
+    "character": [],
+    "losses": [
+      "Master x1 ",
+      "acE x1 <:jigglypuff:1317797605517824081>"
+    ]
+  },
+  "player_320": {
+    "playerData": "p0etic",
+    "character": [
+      "<:greninja:1317797437615640627>"
+    ],
+    "losses": [
+      "KingKittan x1 ",
+      "N x1 <:ken:1317797721364758610>"
+    ]
+  },
+  "player_321": {
+    "playerData": "FC | Sin",
+    "character": [],
+    "losses": [
+      "Kip x1 ",
+      "Zayn x1 "
+    ]
+  },
+  "player_322": {
+    "playerData": "DoroZ",
+    "character": [],
+    "losses": [
+      "ICeless x1 <:ice_climbers:1317797518054260816><:pikachu:1317799459224031274>",
+      "Nutmeg x1 <:sheik:1317799787030118420>"
+    ]
+  },
+  "player_323": {
+    "playerData": "LCU | SFS | Kanonzz",
+    "character": [],
+    "losses": [
+      "Yufine x1 "
+    ]
+  },
+  "player_324": {
+    "playerData": "ReactiveTax",
+    "character": [],
+    "losses": [
+      "D-masked x1 <:toon_link:1317799992206823464>",
+      "DoritoBandito x1 <:mario:1317798022016401440>"
+    ]
+  },
+  "player_325": {
+    "playerData": "ABN_VALDEZ",
+    "character": [],
+    "losses": [
+      "GoodManDan x1 ",
+      "TaloHalo x1 <:miisword:1317799156949192736><:pyra:1317797481534193765>"
+    ]
+  },
+  "player_326": {
+    "playerData": "SemiStable",
+    "character": [],
+    "losses": [
+      "Swift x1 ",
+      "NVR | MPg (Delaware) x1 <:mega_man:1317798062135185479>"
+    ]
+  },
+  "player_327": {
+    "playerData": "Drac0",
+    "character": [],
+    "losses": [
+      "Steg x1 ",
+      "McClue x1 "
+    ]
+  },
+  "player_328": {
+    "playerData": "UA | Raj",
+    "character": [],
+    "losses": [
+      "brandygege x1 ",
+      "FC | Kuro Ashi x1 "
+    ]
+  },
+  "player_329": {
+    "playerData": "heiferhauler",
+    "character": [],
+    "losses": [
+      "petebr0 x1 <:mega_man:1317798062135185479>",
+      "David Banjo x1 <:banjo_and_kazooie:1317795750176100382>",
+      "Meowthmix x1 <:Terry:1317799966881611776><:lucas:1317797906949869660><:dark_pit:1317797092403445813><:king_k_rool:1317797780114374777><:rob:1317799587443900416>"
+    ]
+  },
+  "player_330": {
+    "playerData": "Dub75",
+    "character": [],
+    "losses": [
+      "Maiko x1 ",
+      "KoopaKiddo x1 <:bowser_jr:1317795862574796800>"
+    ]
+  },
+  "player_331": {
+    "playerData": "Tw8",
+    "character": [],
+    "losses": [
+      "MB x1 <:little_mac:1317797836552798248><:roy:1317799702414098462>",
+      "Inku x1 <:captain_falcon:1317796964632629250>"
+    ]
+  },
+  "player_332": {
+    "playerData": "Chickie",
+    "character": [],
+    "losses": [
+      "Seb x1 ",
+      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>"
+    ]
+  },
+  "player_333": {
+    "playerData": "Goken-San",
+    "character": [],
+    "losses": [
+      "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>",
+      "Seb x1 "
+    ]
+  },
+  "player_334": {
+    "playerData": "Mike",
+    "character": [],
+    "losses": [
+      "Zoranaz x1 <:pyra:1317797481534193765>",
+      "Ikazuchi x1 <:zero_suit_samus:1317800188315959387>"
+    ]
+  },
+  "player_335": {
+    "playerData": "Voisnyrhead",
+    "character": [],
+    "losses": [
+      "Just.red x1 ",
+      "KANYEREST??? x1 "
+    ]
+  },
+  "player_336": {
+    "playerData": "Vanilla",
+    "character": [],
+    "losses": [
+      "WSU | Azael x1 ",
+      "MUOH | Mindles_Man x1 "
+    ]
+  },
+  "player_337": {
+    "playerData": "Enriquethepigeon",
+    "character": [],
+    "losses": [
+      "TAMU | DM | Meks x1 ",
+      "moneycat (bermuda) x1 <:yoshi:1317800114710122557>"
+    ]
+  },
+  "player_338": {
+    "playerData": "bogosort0logn",
+    "character": [],
+    "losses": [
+      "Alarmed Mantis x1 <:ridley:1317799565105303604>",
+      "Shadow403killer x1 ",
+      "slowbeau x1 <:luigi:1317797998213726288>",
+      "Just.red x1 "
+    ]
+  },
+  "player_339": {
+    "playerData": "Reznd",
+    "character": [],
+    "losses": [
+      "Usagi x1 <:zelda:1317800161786855485>",
+      "Worst Player Here x1 <:ganondorf:1317797359400390746>"
+    ]
+  },
+  "player_340": {
+    "playerData": "Zee",
+    "character": [],
+    "losses": [
+      "Conthor x1 ",
+      "PenguinMob x1 "
+    ]
+  },
+  "player_341": {
     "playerData": "Five,1 Titan",
     "character": [],
     "losses": [
@@ -2502,7 +4066,7 @@
       "Tywo2 x1 <:bayonetta:1317795811878371328><:corrin:1317797035994255391>"
     ]
   },
-  "player_224": {
+  "player_342": {
     "playerData": "Izzy",
     "character": [
       "<:yoshi:1317800114710122557>"
@@ -2514,15 +4078,15 @@
       "Rusty x1 <:captain_falcon:1317796964632629250>"
     ]
   },
-  "player_225": {
-    "playerData": "Voisnyrhead",
+  "player_343": {
+    "playerData": "Onryo",
     "character": [],
     "losses": [
-      "Just.red x1 ",
-      "KANYEREST??? x1 "
+      "KidFlash x1 <:donkey_kong:1317797182593699860><:mewtwo:1317798109916561449>",
+      "AZ x1 <:wolf:1317800080543060009><:roy:1317799702414098462>"
     ]
   },
-  "player_226": {
+  "player_344": {
     "playerData": "PonchoColumbo",
     "character": [
       "<:cloud:1317797012300890202>"
@@ -2532,7 +4096,7 @@
       "#hellnaw x1 "
     ]
   },
-  "player_227": {
+  "player_345": {
     "playerData": "URG",
     "character": [],
     "losses": [
@@ -2542,7 +4106,7 @@
       "Lazarus x1 <:kazuya:1317797698929168495><:Terry:1317799966881611776>"
     ]
   },
-  "player_228": {
+  "player_346": {
     "playerData": "Beebo",
     "character": [],
     "losses": [
@@ -2550,34 +4114,33 @@
       "Memphis x1 <:peach:1317799378982928454>"
     ]
   },
-  "player_229": {
-    "playerData": "Mike",
+  "player_347": {
+    "playerData": "Soap",
     "character": [],
     "losses": [
-      "Zoranaz x1 <:pyra:1317797481534193765>",
-      "Ikazuchi x1 <:zero_suit_samus:1317800188315959387>"
+      "Lavender x1 <:young_link:1317800136398864394>",
+      "Certly x1 <:samus:1317799746206699581><:dark_samus:1317797134690553856>"
     ]
   },
-  "player_230": {
-    "playerData": "bogosort0logn",
+  "player_348": {
+    "playerData": "TheNinja",
+    "character": [
+      "<:cloud:1317797012300890202>"
+    ],
+    "losses": [
+      "acE x1 <:jigglypuff:1317797605517824081>",
+      "WormHero (Lubbock) x1 <:rob:1317799587443900416>"
+    ]
+  },
+  "player_349": {
+    "playerData": "Moldy",
     "character": [],
     "losses": [
-      "slowbeau x1 <:luigi:1317797998213726288>",
-      "Just.red x1 "
+      "KevMev x1 ",
+      "Lowestrain84 x1 <:mario:1317798022016401440>"
     ]
   },
-  "player_231": {
-    "playerData": "kaputuncle",
-    "character": [],
-    "losses": [
-      "Seb x2 ",
-      "Makloud x1 <:fox:1317797329348333589>",
-      "Little-Video x1 <:simon:1317799834245267466>",
-      "KC x1 ",
-      "Donald x1 <:miisword:1317799156949192736>"
-    ]
-  },
-  "player_232": {
+  "player_350": {
     "playerData": "Lumi",
     "character": [],
     "losses": [
@@ -2585,7 +4148,7 @@
       "PeachFuzz x1 <:rob:1317799587443900416>"
     ]
   },
-  "player_233": {
+  "player_351": {
     "playerData": "Descolada",
     "character": [],
     "losses": [
@@ -2595,7 +4158,23 @@
       "ZFN OH LAWD x1 <:ganondorf:1317797359400390746>"
     ]
   },
-  "player_234": {
+  "player_352": {
+    "playerData": "Mr.Stealyo",
+    "character": [],
+    "losses": [
+      "Denti x1 <:palutena:1317799306488447047>",
+      "Gelato (Lubbock) x1 <:ken:1317797721364758610>"
+    ]
+  },
+  "player_353": {
+    "playerData": "Ern",
+    "character": [],
+    "losses": [
+      "BinziBlade x1 <:pokemon_trainer:1317799515238957109>",
+      "Laboon x1 <:fox:1317797329348333589>"
+    ]
+  },
+  "player_354": {
     "playerData": "Aiden.sonic",
     "character": [],
     "losses": [
@@ -2603,23 +4182,15 @@
       "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
     ]
   },
-  "player_235": {
-    "playerData": "Chickie",
+  "player_355": {
+    "playerData": "Shashterpiece",
     "character": [],
     "losses": [
-      "Seb x1 ",
-      "handsome x1 <:lucas:1317797906949869660><:yoshi:1317800114710122557>"
+      "cheeky! x1 <:villager:1317800012033298442><:luigi:1317797998213726288>",
+      "Grapezard X x1 <:pokemon_trainer:1317799515238957109><:banjo_and_kazooie:1317795750176100382><:sonic:1317799903258345544><:meta_knight:1317798084067201114>"
     ]
   },
-  "player_236": {
-    "playerData": "Batrat",
-    "character": [],
-    "losses": [
-      "Exalt x1 <:ken:1317797721364758610>",
-      "cheeky! x1 <:villager:1317800012033298442><:luigi:1317797998213726288>"
-    ]
-  },
-  "player_237": {
+  "player_356": {
     "playerData": ";^)",
     "character": [],
     "losses": [
@@ -2627,7 +4198,7 @@
       "Timpai x1 <:pyra:1317797481534193765><:ike:1317797539898064937>"
     ]
   },
-  "player_238": {
+  "player_357": {
     "playerData": "ZangetsuShadow",
     "character": [],
     "losses": [
@@ -2635,7 +4206,15 @@
       "Thuy (Peter) x1 <:bowser:1317795835576193137>"
     ]
   },
-  "player_239": {
+  "player_358": {
+    "playerData": "Rice",
+    "character": [],
+    "losses": [
+      "Tanner! x1 ",
+      "Davy x1 <:Terry:1317799966881611776><:steve:1317799945297985546><:rosalina_and_luma:1317799670143123477>"
+    ]
+  },
+  "player_359": {
     "playerData": "Lyss",
     "character": [
       "<:jigglypuff:1317797605517824081>"
@@ -2645,20 +4224,54 @@
       "Cheeks x1 <:cloud:1317797012300890202><:chrom:1317796988384837642><:corrin:1317797035994255391>"
     ]
   },
-  "player_240": {
-    "playerData": "Moldy",
+  "player_360": {
+    "playerData": "Batrat",
     "character": [],
     "losses": [
-      "KevMev x1 ",
-      "Lowestrain84 x1 <:mario:1317798022016401440>"
+      "Squaffles x1 <:ness:1317799203589587015>",
+      "kaputuncle x1 ",
+      "Exalt x1 <:ken:1317797721364758610>",
+      "cheeky! x1 <:villager:1317800012033298442><:luigi:1317797998213726288>"
     ]
   },
-  "player_241": {
-    "playerData": "Dogswithstocks",
+  "player_361": {
+    "playerData": "Cobster",
     "character": [],
     "losses": [
-      "Botheryounot x1 <:pyra:1317797481534193765><:zelda:1317800161786855485>",
-      "Guy x1 <:kazuya:1317797698929168495>"
+      "KrabbyJP x1 ",
+      "Jelani3099 x1 <:pikachu:1317799459224031274>"
+    ]
+  },
+  "player_362": {
+    "playerData": "Rou",
+    "character": [],
+    "losses": [
+      "amiZa x1 <:snake:1317799858924687381><:falco:1317797304287367248>",
+      "Meowthmix x1 <:Terry:1317799966881611776><:lucas:1317797906949869660><:dark_pit:1317797092403445813><:king_k_rool:1317797780114374777><:rob:1317799587443900416>"
+    ]
+  },
+  "player_363": {
+    "playerData": "TEC | PUPPY | Saw Con",
+    "character": [],
+    "losses": [
+      "Multi (Ohio) x1 <:king_dedede:1317797742273232938><:link:1317797818320293948>",
+      "Kople x1 "
+    ]
+  },
+  "player_364": {
+    "playerData": "Lx",
+    "character": [],
+    "losses": [
+      "cheeky! x1 <:villager:1317800012033298442><:luigi:1317797998213726288>",
+      "Usagi x1 <:zelda:1317800161786855485>"
+    ]
+  },
+  "player_365": {
+    "playerData": "And1DX",
+    "character": [],
+    "losses": [
+      "Elib x1 <:falco:1317797304287367248><:isabelle:1317797578674278442>",
+      "Chr0me x1 <:falco:1317797304287367248>"
     ]
   }
 }
