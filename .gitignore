@@ -1,6 +1,6 @@
 .env
 node_modules/
-htmlPages/
+htmlPages/*.html
 cache.json
 dist/
 gui.spec
