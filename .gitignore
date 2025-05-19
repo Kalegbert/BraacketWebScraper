@@ -4,4 +4,4 @@ htmlPages/
 cache.json
 dist/
 gui.spec
-build\gui/
+build/
